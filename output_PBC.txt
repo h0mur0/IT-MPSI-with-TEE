@@ -1,0 +1,3011 @@
+------------------------- 
+运行时间：2025-04-18 01:29:22
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：621072微秒
+预处理阶段用时：8990880微秒
+初始化阶段用时：236微秒
+查询阶段用时：8423465微秒
+随机数生成阶段用时：156577微秒
+响应阶段用时：120852微秒
+计算阶段用时：38049微秒
+解码阶段用时：38049微秒
+交集大小：97
+主要代码用时：9507456微秒
+总通信开销：0
+总代码用时：19119409微秒
+------------------------- 
+运行时间：2025-04-18 01:54:48
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：556540微秒
+------------------------- 
+运行时间：2025-04-18 02:23:56
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：523021微秒
+预处理阶段用时：5089251微秒
+初始化阶段用时：110微秒
+------------------------- 
+运行时间：2025-04-18 02:26:20
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：503040微秒
+预处理阶段用时：3223489微秒
+初始化阶段用时：218微秒
+------------------------- 
+运行时间：2025-04-18 02:28:05
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：605834微秒
+预处理阶段用时：4059274微秒
+初始化阶段用时：188微秒
+------------------------- 
+运行时间：2025-04-18 02:42:34
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：259654微秒
+预处理阶段用时：2803010微秒
+初始化阶段用时：103微秒
+------------------------- 
+运行时间：2025-04-18 02:43:55
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：251560微秒
+预处理阶段用时：1899991微秒
+初始化阶段用时：130微秒
+------------------------- 
+运行时间：2025-04-18 02:50:34
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：256465微秒
+预处理阶段用时：1886215微秒
+初始化阶段用时：98微秒
+------------------------- 
+运行时间：2025-04-18 02:51:01
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：271986微秒
+预处理阶段用时：1885018微秒
+初始化阶段用时：94微秒
+------------------------- 
+运行时间：2025-04-18 02:54:27
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：257153微秒
+预处理阶段用时：1827063微秒
+初始化阶段用时：67微秒
+------------------------- 
+运行时间：2025-04-18 03:04:28
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：516426微秒
+预处理阶段用时：3226528微秒
+初始化阶段用时：114微秒
+------------------------- 
+运行时间：2025-04-18 03:11:17
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：514378微秒
+预处理阶段用时：3159990微秒
+初始化阶段用时：96微秒
+------------------------- 
+运行时间：2025-04-18 03:14:47
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：546133微秒
+预处理阶段用时：3196452微秒
+初始化阶段用时：223微秒
+------------------------- 
+运行时间：2025-04-18 04:03:47
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：258493微秒
+预处理阶段用时：3086438微秒
+初始化阶段用时：173微秒
+------------------------- 
+运行时间：2025-04-18 04:10:18
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：535746微秒
+预处理阶段用时：2976363微秒
+初始化阶段用时：232微秒
+------------------------- 
+运行时间：2025-04-18 04:12:48
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：511504微秒
+预处理阶段用时：2905610微秒
+初始化阶段用时：378微秒
+------------------------- 
+运行时间：2025-04-18 04:16:46
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：554756微秒
+预处理阶段用时：2980589微秒
+初始化阶段用时：1348微秒
+------------------------- 
+运行时间：2025-04-18 04:19:06
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：508340微秒
+预处理阶段用时：3121123微秒
+初始化阶段用时：227微秒
+------------------------- 
+运行时间：2025-04-18 04:35:10
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：543578微秒
+预处理阶段用时：3124177微秒
+初始化阶段用时：252微秒
+------------------------- 
+运行时间：2025-04-18 04:48:36
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：247077微秒
+预处理阶段用时：1933194微秒
+初始化阶段用时：131微秒
+------------------------- 
+运行时间：2025-04-18 04:50:46
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：243763微秒
+预处理阶段用时：1787885微秒
+初始化阶段用时：72微秒
+------------------------- 
+运行时间：2025-04-18 04:53:00
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：318575微秒
+预处理阶段用时：2003665微秒
+初始化阶段用时：180微秒
+------------------------- 
+运行时间：2025-04-18 05:14:21
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：623162微秒
+预处理阶段用时：3259732微秒
+初始化阶段用时：101微秒
+查询阶段用时：4094201微秒
+------------------------- 
+运行时间：2025-04-18 05:15:48
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：551288微秒
+预处理阶段用时：2996578微秒
+初始化阶段用时：188微秒
+查询阶段用时：1941604微秒
+------------------------- 
+运行时间：2025-04-18 05:16:45
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：585380微秒
+预处理阶段用时：3111166微秒
+初始化阶段用时：344微秒
+查询阶段用时：2157419微秒
+------------------------- 
+运行时间：2025-04-18 05:19:46
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：251620微秒
+预处理阶段用时：1830978微秒
+初始化阶段用时：70微秒
+查询阶段用时：2016456微秒
+------------------------- 
+运行时间：2025-04-18 05:36:07
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：500248微秒
+预处理阶段用时：3154282微秒
+初始化阶段用时：234微秒
+查询阶段用时：1915774微秒
+------------------------- 
+运行时间：2025-04-18 05:37:39
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：532207微秒
+预处理阶段用时：2981652微秒
+初始化阶段用时：92微秒
+查询阶段用时：1849403微秒
+------------------------- 
+运行时间：2025-04-18 05:39:48
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：493181微秒
+预处理阶段用时：2950761微秒
+初始化阶段用时：257微秒
+查询阶段用时：1875159微秒
+------------------------- 
+运行时间：2025-04-18 05:41:34
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：570176微秒
+预处理阶段用时：3392626微秒
+初始化阶段用时：214微秒
+查询阶段用时：1860387微秒
+------------------------- 
+运行时间：2025-04-18 05:42:36
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：516577微秒
+预处理阶段用时：2960775微秒
+初始化阶段用时：124微秒
+查询阶段用时：1860584微秒
+------------------------- 
+运行时间：2025-04-18 05:48:44
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：484659微秒
+预处理阶段用时：2863212微秒
+初始化阶段用时：259微秒
+查询阶段用时：1853045微秒
+------------------------- 
+运行时间：2025-04-18 05:54:36
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：519332微秒
+预处理阶段用时：2959429微秒
+初始化阶段用时：122微秒
+查询阶段用时：1863422微秒
+随机数生成阶段用时：324322微秒
+响应阶段用时：100946微秒
+计算阶段用时：38804微秒
+解码阶段用时：38804微秒
+交集大小：97
+主要代码用时：3231422微秒
+总通信开销：0
+总代码用时：6710184微秒
+------------------------- 
+运行时间：2025-04-18 05:56:20
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：566670微秒
+预处理阶段用时：3020000微秒
+初始化阶段用时：104微秒
+查询阶段用时：1869336微秒
+随机数生成阶段用时：320812微秒
+响应阶段用时：100162微秒
+计算阶段用时：36947微秒
+解码阶段用时：36947微秒
+交集大小：97
+主要代码用时：3319343微秒
+总通信开销：0
+总代码用时：6906014微秒
+------------------------- 
+运行时间：2025-04-18 05:59:55
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：248106微秒
+预处理阶段用时：1855007微秒
+初始化阶段用时：70微秒
+查询阶段用时：1382726微秒
+随机数生成阶段用时：304174微秒
+响应阶段用时：58989微秒
+计算阶段用时：22538微秒
+解码阶段用时：353504微秒
+交集大小：97
+主要代码用时：2122107微秒
+总通信开销：0
+总代码用时：4225221微秒
+------------------------- 
+运行时间：2025-04-18 06:14:46
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：280650微秒
+预处理阶段用时：2147369微秒
+初始化阶段用时：74微秒
+查询阶段用时：1503667微秒
+随机数生成阶段用时：314948微秒
+响应阶段用时：79854微秒
+计算阶段用时：23943微秒
+解码阶段用时：449717微秒
+交集大小：97
+主要代码用时：2372342微秒
+总通信开销：0
+总代码用时：4800362微秒
+------------------------- 
+运行时间：2025-06-29 02:06:08
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：480790微秒
+预处理阶段用时：5948933微秒
+初始化阶段用时：57微秒
+查询阶段用时：2776828微秒
+随机数生成阶段用时：390403微秒
+响应阶段用时：87141微秒
+计算阶段用时：29617微秒
+解码阶段用时：680877微秒
+交集大小：97
+主要代码用时：3964971微秒
+总通信开销：0
+总代码用时：10394694微秒
+------------------------- 
+运行时间：2025-06-29 02:45:00
+领导方集合大小：50000
+全集大小：100000
+编码阶段用时：274357微秒
+-------------------------
+运行时间：2025-07-08 19:00:41
+参与方数量：15
+全集大小：32768
+leader_preproc 用时: 34812 μs
+ctrl_DB_1_3_preproc 用时: 2047 μs
+ctrl_DB_4_0_preproc 用时: 1976 μs
+tgt_DB_4_0_preproc 用时: 1644 μs
+ctrl_DB_3_1_preproc 用时: 3241 μs
+tgt_DB_3_1_preproc 用时: 1754 μs
+ctrl_DB_7_0_preproc 用时: 5157 μs
+tgt_DB_7_0_preproc 用时: 1791 μs
+ctrl_DB_7_3_preproc 用时: 1655 μs
+ctrl_DB_1_0_preproc 用时: 2731 μs
+tgt_DB_1_0_preproc 用时: 1820 μs
+ctrl_DB_0_2_preproc 用时: 1684 μs
+tgt_DB_0_2_preproc 用时: 1794 μs
+ctrl_DB_11_3_preproc 用时: 1983 μs
+tgt_DB_11_3_preproc 用时: 1639 μs
+ctrl_DB_8_2_preproc 用时: 1831 μs
+tgt_DB_8_2_preproc 用时: 1774 μs
+ctrl_DB_0_1_preproc 用时: 45401 μs
+ctrl_DB_2_4_preproc 用时: 44209 μs
+ctrl_DB_13_3_preproc 用时: 7648 μs
+tgt_DB_13_3_preproc 用时: 1610 μs
+tgt_DB_2_4_preproc 用时: 5921 μs
+ctrl_DB_2_3_preproc 用时: 51380 μs
+ctrl_DB_11_4_preproc 用时: 61261 μs
+ctrl_DB_8_0_preproc 用时: 63871 μs
+ctrl_DB_1_4_preproc 用时: 59946 μs
+ctrl_DB_1_2_preproc 用时: 72333 μs
+tgt_DB_1_4_preproc 用时: 2147 μs
+ctrl_DB_13_4_preproc 用时: 11036 μs
+ctrl_DB_13_0_preproc 用时: 66039 μs
+tgt_DB_13_0_preproc 用时: 1602 μs
+ctrl_DB_2_0_preproc 用时: 79455 μs
+tgt_DB_2_0_preproc 用时: 1751 μs
+ctrl_DB_0_0_preproc 用时: 85140 μs
+tgt_DB_7_3_preproc 用时: 77283 μs
+ctrl_DB_0_3_preproc 用时: 84950 μs
+tgt_DB_1_2_preproc 用时: 15598 μs
+tgt_DB_13_4_preproc 用时: 14550 μs
+ctrl_DB_2_2_preproc 用时: 89501 μs
+ctrl_DB_8_4_preproc 用时: 60354 μs
+tgt_DB_2_2_preproc 用时: 1593 μs
+ctrl_DB_13_1_preproc 用时: 79287 μs
+ctrl_DB_7_4_preproc 用时: 89124 μs
+tgt_DB_11_4_preproc 用时: 29018 μs
+ctrl_DB_12_4_preproc 用时: 81378 μs
+ctrl_DB_5_2_preproc 用时: 49455 μs
+ctrl_DB_6_3_preproc 用时: 81862 μs
+ctrl_DB_11_1_preproc 用时: 35610 μs
+tgt_DB_0_0_preproc 用时: 7073 μs
+ctrl_DB_1_1_preproc 用时: 107160 μs
+ctrl_DB_12_1_preproc 用时: 98139 μs
+tgt_DB_1_1_preproc 用时: 1627 μs
+tgt_DB_12_1_preproc 用时: 1618 μs
+ctrl_DB_12_3_preproc 用时: 99991 μs
+tgt_DB_2_3_preproc 用时: 49573 μs
+tgt_DB_12_4_preproc 用时: 7349 μs
+tgt_DB_1_3_preproc 用时: 108587 μs
+tgt_DB_13_1_preproc 用时: 8977 μs
+tgt_DB_12_3_preproc 用时: 5095 μs
+ctrl_DB_12_2_preproc 用时: 105464 μs
+tgt_DB_7_4_preproc 用时: 11382 μs
+tgt_DB_0_3_preproc 用时: 15925 μs
+tgt_DB_12_2_preproc 用时: 2555 μs
+ctrl_DB_13_2_preproc 用时: 75890 μs
+ctrl_DB_9_4_preproc 用时: 76190 μs
+tgt_DB_13_2_preproc 用时: 1479 μs
+ctrl_DB_12_0_preproc 用时: 123355 μs
+tgt_DB_12_0_preproc 用时: 1644 μs
+ctrl_DB_6_2_preproc 用时: 126170 μs
+tgt_DB_6_2_preproc 用时: 1593 μs
+tgt_DB_0_1_preproc 用时: 81981 μs
+ctrl_DB_5_4_preproc 用时: 131555 μs
+ctrl_DB_4_4_preproc 用时: 134961 μs
+tgt_DB_4_4_preproc 用时: 1585 μs
+ctrl_DB_4_2_preproc 用时: 142210 μs
+ctrl_DB_3_2_preproc 用时: 145604 μs
+ctrl_DB_2_1_preproc 用时: 147129 μs
+tgt_DB_2_1_preproc 用时: 1867 μs
+ctrl_DB_10_2_preproc 用时: 137661 μs
+ctrl_DB_11_0_preproc 用时: 151853 μs
+tgt_DB_5_4_preproc 用时: 22452 μs
+tgt_DB_10_2_preproc 用时: 3198 μs
+ctrl_DB_9_1_preproc 用时: 156183 μs
+tgt_DB_8_0_preproc 用时: 92790 μs
+tgt_DB_5_2_preproc 用时: 56224 μs
+ctrl_DB_10_0_preproc 用时: 154093 μs
+tgt_DB_10_0_preproc 用时: 1641 μs
+ctrl_DB_7_1_preproc 用时: 130991 μs
+ctrl_DB_4_3_preproc 用时: 174582 μs
+ctrl_DB_5_1_preproc 用时: 134128 μs
+tgt_DB_4_3_preproc 用时: 1572 μs
+ctrl_DB_8_1_preproc 用时: 177471 μs
+ctrl_DB_6_1_preproc 用时: 136124 μs
+tgt_DB_8_1_preproc 用时: 1632 μs
+ctrl_DB_5_0_preproc 用时: 180136 μs
+tgt_DB_3_2_preproc 用时: 38071 μs
+ctrl_DB_8_3_preproc 用时: 184318 μs
+ctrl_DB_3_3_preproc 用时: 147166 μs
+ctrl_DB_6_4_preproc 用时: 172558 μs
+ctrl_DB_11_2_preproc 用时: 186532 μs
+tgt_DB_6_4_preproc 用时: 1631 μs
+ctrl_DB_6_0_preproc 用时: 189306 μs
+ctrl_DB_10_1_preproc 用时: 176490 μs
+tgt_DB_6_0_preproc 用时: 1602 μs
+tgt_DB_10_1_preproc 用时: 1625 μs
+ctrl_DB_5_3_preproc 用时: 192524 μs
+tgt_DB_8_4_preproc 用时: 93942 μs
+tgt_DB_5_3_preproc 用时: 2320 μs
+ctrl_DB_3_4_preproc 用时: 191034 μs
+ctrl_DB_0_4_preproc 用时: 196266 μs
+tgt_DB_3_4_preproc 用时: 3104 μs
+tgt_DB_4_2_preproc 用时: 57356 μs
+tgt_DB_5_0_preproc 用时: 19803 μs
+tgt_DB_7_1_preproc 用时: 27946 μs
+tgt_DB_9_4_preproc 用时: 81781 μs
+tgt_DB_6_1_preproc 用时: 24959 μs
+tgt_DB_8_3_preproc 用时: 18622 μs
+ctrl_DB_7_2_preproc 用时: 159255 μs
+tgt_DB_11_0_preproc 用时: 52002 μs
+tgt_DB_11_2_preproc 用时: 17515 μs
+tgt_DB_5_1_preproc 用时: 30345 μs
+ctrl_DB_10_4_preproc 用时: 206294 μs
+tgt_DB_7_2_preproc 用时: 3836 μs
+ctrl_DB_9_3_preproc 用时: 200540 μs
+ctrl_DB_9_0_preproc 用时: 210794 μs
+tgt_DB_9_3_preproc 用时: 2397 μs
+ctrl_DB_4_1_preproc 用时: 214303 μs
+ctrl_DB_10_3_preproc 用时: 151664 μs
+tgt_DB_4_1_preproc 用时: 2361 μs
+tgt_DB_10_3_preproc 用时: 2476 μs
+ctrl_DB_3_0_preproc 用时: 217299 μs
+tgt_DB_10_4_preproc 用时: 15767 μs
+tgt_DB_9_1_preproc 用时: 61442 μs
+tgt_DB_3_3_preproc 用时: 33745 μs
+tgt_DB_6_3_preproc 用时: 115093 μs
+tgt_DB_0_4_preproc 用时: 22746 μs
+tgt_DB_9_0_preproc 用时: 9887 μs
+tgt_DB_11_1_preproc 用时: 116682 μs
+tgt_DB_3_0_preproc 用时: 2575 μs
+ctrl_DB_9_2_preproc 用时: 182545 μs
+tgt_DB_9_2_preproc 用时: 1756 μs
+setup_phase 用时: 264330 μs
+query_phase 用时: 255156 μs
+dispatch_query 用时: 314549 μs
+randomness_gen 用时: 54112 μs
+ctrl_DB_0_0_reply 用时: 63 μs
+tgt_DB_0_0_reply 用时: 61 μs
+ctrl_DB_0_2_reply 用时: 60 μs
+tgt_DB_0_2_reply 用时: 57 μs
+ctrl_DB_0_1_reply 用时: 72 μs
+tgt_DB_0_1_reply 用时: 66 μs
+ctrl_DB_2_0_reply 用时: 60 μs
+tgt_DB_2_0_reply 用时: 68 μs
+ctrl_DB_0_3_reply 用时: 69 μs
+ctrl_DB_2_2_reply 用时: 85 μs
+ctrl_DB_1_4_reply 用时: 63 μs
+tgt_DB_2_2_reply 用时: 72 μs
+tgt_DB_1_4_reply 用时: 63 μs
+ctrl_DB_1_3_reply 用时: 60 μs
+tgt_DB_1_3_reply 用时: 73 μs
+ctrl_DB_2_4_reply 用时: 57 μs
+tgt_DB_2_4_reply 用时: 53 μs
+ctrl_DB_3_0_reply 用时: 67 μs
+tgt_DB_3_0_reply 用时: 60 μs
+ctrl_DB_3_3_reply 用时: 84 μs
+tgt_DB_3_3_reply 用时: 76 μs
+ctrl_DB_3_4_reply 用时: 58 μs
+tgt_DB_3_4_reply 用时: 72 μs
+ctrl_DB_1_2_reply 用时: 61 μs
+tgt_DB_1_2_reply 用时: 56 μs
+ctrl_DB_4_1_reply 用时: 90 μs
+tgt_DB_4_1_reply 用时: 56 μs
+ctrl_DB_4_2_reply 用时: 56 μs
+tgt_DB_4_2_reply 用时: 55 μs
+ctrl_DB_4_3_reply 用时: 58 μs
+ctrl_DB_1_1_reply 用时: 62 μs
+tgt_DB_1_1_reply 用时: 98 μs
+ctrl_DB_1_0_reply 用时: 93 μs
+tgt_DB_1_0_reply 用时: 123 μs
+tgt_DB_0_3_reply 用时: 2199 μs
+ctrl_DB_0_4_reply 用时: 75 μs
+ctrl_DB_2_3_reply 用时: 66 μs
+tgt_DB_0_4_reply 用时: 82 μs
+tgt_DB_2_3_reply 用时: 81 μs
+ctrl_DB_2_1_reply 用时: 77 μs
+ctrl_DB_4_0_reply 用时: 85 μs
+tgt_DB_2_1_reply 用时: 84 μs
+tgt_DB_4_0_reply 用时: 91 μs
+ctrl_DB_3_2_reply 用时: 82 μs
+ctrl_DB_4_4_reply 用时: 77 μs
+tgt_DB_3_2_reply 用时: 70 μs
+tgt_DB_4_4_reply 用时: 63 μs
+tgt_DB_4_3_reply 用时: 1384 μs
+ctrl_DB_3_1_reply 用时: 244 μs
+tgt_DB_3_1_reply 用时: 62 μs
+ctrl_DB_5_0_reply 用时: 208 μs
+ctrl_DB_5_2_reply 用时: 63 μs
+tgt_DB_5_0_reply 用时: 61 μs
+tgt_DB_5_2_reply 用时: 77 μs
+ctrl_DB_5_3_reply 用时: 82 μs
+tgt_DB_5_3_reply 用时: 116 μs
+ctrl_DB_6_0_reply 用时: 69 μs
+tgt_DB_6_0_reply 用时: 56 μs
+ctrl_DB_5_4_reply 用时: 53 μs
+tgt_DB_5_4_reply 用时: 56 μs
+ctrl_DB_6_2_reply 用时: 506 μs
+ctrl_DB_6_1_reply 用时: 727 μs
+tgt_DB_6_1_reply 用时: 97 μs
+ctrl_DB_5_1_reply 用时: 1967 μs
+tgt_DB_6_2_reply 用时: 572 μs
+ctrl_DB_6_3_reply 用时: 61 μs
+tgt_DB_6_3_reply 用时: 110 μs
+ctrl_DB_6_4_reply 用时: 116 μs
+tgt_DB_5_1_reply 用时: 1142 μs
+ctrl_DB_7_0_reply 用时: 199 μs
+tgt_DB_7_0_reply 用时: 55 μs
+ctrl_DB_7_1_reply 用时: 57 μs
+tgt_DB_7_1_reply 用时: 82 μs
+ctrl_DB_7_2_reply 用时: 60 μs
+tgt_DB_7_2_reply 用时: 72 μs
+ctrl_DB_8_4_reply 用时: 62 μs
+tgt_DB_8_4_reply 用时: 57 μs
+ctrl_DB_7_3_reply 用时: 72 μs
+tgt_DB_7_3_reply 用时: 58 μs
+ctrl_DB_8_0_reply 用时: 69 μs
+tgt_DB_8_0_reply 用时: 57 μs
+ctrl_DB_7_4_reply 用时: 55 μs
+tgt_DB_7_4_reply 用时: 64 μs
+ctrl_DB_9_3_reply 用时: 88 μs
+tgt_DB_9_3_reply 用时: 59 μs
+ctrl_DB_9_2_reply 用时: 156 μs
+tgt_DB_9_2_reply 用时: 65 μs
+ctrl_DB_8_3_reply 用时: 70 μs
+tgt_DB_8_3_reply 用时: 54 μs
+ctrl_DB_8_2_reply 用时: 60 μs
+ctrl_DB_8_1_reply 用时: 66 μs
+tgt_DB_8_2_reply 用时: 62 μs
+tgt_DB_8_1_reply 用时: 59 μs
+ctrl_DB_9_0_reply 用时: 57 μs
+tgt_DB_9_0_reply 用时: 59 μs
+ctrl_DB_9_1_reply 用时: 56 μs
+tgt_DB_9_1_reply 用时: 73 μs
+ctrl_DB_10_0_reply 用时: 66 μs
+tgt_DB_10_0_reply 用时: 70 μs
+ctrl_DB_10_1_reply 用时: 348 μs
+tgt_DB_10_1_reply 用时: 186 μs
+tgt_DB_6_4_reply 用时: 5246 μs
+ctrl_DB_10_3_reply 用时: 62 μs
+tgt_DB_10_3_reply 用时: 57 μs
+ctrl_DB_10_2_reply 用时: 54 μs
+tgt_DB_10_2_reply 用时: 94 μs
+ctrl_DB_10_4_reply 用时: 63 μs
+tgt_DB_10_4_reply 用时: 57 μs
+ctrl_DB_11_0_reply 用时: 707 μs
+ctrl_DB_11_2_reply 用时: 81 μs
+tgt_DB_11_2_reply 用时: 108 μs
+ctrl_DB_11_4_reply 用时: 69 μs
+tgt_DB_11_4_reply 用时: 58 μs
+ctrl_DB_12_0_reply 用时: 57 μs
+tgt_DB_12_0_reply 用时: 58 μs
+ctrl_DB_11_3_reply 用时: 95 μs
+tgt_DB_11_3_reply 用时: 62 μs
+ctrl_DB_12_2_reply 用时: 65 μs
+ctrl_DB_12_3_reply 用时: 107 μs
+ctrl_DB_12_1_reply 用时: 2431 μs
+tgt_DB_12_1_reply 用时: 935 μs
+tgt_DB_12_2_reply 用时: 2257 μs
+tgt_DB_12_3_reply 用时: 2971 μs
+ctrl_DB_11_1_reply 用时: 6336 μs
+tgt_DB_11_0_reply 用时: 6325 μs
+ctrl_DB_9_4_reply 用时: 11156 μs
+ctrl_DB_12_4_reply 用时: 1782 μs
+tgt_DB_12_4_reply 用时: 254 μs
+ctrl_DB_13_1_reply 用时: 61 μs
+tgt_DB_13_1_reply 用时: 142 μs
+ctrl_DB_13_0_reply 用时: 60 μs
+tgt_DB_13_0_reply 用时: 55 μs
+ctrl_DB_13_3_reply 用时: 57 μs
+tgt_DB_13_3_reply 用时: 55 μs
+tgt_DB_9_4_reply 用时: 1285 μs
+ctrl_DB_13_4_reply 用时: 686 μs
+ctrl_DB_13_2_reply 用时: 640 μs
+tgt_DB_13_2_reply 用时: 85 μs
+tgt_DB_11_1_reply 用时: 2490 μs
+tgt_DB_13_4_reply 用时: 992 μs
+compute_intersection 用时: 1270 μs
+交集大小: 0
+总耗时: 995692 微秒
+
+-------------------------
+运行时间：2025-07-08 20:40:37
+参与方数量：3
+全集大小：32
+leader_preproc 用时: 62 μs
+ctrl_DB_0_0_preproc 用时: 9 μs
+tgt_DB_0_0_preproc 用时: 2 μs
+ctrl_DB_0_2_preproc 用时: 1 μs
+tgt_DB_0_2_preproc 用时: 1 μs
+ctrl_DB_0_3_preproc 用时: 5 μs
+tgt_DB_0_3_preproc 用时: 1 μs
+ctrl_DB_0_4_preproc 用时: 4 μs
+tgt_DB_0_4_preproc 用时: 1 μs
+ctrl_DB_1_0_preproc 用时: 2 μs
+tgt_DB_1_0_preproc 用时: 1 μs
+ctrl_DB_1_1_preproc 用时: 2 μs
+tgt_DB_1_1_preproc 用时: 1 μs
+ctrl_DB_1_2_preproc 用时: 2 μs
+tgt_DB_1_2_preproc 用时: 1 μs
+ctrl_DB_0_1_preproc 用时: 15 μs
+tgt_DB_0_1_preproc 用时: 1 μs
+ctrl_DB_1_3_preproc 用时: 2 μs
+tgt_DB_1_3_preproc 用时: 1 μs
+ctrl_DB_1_4_preproc 用时: 1 μs
+tgt_DB_1_4_preproc 用时: 3 μs
+setup_phase 用时: 462 μs
+query_phase 用时: 11 μs
+dispatch_query 用时: 23 μs
+randomness_gen 用时: 1659 μs
+ctrl_DB_0_0_reply 用时: 3 μs
+tgt_DB_0_0_reply 用时: 0 μs
+ctrl_DB_0_2_reply 用时: 1 μs
+tgt_DB_0_2_reply 用时: 0 μs
+ctrl_DB_0_3_reply 用时: 1 μs
+tgt_DB_0_3_reply 用时: 0 μs
+ctrl_DB_0_4_reply 用时: 1 μs
+tgt_DB_0_4_reply 用时: 0 μs
+ctrl_DB_1_0_reply 用时: 0 μs
+tgt_DB_1_0_reply 用时: 19 μs
+ctrl_DB_1_1_reply 用时: 0 μs
+tgt_DB_1_1_reply 用时: 0 μs
+ctrl_DB_1_2_reply 用时: 0 μs
+tgt_DB_1_2_reply 用时: 0 μs
+ctrl_DB_1_3_reply 用时: 0 μs
+tgt_DB_1_3_reply 用时: 0 μs
+ctrl_DB_1_4_reply 用时: 0 μs
+tgt_DB_1_4_reply 用时: 0 μs
+ctrl_DB_0_1_reply 用时: 1 μs
+tgt_DB_0_1_reply 用时: 0 μs
+compute_intersection 用时: 3 μs
+交集大小: 3
+总耗时: 2658 微秒
+
+-------------------------
+运行时间：2025-07-08 20:41:41
+参与方数量：3
+全集大小：4096
+leader_preproc 用时: 1511 μs
+ctrl_DB_1_1_preproc 用时: 208 μs
+tgt_DB_1_1_preproc 用时: 159 μs
+ctrl_DB_1_2_preproc 用时: 966 μs
+tgt_DB_1_2_preproc 用时: 158 μs
+ctrl_DB_0_2_preproc 用时: 183 μs
+tgt_DB_0_2_preproc 用时: 190 μs
+ctrl_DB_0_3_preproc 用时: 951 μs
+tgt_DB_0_3_preproc 用时: 158 μs
+ctrl_DB_0_0_preproc 用时: 2430 μs
+ctrl_DB_1_3_preproc 用时: 2296 μs
+tgt_DB_0_0_preproc 用时: 189 μs
+tgt_DB_1_3_preproc 用时: 212 μs
+ctrl_DB_0_4_preproc 用时: 2726 μs
+ctrl_DB_0_1_preproc 用时: 669 μs
+tgt_DB_0_4_preproc 用时: 150 μs
+tgt_DB_0_1_preproc 用时: 141 μs
+ctrl_DB_1_4_preproc 用时: 2956 μs
+tgt_DB_1_4_preproc 用时: 158 μs
+ctrl_DB_1_0_preproc 用时: 3180 μs
+tgt_DB_1_0_preproc 用时: 156 μs
+setup_phase 用时: 5444 μs
+query_phase 用时: 1037 μs
+dispatch_query 用时: 801 μs
+randomness_gen 用时: 149186 μs
+ctrl_DB_0_0_reply 用时: 34 μs
+tgt_DB_0_0_reply 用时: 12 μs
+ctrl_DB_0_1_reply 用时: 14 μs
+tgt_DB_0_1_reply 用时: 10 μs
+ctrl_DB_0_3_reply 用时: 36 μs
+tgt_DB_0_3_reply 用时: 11 μs
+ctrl_DB_1_1_reply 用时: 12 μs
+tgt_DB_1_1_reply 用时: 10 μs
+ctrl_DB_1_0_reply 用时: 15 μs
+ctrl_DB_1_4_reply 用时: 31 μs
+tgt_DB_1_0_reply 用时: 16 μs
+tgt_DB_1_4_reply 用时: 11 μs
+ctrl_DB_1_3_reply 用时: 12 μs
+tgt_DB_1_3_reply 用时: 10 μs
+ctrl_DB_1_2_reply 用时: 11 μs
+tgt_DB_1_2_reply 用时: 9 μs
+ctrl_DB_0_4_reply 用时: 11 μs
+tgt_DB_0_4_reply 用时: 9 μs
+ctrl_DB_0_2_reply 用时: 10 μs
+tgt_DB_0_2_reply 用时: 16 μs
+compute_intersection 用时: 27 μs
+交集大小: 2
+总耗时: 159332 微秒
+
+-------------------------
+运行时间：2025-07-08 20:41:57
+参与方数量：15
+全集大小：32768
+leader_preproc 用时: 34383 μs
+ctrl_DB_3_1_preproc 用时: 1538 μs
+ctrl_DB_1_4_preproc 用时: 2695 μs
+tgt_DB_3_1_preproc 用时: 1152 μs
+ctrl_DB_4_4_preproc 用时: 1198 μs
+tgt_DB_4_4_preproc 用时: 1184 μs
+ctrl_DB_4_0_preproc 用时: 2590 μs
+ctrl_DB_10_0_preproc 用时: 8266 μs
+ctrl_DB_0_2_preproc 用时: 17428 μs
+tgt_DB_0_2_preproc 用时: 1230 μs
+ctrl_DB_0_0_preproc 用时: 19642 μs
+ctrl_DB_2_1_preproc 用时: 18912 μs
+tgt_DB_2_1_preproc 用时: 1282 μs
+ctrl_DB_0_4_preproc 用时: 25174 μs
+tgt_DB_0_4_preproc 用时: 1747 μs
+ctrl_DB_1_1_preproc 用时: 28936 μs
+ctrl_DB_3_0_preproc 用时: 27840 μs
+tgt_DB_3_0_preproc 用时: 1174 μs
+ctrl_DB_9_4_preproc 用时: 32789 μs
+ctrl_DB_10_2_preproc 用时: 33912 μs
+ctrl_DB_10_1_preproc 用时: 36696 μs
+ctrl_DB_0_1_preproc 用时: 40861 μs
+tgt_DB_0_0_preproc 用时: 23000 μs
+ctrl_DB_1_3_preproc 用时: 45137 μs
+tgt_DB_1_3_preproc 用时: 1213 μs
+ctrl_DB_3_2_preproc 用时: 47129 μs
+ctrl_DB_2_2_preproc 用时: 45331 μs
+tgt_DB_3_2_preproc 用时: 1546 μs
+tgt_DB_2_2_preproc 用时: 1275 μs
+tgt_DB_10_1_preproc 用时: 10848 μs
+ctrl_DB_10_4_preproc 用时: 8855 μs
+ctrl_DB_3_3_preproc 用时: 49730 μs
+tgt_DB_10_4_preproc 用时: 1312 μs
+tgt_DB_0_1_preproc 用时: 15015 μs
+tgt_DB_3_3_preproc 用时: 1347 μs
+ctrl_DB_2_3_preproc 用时: 54982 μs
+tgt_DB_10_2_preproc 用时: 20141 μs
+tgt_DB_1_1_preproc 用时: 28873 μs
+tgt_DB_2_3_preproc 用时: 7152 μs
+ctrl_DB_8_3_preproc 用时: 13283 μs
+ctrl_DB_5_2_preproc 用时: 56531 μs
+tgt_DB_1_4_preproc 用时: 66160 μs
+ctrl_DB_4_3_preproc 用时: 63961 μs
+tgt_DB_4_3_preproc 用时: 1196 μs
+ctrl_DB_8_4_preproc 用时: 65128 μs
+tgt_DB_8_4_preproc 用时: 1240 μs
+ctrl_DB_2_4_preproc 用时: 76759 μs
+tgt_DB_2_4_preproc 用时: 1341 μs
+ctrl_DB_10_3_preproc 用时: 68396 μs
+tgt_DB_10_3_preproc 用时: 1363 μs
+ctrl_DB_5_3_preproc 用时: 65427 μs
+tgt_DB_9_4_preproc 用时: 44915 μs
+tgt_DB_10_0_preproc 用时: 67313 μs
+ctrl_DB_5_4_preproc 用时: 73438 μs
+tgt_DB_5_4_preproc 用时: 1276 μs
+tgt_DB_8_3_preproc 用时: 19103 μs
+ctrl_DB_1_0_preproc 用时: 84394 μs
+ctrl_DB_9_0_preproc 用时: 76389 μs
+tgt_DB_1_0_preproc 用时: 1110 μs
+ctrl_DB_3_4_preproc 用时: 81157 μs
+ctrl_DB_7_1_preproc 用时: 72932 μs
+tgt_DB_3_4_preproc 用时: 1395 μs
+ctrl_DB_0_3_preproc 用时: 88912 μs
+ctrl_DB_2_0_preproc 用时: 88641 μs
+tgt_DB_0_3_preproc 用时: 1188 μs
+tgt_DB_5_2_preproc 用时: 24534 μs
+ctrl_DB_11_1_preproc 用时: 1989 μs
+ctrl_DB_7_2_preproc 用时: 74707 μs
+ctrl_DB_6_3_preproc 用时: 88600 μs
+tgt_DB_6_3_preproc 用时: 1195 μs
+tgt_DB_4_0_preproc 用时: 93346 μs
+ctrl_DB_8_0_preproc 用时: 92109 μs
+tgt_DB_8_0_preproc 用时: 1237 μs
+ctrl_DB_4_1_preproc 用时: 92774 μs
+tgt_DB_2_0_preproc 用时: 15139 μs
+ctrl_DB_6_0_preproc 用时: 45312 μs
+tgt_DB_6_0_preproc 用时: 1538 μs
+tgt_DB_9_0_preproc 用时: 25297 μs
+ctrl_DB_9_2_preproc 用时: 75668 μs
+ctrl_DB_9_1_preproc 用时: 103645 μs
+ctrl_DB_7_4_preproc 用时: 105109 μs
+tgt_DB_7_4_preproc 用时: 1162 μs
+ctrl_DB_7_3_preproc 用时: 106672 μs
+ctrl_DB_4_2_preproc 用时: 105924 μs
+ctrl_DB_11_0_preproc 用时: 55067 μs
+tgt_DB_4_2_preproc 用时: 2122 μs
+tgt_DB_11_1_preproc 用时: 25767 μs
+ctrl_DB_8_2_preproc 用时: 68949 μs
+tgt_DB_8_2_preproc 用时: 1295 μs
+ctrl_DB_1_2_preproc 用时: 118982 μs
+tgt_DB_1_2_preproc 用时: 1246 μs
+ctrl_DB_9_3_preproc 用时: 74464 μs
+tgt_DB_11_0_preproc 用时: 9857 μs
+ctrl_DB_5_1_preproc 用时: 119108 μs
+ctrl_DB_6_2_preproc 用时: 76929 μs
+tgt_DB_5_1_preproc 用时: 1197 μs
+tgt_DB_4_1_preproc 用时: 26289 μs
+tgt_DB_7_3_preproc 用时: 14589 μs
+ctrl_DB_5_0_preproc 用时: 119189 μs
+ctrl_DB_11_3_preproc 用时: 11924 μs
+tgt_DB_5_0_preproc 用时: 1181 μs
+ctrl_DB_6_1_preproc 用时: 120319 μs
+ctrl_DB_6_4_preproc 用时: 123432 μs
+tgt_DB_6_1_preproc 用时: 1151 μs
+tgt_DB_6_4_preproc 用时: 1277 μs
+tgt_DB_7_2_preproc 用时: 40110 μs
+ctrl_DB_7_0_preproc 用时: 115682 μs
+tgt_DB_9_1_preproc 用时: 23895 μs
+tgt_DB_7_0_preproc 用时: 2808 μs
+ctrl_DB_13_4_preproc 用时: 1119 μs
+tgt_DB_6_2_preproc 用时: 11244 μs
+tgt_DB_13_4_preproc 用时: 1078 μs
+tgt_DB_5_3_preproc 用时: 63474 μs
+tgt_DB_9_3_preproc 用时: 18870 μs
+ctrl_DB_8_1_preproc 用时: 134167 μs
+tgt_DB_8_1_preproc 用时: 1114 μs
+ctrl_DB_12_4_preproc 用时: 1177 μs
+tgt_DB_11_3_preproc 用时: 20325 μs
+ctrl_DB_12_2_preproc 用时: 14069 μs
+ctrl_DB_12_0_preproc 用时: 2234 μs
+tgt_DB_12_2_preproc 用时: 1323 μs
+tgt_DB_12_0_preproc 用时: 1278 μs
+ctrl_DB_12_1_preproc 用时: 14484 μs
+ctrl_DB_12_3_preproc 用时: 14792 μs
+ctrl_DB_13_3_preproc 用时: 7133 μs
+tgt_DB_12_4_preproc 用时: 9064 μs
+ctrl_DB_13_2_preproc 用时: 8781 μs
+tgt_DB_13_2_preproc 用时: 1219 μs
+ctrl_DB_13_1_preproc 用时: 10266 μs
+tgt_DB_13_3_preproc 用时: 5478 μs
+tgt_DB_12_1_preproc 用时: 7472 μs
+tgt_DB_9_2_preproc 用时: 50933 μs
+tgt_DB_7_1_preproc 用时: 75364 μs
+ctrl_DB_13_0_preproc 用时: 14288 μs
+tgt_DB_13_0_preproc 用时: 1327 μs
+tgt_DB_13_1_preproc 用时: 7835 μs
+ctrl_DB_11_4_preproc 用时: 30978 μs
+tgt_DB_11_4_preproc 用时: 1282 μs
+tgt_DB_12_3_preproc 用时: 15029 μs
+ctrl_DB_11_2_preproc 用时: 66203 μs
+tgt_DB_11_2_preproc 用时: 1616 μs
+setup_phase 用时: 206811 μs
+query_phase 用时: 48925 μs
+dispatch_query 用时: 46395 μs
+randomness_gen 用时: 4542 μs
+ctrl_DB_0_0_reply 用时: 67 μs
+tgt_DB_0_0_reply 用时: 60 μs
+ctrl_DB_0_2_reply 用时: 58 μs
+tgt_DB_0_2_reply 用时: 59 μs
+ctrl_DB_0_1_reply 用时: 94 μs
+tgt_DB_0_1_reply 用时: 98 μs
+ctrl_DB_2_0_reply 用时: 102 μs
+ctrl_DB_2_3_reply 用时: 93 μs
+tgt_DB_2_0_reply 用时: 84 μs
+tgt_DB_2_3_reply 用时: 82 μs
+ctrl_DB_3_0_reply 用时: 64 μs
+tgt_DB_3_0_reply 用时: 68 μs
+ctrl_DB_3_1_reply 用时: 62 μs
+tgt_DB_3_1_reply 用时: 60 μs
+ctrl_DB_3_2_reply 用时: 58 μs
+tgt_DB_3_2_reply 用时: 56 μs
+ctrl_DB_3_4_reply 用时: 58 μs
+ctrl_DB_4_0_reply 用时: 69 μs
+ctrl_DB_4_1_reply 用时: 61 μs
+tgt_DB_4_1_reply 用时: 77 μs
+ctrl_DB_4_2_reply 用时: 75 μs
+tgt_DB_4_2_reply 用时: 59 μs
+ctrl_DB_4_3_reply 用时: 62 μs
+tgt_DB_4_3_reply 用时: 68 μs
+ctrl_DB_5_1_reply 用时: 55 μs
+tgt_DB_5_1_reply 用时: 55 μs
+ctrl_DB_5_2_reply 用时: 57 μs
+ctrl_DB_5_3_reply 用时: 57 μs
+tgt_DB_5_3_reply 用时: 62 μs
+ctrl_DB_5_4_reply 用时: 75 μs
+tgt_DB_5_4_reply 用时: 70 μs
+ctrl_DB_1_3_reply 用时: 57 μs
+tgt_DB_1_3_reply 用时: 56 μs
+ctrl_DB_6_1_reply 用时: 89 μs
+tgt_DB_6_1_reply 用时: 58 μs
+ctrl_DB_6_2_reply 用时: 56 μs
+ctrl_DB_6_3_reply 用时: 70 μs
+tgt_DB_6_3_reply 用时: 58 μs
+ctrl_DB_6_4_reply 用时: 61 μs
+tgt_DB_6_4_reply 用时: 62 μs
+ctrl_DB_7_0_reply 用时: 58 μs
+tgt_DB_7_0_reply 用时: 58 μs
+ctrl_DB_7_1_reply 用时: 56 μs
+tgt_DB_7_1_reply 用时: 108 μs
+ctrl_DB_7_2_reply 用时: 58 μs
+tgt_DB_7_2_reply 用时: 67 μs
+ctrl_DB_7_3_reply 用时: 59 μs
+tgt_DB_7_3_reply 用时: 72 μs
+ctrl_DB_1_2_reply 用时: 57 μs
+tgt_DB_1_2_reply 用时: 55 μs
+ctrl_DB_1_1_reply 用时: 57 μs
+tgt_DB_1_1_reply 用时: 80 μs
+ctrl_DB_1_0_reply 用时: 83 μs
+tgt_DB_1_0_reply 用时: 61 μs
+ctrl_DB_0_4_reply 用时: 62 μs
+ctrl_DB_2_2_reply 用时: 62 μs
+tgt_DB_0_4_reply 用时: 66 μs
+tgt_DB_2_2_reply 用时: 60 μs
+ctrl_DB_2_4_reply 用时: 63 μs
+ctrl_DB_1_4_reply 用时: 77 μs
+tgt_DB_2_4_reply 用时: 67 μs
+ctrl_DB_4_4_reply 用时: 63 μs
+tgt_DB_1_4_reply 用时: 85 μs
+tgt_DB_4_4_reply 用时: 63 μs
+ctrl_DB_3_3_reply 用时: 62 μs
+tgt_DB_3_3_reply 用时: 61 μs
+ctrl_DB_2_1_reply 用时: 65 μs
+tgt_DB_2_1_reply 用时: 62 μs
+ctrl_DB_5_0_reply 用时: 64 μs
+ctrl_DB_0_3_reply 用时: 4213 μs
+tgt_DB_5_0_reply 用时: 63 μs
+tgt_DB_0_3_reply 用时: 66 μs
+tgt_DB_3_4_reply 用时: 3463 μs
+ctrl_DB_6_0_reply 用时: 58 μs
+tgt_DB_4_0_reply 用时: 3362 μs
+tgt_DB_5_2_reply 用时: 2736 μs
+tgt_DB_6_0_reply 用时: 71 μs
+tgt_DB_6_2_reply 用时: 2160 μs
+ctrl_DB_7_4_reply 用时: 332 μs
+tgt_DB_7_4_reply 用时: 198 μs
+ctrl_DB_8_0_reply 用时: 378 μs
+tgt_DB_8_0_reply 用时: 60 μs
+ctrl_DB_8_2_reply 用时: 73 μs
+tgt_DB_8_2_reply 用时: 134 μs
+ctrl_DB_8_4_reply 用时: 132 μs
+tgt_DB_8_4_reply 用时: 133 μs
+ctrl_DB_9_1_reply 用时: 120 μs
+ctrl_DB_8_1_reply 用时: 984 μs
+tgt_DB_9_1_reply 用时: 81 μs
+tgt_DB_8_1_reply 用时: 82 μs
+ctrl_DB_9_3_reply 用时: 62 μs
+tgt_DB_9_3_reply 用时: 92 μs
+ctrl_DB_13_2_reply 用时: 88 μs
+ctrl_DB_8_3_reply 用时: 59 μs
+tgt_DB_13_2_reply 用时: 87 μs
+tgt_DB_8_3_reply 用时: 59 μs
+ctrl_DB_9_2_reply 用时: 177 μs
+tgt_DB_9_2_reply 用时: 140 μs
+ctrl_DB_10_0_reply 用时: 64 μs
+tgt_DB_10_0_reply 用时: 60 μs
+ctrl_DB_10_1_reply 用时: 69 μs
+tgt_DB_10_1_reply 用时: 59 μs
+ctrl_DB_10_2_reply 用时: 56 μs
+tgt_DB_10_2_reply 用时: 55 μs
+ctrl_DB_11_0_reply 用时: 62 μs
+tgt_DB_11_0_reply 用时: 57 μs
+ctrl_DB_11_1_reply 用时: 58 μs
+ctrl_DB_11_2_reply 用时: 63 μs
+tgt_DB_11_2_reply 用时: 64 μs
+ctrl_DB_11_3_reply 用时: 58 μs
+tgt_DB_11_3_reply 用时: 58 μs
+ctrl_DB_11_4_reply 用时: 57 μs
+ctrl_DB_13_4_reply 用时: 60 μs
+tgt_DB_13_4_reply 用时: 67 μs
+ctrl_DB_13_0_reply 用时: 64 μs
+tgt_DB_11_1_reply 用时: 1158 μs
+tgt_DB_13_0_reply 用时: 91 μs
+ctrl_DB_12_2_reply 用时: 62 μs
+ctrl_DB_13_3_reply 用时: 1922 μs
+tgt_DB_12_2_reply 用时: 72 μs
+ctrl_DB_13_1_reply 用时: 67 μs
+tgt_DB_13_3_reply 用时: 93 μs
+tgt_DB_13_1_reply 用时: 61 μs
+ctrl_DB_12_3_reply 用时: 64 μs
+tgt_DB_12_3_reply 用时: 68 μs
+ctrl_DB_10_4_reply 用时: 1746 μs
+ctrl_DB_12_4_reply 用时: 63 μs
+ctrl_DB_9_0_reply 用时: 2584 μs
+ctrl_DB_12_0_reply 用时: 2613 μs
+tgt_DB_12_4_reply 用时: 326 μs
+tgt_DB_11_4_reply 用时: 553 μs
+tgt_DB_10_4_reply 用时: 505 μs
+ctrl_DB_10_3_reply 用时: 2460 μs
+tgt_DB_9_0_reply 用时: 515 μs
+ctrl_DB_9_4_reply 用时: 3196 μs
+tgt_DB_9_4_reply 用时: 218 μs
+ctrl_DB_12_1_reply 用时: 3341 μs
+tgt_DB_12_1_reply 用时: 97 μs
+tgt_DB_12_0_reply 用时: 969 μs
+tgt_DB_10_3_reply 用时: 617 μs
+compute_intersection 用时: 186 μs
+交集大小: 8
+总耗时: 369777 微秒
+
+-------------------------
+运行时间：2025-07-08 20:44:21
+参与方数量：100
+全集大小：32768
+leader_preproc 用时: 191444 μs
+ctrl_DB_3_0_preproc 用时: 1200 μs
+ctrl_DB_2_1_preproc 用时: 1938 μs
+tgt_DB_3_0_preproc 用时: 1124 μs
+ctrl_DB_0_2_preproc 用时: 5022 μs
+tgt_DB_0_2_preproc 用时: 1365 μs
+ctrl_DB_1_1_preproc 用时: 7558 μs
+ctrl_DB_3_2_preproc 用时: 11199 μs
+tgt_DB_3_2_preproc 用时: 1409 μs
+ctrl_DB_8_1_preproc 用时: 1169 μs
+tgt_DB_8_1_preproc 用时: 1137 μs
+tgt_DB_1_1_preproc 用时: 11316 μs
+ctrl_DB_3_3_preproc 用时: 11614 μs
+tgt_DB_2_1_preproc 用时: 19762 μs
+ctrl_DB_11_1_preproc 用时: 5598 μs
+tgt_DB_11_1_preproc 用时: 1454 μs
+ctrl_DB_2_3_preproc 用时: 25925 μs
+ctrl_DB_3_4_preproc 用时: 13818 μs
+tgt_DB_3_4_preproc 用时: 1269 μs
+ctrl_DB_5_0_preproc 用时: 16129 μs
+tgt_DB_5_0_preproc 用时: 1227 μs
+ctrl_DB_2_0_preproc 用时: 33285 μs
+tgt_DB_2_0_preproc 用时: 2334 μs
+ctrl_DB_2_2_preproc 用时: 38184 μs
+tgt_DB_2_2_preproc 用时: 1352 μs
+ctrl_DB_3_1_preproc 用时: 43057 μs
+tgt_DB_3_1_preproc 用时: 1527 μs
+ctrl_DB_1_4_preproc 用时: 48352 μs
+tgt_DB_1_4_preproc 用时: 1505 μs
+ctrl_DB_0_4_preproc 用时: 51589 μs
+tgt_DB_0_4_preproc 用时: 1237 μs
+ctrl_DB_1_0_preproc 用时: 53656 μs
+ctrl_DB_14_0_preproc 用时: 33798 μs
+tgt_DB_14_0_preproc 用时: 1465 μs
+ctrl_DB_0_1_preproc 用时: 58728 μs
+tgt_DB_2_3_preproc 用时: 32575 μs
+ctrl_DB_14_1_preproc 用时: 25980 μs
+tgt_DB_14_1_preproc 用时: 1537 μs
+ctrl_DB_9_2_preproc 用时: 3996 μs
+tgt_DB_9_2_preproc 用时: 1251 μs
+tgt_DB_0_1_preproc 用时: 8968 μs
+ctrl_DB_14_2_preproc 用时: 39712 μs
+ctrl_DB_13_1_preproc 用时: 33686 μs
+tgt_DB_13_1_preproc 用时: 1260 μs
+tgt_DB_1_0_preproc 用时: 20573 μs
+ctrl_DB_0_0_preproc 用时: 75804 μs
+ctrl_DB_10_1_preproc 用时: 59024 μs
+tgt_DB_0_0_preproc 用时: 1101 μs
+ctrl_DB_15_1_preproc 用时: 1601 μs
+ctrl_DB_5_1_preproc 用时: 33094 μs
+tgt_DB_15_1_preproc 用时: 1224 μs
+ctrl_DB_14_3_preproc 用时: 46683 μs
+tgt_DB_14_2_preproc 用时: 13218 μs
+tgt_DB_14_3_preproc 用时: 1253 μs
+ctrl_DB_12_2_preproc 用时: 68761 μs
+ctrl_DB_2_4_preproc 用时: 74566 μs
+tgt_DB_5_1_preproc 用时: 5609 μs
+ctrl_DB_1_2_preproc 用时: 86097 μs
+tgt_DB_1_2_preproc 用时: 1411 μs
+tgt_DB_10_1_preproc 用时: 12523 μs
+ctrl_DB_13_2_preproc 用时: 71235 μs
+tgt_DB_13_2_preproc 用时: 1235 μs
+ctrl_DB_12_0_preproc 用时: 74141 μs
+tgt_DB_12_0_preproc 用时: 1205 μs
+ctrl_DB_6_3_preproc 用时: 50651 μs
+ctrl_DB_10_3_preproc 用时: 76460 μs
+ctrl_DB_13_3_preproc 用时: 79382 μs
+tgt_DB_13_3_preproc 用时: 1226 μs
+tgt_DB_12_2_preproc 用时: 17581 μs
+ctrl_DB_13_4_preproc 用时: 80818 μs
+tgt_DB_2_4_preproc 用时: 18950 μs
+ctrl_DB_8_4_preproc 用时: 83192 μs
+tgt_DB_8_4_preproc 用时: 1364 μs
+ctrl_DB_0_3_preproc 用时: 107557 μs
+ctrl_DB_16_0_preproc 用时: 1341 μs
+tgt_DB_0_3_preproc 用时: 1093 μs
+ctrl_DB_16_1_preproc 用时: 2467 μs
+ctrl_DB_15_4_preproc 用时: 2904 μs
+tgt_DB_16_1_preproc 用时: 1271 μs
+tgt_DB_15_4_preproc 用时: 1230 μs
+tgt_DB_13_4_preproc 用时: 11501 μs
+ctrl_DB_15_2_preproc 用时: 1323 μs
+tgt_DB_16_0_preproc 用时: 7050 μs
+ctrl_DB_7_3_preproc 用时: 32074 μs
+ctrl_DB_10_4_preproc 用时: 81760 μs
+tgt_DB_7_3_preproc 用时: 2491 μs
+tgt_DB_6_3_preproc 用时: 23235 μs
+ctrl_DB_15_3_preproc 用时: 12031 μs
+ctrl_DB_11_3_preproc 用时: 56458 μs
+tgt_DB_15_3_preproc 用时: 2124 μs
+ctrl_DB_9_1_preproc 用时: 107985 μs
+tgt_DB_3_3_preproc 用时: 105130 μs
+ctrl_DB_9_0_preproc 用时: 105108 μs
+ctrl_DB_16_3_preproc 用时: 1848 μs
+ctrl_DB_7_4_preproc 用时: 43545 μs
+ctrl_DB_6_4_preproc 用时: 13126 μs
+ctrl_DB_16_4_preproc 用时: 2233 μs
+tgt_DB_6_4_preproc 用时: 2096 μs
+ctrl_DB_12_3_preproc 用时: 68968 μs
+ctrl_DB_17_1_preproc 用时: 2168 μs
+tgt_DB_12_3_preproc 用时: 2001 μs
+ctrl_DB_17_3_preproc 用时: 1547 μs
+tgt_DB_17_3_preproc 用时: 3222 μs
+tgt_DB_16_3_preproc 用时: 14904 μs
+ctrl_DB_17_4_preproc 用时: 4285 μs
+tgt_DB_17_4_preproc 用时: 1353 μs
+ctrl_DB_20_1_preproc 用时: 6311 μs
+tgt_DB_20_1_preproc 用时: 1246 μs
+ctrl_DB_17_2_preproc 用时: 12388 μs
+ctrl_DB_23_1_preproc 用时: 9704 μs
+tgt_DB_17_2_preproc 用时: 1694 μs
+ctrl_DB_18_1_preproc 用时: 10485 μs
+tgt_DB_18_1_preproc 用时: 1231 μs
+tgt_DB_16_4_preproc 用时: 21885 μs
+ctrl_DB_6_2_preproc 用时: 48391 μs
+tgt_DB_15_2_preproc 用时: 40861 μs
+ctrl_DB_24_2_preproc 用时: 15342 μs
+ctrl_DB_4_3_preproc 用时: 113574 μs
+tgt_DB_4_3_preproc 用时: 1221 μs
+tgt_DB_24_2_preproc 用时: 5944 μs
+tgt_DB_23_1_preproc 用时: 14213 μs
+ctrl_DB_4_4_preproc 用时: 64238 μs
+ctrl_DB_5_4_preproc 用时: 49063 μs
+ctrl_DB_22_1_preproc 用时: 25523 μs
+ctrl_DB_22_3_preproc 用时: 27590 μs
+tgt_DB_22_1_preproc 用时: 1263 μs
+ctrl_DB_24_1_preproc 用时: 28321 μs
+ctrl_DB_21_4_preproc 用时: 29812 μs
+tgt_DB_21_4_preproc 用时: 1259 μs
+tgt_DB_24_1_preproc 用时: 4342 μs
+tgt_DB_9_0_preproc 用时: 49321 μs
+ctrl_DB_4_1_preproc 用时: 155302 μs
+ctrl_DB_4_0_preproc 用时: 85777 μs
+tgt_DB_4_1_preproc 用时: 1168 μs
+tgt_DB_9_1_preproc 用时: 52152 μs
+ctrl_DB_8_0_preproc 用时: 157872 μs
+tgt_DB_4_0_preproc 用时: 1126 μs
+tgt_DB_7_4_preproc 用时: 50073 μs
+tgt_DB_8_0_preproc 用时: 1159 μs
+tgt_DB_10_3_preproc 用时: 83156 μs
+ctrl_DB_12_4_preproc 用时: 160745 μs
+tgt_DB_12_4_preproc 用时: 1197 μs
+ctrl_DB_23_3_preproc 用时: 11515 μs
+ctrl_DB_13_0_preproc 用时: 121401 μs
+tgt_DB_23_3_preproc 用时: 1214 μs
+tgt_DB_13_0_preproc 用时: 1187 μs
+ctrl_DB_17_0_preproc 用时: 48364 μs
+ctrl_DB_19_3_preproc 用时: 23760 μs
+tgt_DB_17_0_preproc 用时: 1640 μs
+ctrl_DB_8_3_preproc 用时: 83067 μs
+tgt_DB_22_3_preproc 用时: 15628 μs
+tgt_DB_8_3_preproc 用时: 1351 μs
+tgt_DB_6_2_preproc 用时: 31008 μs
+ctrl_DB_14_4_preproc 用时: 166084 μs
+ctrl_DB_27_2_preproc 用时: 3362 μs
+ctrl_DB_11_2_preproc 用时: 109613 μs
+ctrl_DB_28_4_preproc 用时: 1293 μs
+ctrl_DB_11_4_preproc 用时: 152763 μs
+ctrl_DB_5_3_preproc 用时: 104780 μs
+tgt_DB_10_4_preproc 用时: 72751 μs
+ctrl_DB_32_4_preproc 用时: 6336 μs
+ctrl_DB_29_0_preproc 用时: 18555 μs
+tgt_DB_17_1_preproc 用时: 70692 μs
+ctrl_DB_33_2_preproc 用时: 3503 μs
+tgt_DB_29_0_preproc 用时: 1268 μs
+ctrl_DB_29_2_preproc 用时: 19101 μs
+tgt_DB_33_2_preproc 用时: 1661 μs
+tgt_DB_29_2_preproc 用时: 1289 μs
+ctrl_DB_33_1_preproc 用时: 26122 μs
+ctrl_DB_44_1_preproc 用时: 1262 μs
+tgt_DB_33_1_preproc 用时: 1258 μs
+ctrl_DB_28_0_preproc 用时: 8625 μs
+ctrl_DB_33_0_preproc 用时: 32336 μs
+ctrl_DB_32_0_preproc 用时: 15122 μs
+tgt_DB_32_0_preproc 用时: 1228 μs
+tgt_DB_33_0_preproc 用时: 4685 μs
+tgt_DB_32_4_preproc 用时: 16868 μs
+ctrl_DB_27_3_preproc 用时: 40668 μs
+tgt_DB_27_3_preproc 用时: 1348 μs
+ctrl_DB_7_1_preproc 用时: 206014 μs
+tgt_DB_7_1_preproc 用时: 1548 μs
+ctrl_DB_10_0_preproc 用时: 209091 μs
+ctrl_DB_27_1_preproc 用时: 49645 μs
+tgt_DB_10_0_preproc 用时: 1110 μs
+ctrl_DB_31_1_preproc 用时: 27056 μs
+tgt_DB_27_2_preproc 用时: 30627 μs
+tgt_DB_31_1_preproc 用时: 1160 μs
+ctrl_DB_29_1_preproc 用时: 43517 μs
+tgt_DB_27_1_preproc 用时: 6162 μs
+tgt_DB_11_3_preproc 用时: 115506 μs
+ctrl_DB_5_2_preproc 用时: 196738 μs
+tgt_DB_5_2_preproc 用时: 1251 μs
+tgt_DB_14_4_preproc 用时: 41444 μs
+ctrl_DB_54_3_preproc 用时: 8506 μs
+ctrl_DB_50_1_preproc 用时: 1393 μs
+tgt_DB_54_3_preproc 用时: 1406 μs
+ctrl_DB_32_3_preproc 用时: 48508 μs
+tgt_DB_28_0_preproc 用时: 34153 μs
+tgt_DB_32_3_preproc 用时: 2122 μs
+ctrl_DB_31_2_preproc 用时: 45949 μs
+tgt_DB_31_2_preproc 用时: 1274 μs
+ctrl_DB_30_3_preproc 用时: 48660 μs
+ctrl_DB_30_2_preproc 用时: 51026 μs
+tgt_DB_30_2_preproc 用时: 1364 μs
+ctrl_DB_23_0_preproc 用时: 116608 μs
+ctrl_DB_23_4_preproc 用时: 79066 μs
+ctrl_DB_30_4_preproc 用时: 1611 μs
+tgt_DB_30_4_preproc 用时: 1253 μs
+tgt_DB_11_2_preproc 用时: 67405 μs
+tgt_DB_44_1_preproc 用时: 57848 μs
+ctrl_DB_55_3_preproc 用时: 21043 μs
+ctrl_DB_52_3_preproc 用时: 1251 μs
+tgt_DB_55_3_preproc 用时: 1208 μs
+tgt_DB_52_3_preproc 用时: 1251 μs
+tgt_DB_23_0_preproc 用时: 14986 μs
+tgt_DB_29_1_preproc 用时: 41052 μs
+tgt_DB_28_4_preproc 用时: 69031 μs
+ctrl_DB_53_1_preproc 用时: 41499 μs
+ctrl_DB_49_0_preproc 用时: 1690 μs
+tgt_DB_53_1_preproc 用时: 1416 μs
+tgt_DB_49_0_preproc 用时: 1224 μs
+ctrl_DB_48_0_preproc 用时: 45116 μs
+ctrl_DB_49_1_preproc 用时: 1276 μs
+tgt_DB_48_0_preproc 用时: 1250 μs
+ctrl_DB_38_3_preproc 用时: 7372 μs
+ctrl_DB_44_3_preproc 用时: 46293 μs
+tgt_DB_44_3_preproc 用时: 1248 μs
+ctrl_DB_51_2_preproc 用时: 50377 μs
+tgt_DB_51_2_preproc 用时: 1155 μs
+ctrl_DB_33_3_preproc 用时: 82745 μs
+tgt_DB_33_3_preproc 用时: 1205 μs
+tgt_DB_30_3_preproc 用时: 36598 μs
+ctrl_DB_33_4_preproc 用时: 80211 μs
+tgt_DB_33_4_preproc 用时: 1080 μs
+ctrl_DB_44_2_preproc 用时: 69349 μs
+tgt_DB_44_2_preproc 用时: 1220 μs
+ctrl_DB_48_3_preproc 用时: 60804 μs
+tgt_DB_48_3_preproc 用时: 1240 μs
+ctrl_DB_31_4_preproc 用时: 91749 μs
+tgt_DB_31_4_preproc 用时: 1310 μs
+ctrl_DB_55_0_preproc 用时: 66520 μs
+ctrl_DB_43_1_preproc 用时: 37752 μs
+ctrl_DB_53_0_preproc 用时: 28217 μs
+tgt_DB_53_0_preproc 用时: 1284 μs
+ctrl_DB_45_3_preproc 用时: 74874 μs
+ctrl_DB_22_4_preproc 用时: 1511 μs
+tgt_DB_45_3_preproc 用时: 1264 μs
+ctrl_DB_52_0_preproc 用时: 77286 μs
+tgt_DB_52_0_preproc 用时: 1245 μs
+ctrl_DB_49_3_preproc 用时: 79683 μs
+ctrl_DB_56_0_preproc 用时: 1276 μs
+tgt_DB_49_3_preproc 用时: 1163 μs
+ctrl_DB_54_0_preproc 用时: 83295 μs
+ctrl_DB_55_4_preproc 用时: 1166 μs
+tgt_DB_54_0_preproc 用时: 1114 μs
+tgt_DB_55_4_preproc 用时: 1137 μs
+tgt_DB_55_0_preproc 用时: 18508 μs
+ctrl_DB_56_2_preproc 用时: 5158 μs
+ctrl_DB_56_1_preproc 用时: 3545 μs
+tgt_DB_56_2_preproc 用时: 1253 μs
+ctrl_DB_35_2_preproc 用时: 1631 μs
+tgt_DB_43_1_preproc 用时: 24824 μs
+tgt_DB_35_2_preproc 用时: 7110 μs
+ctrl_DB_54_2_preproc 用时: 83904 μs
+ctrl_DB_50_4_preproc 用时: 100531 μs
+ctrl_DB_56_3_preproc 用时: 1845 μs
+tgt_DB_50_4_preproc 用时: 1265 μs
+tgt_DB_56_0_preproc 用时: 22332 μs
+ctrl_DB_61_2_preproc 用时: 1211 μs
+ctrl_DB_25_2_preproc 用时: 175431 μs
+tgt_DB_25_2_preproc 用时: 1258 μs
+ctrl_DB_31_0_preproc 用时: 1295 μs
+tgt_DB_56_3_preproc 用时: 14105 μs
+ctrl_DB_34_4_preproc 用时: 2002 μs
+tgt_DB_34_4_preproc 用时: 1247 μs
+ctrl_DB_45_2_preproc 用时: 121021 μs
+ctrl_DB_58_4_preproc 用时: 17159 μs
+tgt_DB_45_2_preproc 用时: 1302 μs
+ctrl_DB_53_2_preproc 用时: 111412 μs
+ctrl_DB_26_4_preproc 用时: 58803 μs
+tgt_DB_53_2_preproc 用时: 1170 μs
+tgt_DB_58_4_preproc 用时: 3287 μs
+ctrl_DB_62_2_preproc 用时: 18981 μs
+ctrl_DB_64_2_preproc 用时: 1288 μs
+tgt_DB_62_2_preproc 用时: 1284 μs
+ctrl_DB_63_1_preproc 用时: 22158 μs
+ctrl_DB_63_0_preproc 用时: 23166 μs
+tgt_DB_63_1_preproc 用时: 1234 μs
+ctrl_DB_38_0_preproc 用时: 66694 μs
+ctrl_DB_63_3_preproc 用时: 28095 μs
+ctrl_DB_60_3_preproc 用时: 27214 μs
+tgt_DB_63_3_preproc 用时: 1367 μs
+ctrl_DB_35_4_preproc 用时: 103820 μs
+tgt_DB_35_4_preproc 用时: 1219 μs
+ctrl_DB_24_0_preproc 用时: 198530 μs
+ctrl_DB_43_3_preproc 用时: 1580 μs
+tgt_DB_43_3_preproc 用时: 1205 μs
+tgt_DB_23_4_preproc 用时: 118170 μs
+tgt_DB_31_0_preproc 用时: 30724 μs
+ctrl_DB_61_3_preproc 用时: 15315 μs
+tgt_DB_61_3_preproc 用时: 1305 μs
+tgt_DB_22_4_preproc 用时: 76433 μs
+ctrl_DB_64_3_preproc 用时: 1314 μs
+ctrl_DB_44_0_preproc 用时: 83243 μs
+tgt_DB_64_3_preproc 用时: 1275 μs
+tgt_DB_63_0_preproc 用时: 27863 μs
+tgt_DB_60_3_preproc 用时: 23542 μs
+tgt_DB_56_1_preproc 用时: 69102 μs
+tgt_DB_64_2_preproc 用时: 31747 μs
+ctrl_DB_45_0_preproc 用时: 131749 μs
+ctrl_DB_53_3_preproc 用时: 104670 μs
+tgt_DB_53_3_preproc 用时: 1291 μs
+ctrl_DB_64_4_preproc 用时: 1297 μs
+tgt_DB_64_4_preproc 用时: 1258 μs
+ctrl_DB_54_4_preproc 用时: 154277 μs
+ctrl_DB_65_1_preproc 用时: 1277 μs
+tgt_DB_54_4_preproc 用时: 1113 μs
+ctrl_DB_52_4_preproc 用时: 143333 μs
+ctrl_DB_62_3_preproc 用时: 65856 μs
+ctrl_DB_65_2_preproc 用时: 1310 μs
+tgt_DB_62_3_preproc 用时: 1265 μs
+ctrl_DB_58_2_preproc 用时: 70941 μs
+tgt_DB_58_2_preproc 用时: 1307 μs
+ctrl_DB_52_2_preproc 用时: 176578 μs
+tgt_DB_52_2_preproc 用时: 1342 μs
+ctrl_DB_60_4_preproc 用时: 70309 μs
+tgt_DB_65_1_preproc 用时: 10581 μs
+tgt_DB_60_4_preproc 用时: 1190 μs
+tgt_DB_61_2_preproc 用时: 72425 μs
+tgt_DB_52_4_preproc 用时: 10074 μs
+tgt_DB_54_2_preproc 用时: 83215 μs
+ctrl_DB_65_0_preproc 用时: 13370 μs
+ctrl_DB_65_3_preproc 用时: 1301 μs
+tgt_DB_65_0_preproc 用时: 1229 μs
+tgt_DB_45_0_preproc 用时: 25982 μs
+ctrl_DB_54_1_preproc 用时: 158752 μs
+tgt_DB_54_1_preproc 用时: 1146 μs
+ctrl_DB_69_2_preproc 用时: 3031 μs
+tgt_DB_69_2_preproc 用时: 1466 μs
+ctrl_DB_67_4_preproc 用时: 6501 μs
+tgt_DB_67_4_preproc 用时: 1307 μs
+ctrl_DB_67_1_preproc 用时: 6782 μs
+tgt_DB_67_1_preproc 用时: 1489 μs
+ctrl_DB_63_4_preproc 用时: 96894 μs
+tgt_DB_63_4_preproc 用时: 1268 μs
+ctrl_DB_34_0_preproc 用时: 148559 μs
+tgt_DB_34_0_preproc 用时: 1235 μs
+ctrl_DB_18_3_preproc 用时: 139154 μs
+ctrl_DB_45_1_preproc 用时: 185173 μs
+tgt_DB_45_1_preproc 用时: 1289 μs
+tgt_DB_65_2_preproc 用时: 41913 μs
+ctrl_DB_79_2_preproc 用时: 16517 μs
+tgt_DB_79_2_preproc 用时: 1244 μs
+ctrl_DB_65_4_preproc 用时: 32532 μs
+tgt_DB_65_4_preproc 用时: 1284 μs
+ctrl_DB_73_4_preproc 用时: 23985 μs
+ctrl_DB_84_0_preproc 用时: 1388 μs
+tgt_DB_84_0_preproc 用时: 1285 μs
+ctrl_DB_74_3_preproc 用时: 36840 μs
+tgt_DB_74_3_preproc 用时: 1309 μs
+tgt_DB_65_3_preproc 用时: 46861 μs
+ctrl_DB_84_1_preproc 用时: 1190 μs
+ctrl_DB_56_4_preproc 用时: 117838 μs
+tgt_DB_84_1_preproc 用时: 1394 μs
+ctrl_DB_51_1_preproc 用时: 235792 μs
+tgt_DB_51_1_preproc 用时: 1252 μs
+tgt_DB_73_4_preproc 用时: 17094 μs
+ctrl_DB_63_2_preproc 用时: 91162 μs
+ctrl_DB_87_2_preproc 用时: 1310 μs
+tgt_DB_63_2_preproc 用时: 1259 μs
+tgt_DB_56_4_preproc 用时: 9716 μs
+ctrl_DB_62_4_preproc 用时: 63825 μs
+ctrl_DB_87_3_preproc 用时: 1934 μs
+tgt_DB_62_4_preproc 用时: 1113 μs
+ctrl_DB_59_4_preproc 用时: 130039 μs
+ctrl_DB_19_1_preproc 用时: 157485 μs
+tgt_DB_19_1_preproc 用时: 1273 μs
+tgt_DB_87_3_preproc 用时: 12879 μs
+ctrl_DB_74_4_preproc 用时: 67732 μs
+ctrl_DB_80_1_preproc 用时: 1655 μs
+ctrl_DB_57_4_preproc 用时: 112804 μs
+ctrl_DB_59_0_preproc 用时: 1736 μs
+ctrl_DB_36_1_preproc 用时: 205813 μs
+tgt_DB_36_1_preproc 用时: 1307 μs
+tgt_DB_57_4_preproc 用时: 10067 μs
+ctrl_DB_84_2_preproc 用时: 35951 μs
+ctrl_DB_92_0_preproc 用时: 35521 μs
+ctrl_DB_64_0_preproc 用时: 124092 μs
+tgt_DB_84_2_preproc 用时: 2462 μs
+ctrl_DB_55_1_preproc 用时: 226800 μs
+ctrl_DB_82_4_preproc 用时: 17458 μs
+ctrl_DB_87_1_preproc 用时: 21293 μs
+tgt_DB_87_1_preproc 用时: 1361 μs
+ctrl_DB_91_3_preproc 用时: 38335 μs
+tgt_DB_91_3_preproc 用时: 1249 μs
+ctrl_DB_91_2_preproc 用时: 52238 μs
+ctrl_DB_20_4_preproc 用时: 303523 μs
+tgt_DB_91_2_preproc 用时: 1361 μs
+tgt_DB_92_0_preproc 用时: 18169 μs
+ctrl_DB_85_4_preproc 用时: 53416 μs
+ctrl_DB_72_3_preproc 用时: 102236 μs
+tgt_DB_4_4_preproc 用时: 366908 μs
+tgt_DB_85_4_preproc 用时: 4942 μs
+tgt_DB_59_0_preproc 用时: 32337 μs
+ctrl_DB_79_1_preproc 用时: 1801 μs
+ctrl_DB_68_4_preproc 用时: 110586 μs
+ctrl_DB_64_1_preproc 用时: 1350 μs
+tgt_DB_68_4_preproc 用时: 1409 μs
+ctrl_DB_66_2_preproc 用时: 77447 μs
+tgt_DB_66_2_preproc 用时: 1274 μs
+ctrl_DB_20_0_preproc 用时: 378227 μs
+ctrl_DB_80_0_preproc 用时: 84229 μs
+tgt_DB_80_1_preproc 用时: 50840 μs
+ctrl_DB_92_3_preproc 用时: 68211 μs
+tgt_DB_92_3_preproc 用时: 1243 μs
+tgt_DB_38_0_preproc 用时: 188164 μs
+ctrl_DB_87_0_preproc 用时: 79446 μs
+ctrl_DB_43_0_preproc 用时: 226863 μs
+tgt_DB_87_0_preproc 用时: 1138 μs
+ctrl_DB_66_0_preproc 用时: 133959 μs
+tgt_DB_66_0_preproc 用时: 2714 μs
+tgt_DB_82_4_preproc 用时: 44704 μs
+ctrl_DB_88_2_preproc 用时: 69842 μs
+ctrl_DB_95_4_preproc 用时: 70217 μs
+tgt_DB_88_2_preproc 用时: 1445 μs
+ctrl_DB_78_1_preproc 用时: 26665 μs
+tgt_DB_78_1_preproc 用时: 1272 μs
+ctrl_DB_9_4_preproc 用时: 504953 μs
+tgt_DB_9_4_preproc 用时: 1306 μs
+ctrl_DB_66_3_preproc 用时: 113914 μs
+tgt_DB_66_3_preproc 用时: 1223 μs
+tgt_DB_64_0_preproc 用时: 68612 μs
+ctrl_DB_73_2_preproc 用时: 153436 μs
+ctrl_DB_88_0_preproc 用时: 98072 μs
+ctrl_DB_86_1_preproc 用时: 97652 μs
+ctrl_DB_28_2_preproc 用时: 300646 μs
+tgt_DB_86_1_preproc 用时: 1492 μs
+ctrl_DB_86_2_preproc 用时: 91551 μs
+tgt_DB_86_2_preproc 用时: 1350 μs
+ctrl_DB_86_3_preproc 用时: 103060 μs
+ctrl_DB_68_0_preproc 用时: 121926 μs
+ctrl_DB_53_4_preproc 用时: 312292 μs
+tgt_DB_53_4_preproc 用时: 1325 μs
+tgt_DB_55_1_preproc 用时: 80568 μs
+ctrl_DB_79_3_preproc 用时: 128792 μs
+tgt_DB_79_3_preproc 用时: 1219 μs
+tgt_DB_88_0_preproc 用时: 19056 μs
+ctrl_DB_52_1_preproc 用时: 163663 μs
+tgt_DB_38_3_preproc 用时: 321605 μs
+ctrl_DB_25_3_preproc 用时: 314779 μs
+ctrl_DB_44_4_preproc 用时: 327339 μs
+ctrl_DB_86_4_preproc 用时: 123895 μs
+tgt_DB_44_4_preproc 用时: 1133 μs
+tgt_DB_73_2_preproc 用时: 28719 μs
+ctrl_DB_16_2_preproc 用时: 500028 μs
+ctrl_DB_97_3_preproc 用时: 124425 μs
+ctrl_DB_47_3_preproc 用时: 330806 μs
+tgt_DB_86_3_preproc 用时: 29001 μs
+ctrl_DB_73_1_preproc 用时: 188919 μs
+tgt_DB_73_1_preproc 用时: 1089 μs
+ctrl_DB_75_3_preproc 用时: 190632 μs
+ctrl_DB_42_3_preproc 用时: 266307 μs
+tgt_DB_75_3_preproc 用时: 1956 μs
+tgt_DB_72_3_preproc 用时: 92206 μs
+ctrl_DB_88_1_preproc 用时: 139995 μs
+tgt_DB_86_4_preproc 用时: 17392 μs
+tgt_DB_88_1_preproc 用时: 2654 μs
+tgt_DB_74_4_preproc 用时: 131896 μs
+ctrl_DB_93_2_preproc 用时: 105538 μs
+ctrl_DB_67_0_preproc 用时: 204752 μs
+tgt_DB_93_2_preproc 用时: 2365 μs
+tgt_DB_87_2_preproc 用时: 152845 μs
+ctrl_DB_88_3_preproc 用时: 146831 μs
+tgt_DB_97_3_preproc 用时: 21201 μs
+tgt_DB_88_3_preproc 用时: 1133 μs
+ctrl_DB_89_1_preproc 用时: 89096 μs
+ctrl_DB_76_1_preproc 用时: 206022 μs
+tgt_DB_76_1_preproc 用时: 1219 μs
+ctrl_DB_58_3_preproc 用时: 1574 μs
+tgt_DB_58_3_preproc 用时: 1248 μs
+ctrl_DB_81_1_preproc 用时: 183795 μs
+tgt_DB_81_1_preproc 用时: 1326 μs
+ctrl_DB_82_2_preproc 用时: 176463 μs
+tgt_DB_82_2_preproc 用时: 1496 μs
+ctrl_DB_61_0_preproc 用时: 287919 μs
+ctrl_DB_81_4_preproc 用时: 105910 μs
+tgt_DB_61_0_preproc 用时: 1293 μs
+ctrl_DB_86_0_preproc 用时: 165639 μs
+tgt_DB_86_0_preproc 用时: 1150 μs
+ctrl_DB_76_0_preproc 用时: 111212 μs
+ctrl_DB_68_3_preproc 用时: 152454 μs
+ctrl_DB_59_2_preproc 用时: 252582 μs
+tgt_DB_59_2_preproc 用时: 1172 μs
+tgt_DB_59_4_preproc 用时: 172945 μs
+ctrl_DB_39_2_preproc 用时: 331605 μs
+tgt_DB_39_2_preproc 用时: 1274 μs
+ctrl_DB_36_0_preproc 用时: 395274 μs
+ctrl_DB_62_1_preproc 用时: 275659 μs
+tgt_DB_36_0_preproc 用时: 1184 μs
+tgt_DB_62_1_preproc 用时: 1146 μs
+ctrl_DB_60_2_preproc 用时: 279182 μs
+ctrl_DB_71_1_preproc 用时: 124206 μs
+tgt_DB_60_2_preproc 用时: 4527 μs
+ctrl_DB_36_3_preproc 用时: 367978 μs
+ctrl_DB_74_2_preproc 用时: 247791 μs
+ctrl_DB_26_2_preproc 用时: 501774 μs
+tgt_DB_26_2_preproc 用时: 1375 μs
+ctrl_DB_38_4_preproc 用时: 412114 μs
+ctrl_DB_69_0_preproc 用时: 179818 μs
+tgt_DB_38_4_preproc 用时: 1218 μs
+tgt_DB_25_3_preproc 用时: 75558 μs
+ctrl_DB_26_1_preproc 用时: 418533 μs
+ctrl_DB_31_3_preproc 用时: 359171 μs
+ctrl_DB_50_3_preproc 用时: 250685 μs
+ctrl_DB_89_0_preproc 用时: 89342 μs
+ctrl_DB_60_0_preproc 用时: 52550 μs
+ctrl_DB_77_4_preproc 用时: 221647 μs
+tgt_DB_76_0_preproc 用时: 42403 μs
+ctrl_DB_68_2_preproc 用时: 104219 μs
+ctrl_DB_34_2_preproc 用时: 408480 μs
+tgt_DB_34_2_preproc 用时: 1290 μs
+ctrl_DB_72_0_preproc 用时: 250341 μs
+tgt_DB_5_4_preproc 用时: 542092 μs
+tgt_DB_72_0_preproc 用时: 5870 μs
+ctrl_DB_93_3_preproc 用时: 214055 μs
+ctrl_DB_93_1_preproc 用时: 204463 μs
+tgt_DB_93_1_preproc 用时: 1211 μs
+ctrl_DB_90_1_preproc 用时: 26745 μs
+tgt_DB_90_1_preproc 用时: 1302 μs
+ctrl_DB_94_2_preproc 用时: 210304 μs
+tgt_DB_50_1_preproc 用时: 479781 μs
+ctrl_DB_96_1_preproc 用时: 228549 μs
+tgt_DB_96_1_preproc 用时: 1322 μs
+ctrl_DB_82_1_preproc 用时: 277864 μs
+ctrl_DB_58_0_preproc 用时: 326156 μs
+ctrl_DB_69_4_preproc 用时: 231896 μs
+tgt_DB_81_4_preproc 用时: 87911 μs
+tgt_DB_49_1_preproc 用时: 459839 μs
+ctrl_DB_51_3_preproc 用时: 302211 μs
+tgt_DB_51_3_preproc 用时: 1239 μs
+ctrl_DB_50_2_preproc 用时: 379728 μs
+tgt_DB_50_2_preproc 用时: 1282 μs
+ctrl_DB_62_0_preproc 用时: 348103 μs
+ctrl_DB_81_0_preproc 用时: 205457 μs
+tgt_DB_81_0_preproc 用时: 1253 μs
+ctrl_DB_42_0_preproc 用时: 482712 μs
+ctrl_DB_80_2_preproc 用时: 287894 μs
+tgt_DB_80_2_preproc 用时: 1341 μs
+tgt_DB_93_3_preproc 用时: 40071 μs
+tgt_DB_82_1_preproc 用时: 25791 μs
+ctrl_DB_83_3_preproc 用时: 323325 μs
+ctrl_DB_41_2_preproc 用时: 464714 μs
+tgt_DB_41_2_preproc 用时: 1312 μs
+tgt_DB_42_0_preproc 用时: 19233 μs
+tgt_DB_52_1_preproc 用时: 168097 μs
+ctrl_DB_39_4_preproc 用时: 473708 μs
+tgt_DB_39_4_preproc 用时: 1254 μs
+ctrl_DB_40_4_preproc 用时: 446282 μs
+ctrl_DB_12_1_preproc 用时: 735968 μs
+tgt_DB_40_4_preproc 用时: 1284 μs
+tgt_DB_12_1_preproc 用时: 1367 μs
+ctrl_DB_32_2_preproc 用时: 511105 μs
+ctrl_DB_9_3_preproc 用时: 671313 μs
+tgt_DB_64_1_preproc 用时: 241662 μs
+tgt_DB_32_2_preproc 用时: 1241 μs
+tgt_DB_16_2_preproc 用时: 169631 μs
+ctrl_DB_59_3_preproc 用时: 276741 μs
+tgt_DB_59_3_preproc 用时: 1094 μs
+ctrl_DB_46_4_preproc 用时: 326603 μs
+ctrl_DB_24_4_preproc 用时: 572526 μs
+tgt_DB_46_4_preproc 用时: 1118 μs
+tgt_DB_24_4_preproc 用时: 1376 μs
+tgt_DB_9_3_preproc 用时: 5250 μs
+tgt_DB_24_0_preproc 用时: 410886 μs
+ctrl_DB_60_1_preproc 用时: 381738 μs
+ctrl_DB_18_4_preproc 用时: 454275 μs
+tgt_DB_60_1_preproc 用时: 1173 μs
+ctrl_DB_6_0_preproc 用时: 708803 μs
+ctrl_DB_40_2_preproc 用时: 475180 μs
+tgt_DB_6_0_preproc 用时: 1557 μs
+ctrl_DB_58_1_preproc 用时: 384593 μs
+tgt_DB_68_3_preproc 用时: 137015 μs
+ctrl_DB_72_2_preproc 用时: 255723 μs
+ctrl_DB_26_3_preproc 用时: 482637 μs
+tgt_DB_67_0_preproc 用时: 168058 μs
+ctrl_DB_7_0_preproc 用时: 763227 μs
+tgt_DB_7_0_preproc 用时: 1244 μs
+ctrl_DB_7_2_preproc 用时: 683491 μs
+ctrl_DB_69_3_preproc 用时: 266528 μs
+tgt_DB_69_3_preproc 用时: 1271 μs
+ctrl_DB_67_3_preproc 用时: 295265 μs
+ctrl_DB_47_4_preproc 用时: 571684 μs
+tgt_DB_47_4_preproc 用时: 1327 μs
+ctrl_DB_35_1_preproc 用时: 527877 μs
+tgt_DB_35_1_preproc 用时: 1300 μs
+ctrl_DB_42_1_preproc 用时: 526548 μs
+ctrl_DB_43_2_preproc 用时: 546453 μs
+tgt_DB_43_2_preproc 用时: 1274 μs
+tgt_DB_20_4_preproc 用时: 302515 μs
+ctrl_DB_25_4_preproc 用时: 532190 μs
+tgt_DB_7_2_preproc 用时: 29739 μs
+ctrl_DB_91_0_preproc 用时: 306967 μs
+ctrl_DB_11_0_preproc 用时: 798342 μs
+ctrl_DB_39_1_preproc 用时: 567943 μs
+tgt_DB_11_0_preproc 用时: 1223 μs
+tgt_DB_39_1_preproc 用时: 1907 μs
+ctrl_DB_61_4_preproc 用时: 339711 μs
+ctrl_DB_39_0_preproc 用时: 578578 μs
+tgt_DB_18_4_preproc 用时: 62538 μs
+ctrl_DB_78_0_preproc 用时: 386643 μs
+tgt_DB_78_0_preproc 用时: 1274 μs
+ctrl_DB_46_1_preproc 用时: 414952 μs
+tgt_DB_80_0_preproc 用时: 309413 μs
+ctrl_DB_75_2_preproc 用时: 421500 μs
+ctrl_DB_83_0_preproc 用时: 410527 μs
+tgt_DB_75_2_preproc 用时: 1334 μs
+ctrl_DB_71_0_preproc 用时: 318980 μs
+ctrl_DB_29_4_preproc 用时: 565793 μs
+tgt_DB_71_0_preproc 用时: 1219 μs
+tgt_DB_29_4_preproc 用时: 1295 μs
+tgt_DB_77_4_preproc 用时: 152068 μs
+ctrl_DB_18_0_preproc 用时: 682652 μs
+tgt_DB_95_4_preproc 用时: 299439 μs
+ctrl_DB_94_4_preproc 用时: 110693 μs
+tgt_DB_18_0_preproc 用时: 1323 μs
+tgt_DB_42_3_preproc 用时: 249187 μs
+ctrl_DB_82_3_preproc 用时: 404076 μs
+tgt_DB_82_3_preproc 用时: 1265 μs
+ctrl_DB_82_0_preproc 用时: 405879 μs
+tgt_DB_26_4_preproc 用时: 517280 μs
+ctrl_DB_37_2_preproc 用时: 543536 μs
+tgt_DB_37_2_preproc 用时: 1089 μs
+tgt_DB_19_3_preproc 用时: 680479 μs
+ctrl_DB_81_3_preproc 用时: 404474 μs
+ctrl_DB_76_2_preproc 用时: 447044 μs
+tgt_DB_81_3_preproc 用时: 1210 μs
+tgt_DB_82_0_preproc 用时: 12511 μs
+ctrl_DB_80_3_preproc 用时: 424908 μs
+tgt_DB_80_3_preproc 用时: 1178 μs
+ctrl_DB_81_2_preproc 用时: 405575 μs
+ctrl_DB_48_1_preproc 用时: 556824 μs
+ctrl_DB_19_4_preproc 用时: 745297 μs
+tgt_DB_19_4_preproc 用时: 1266 μs
+ctrl_DB_83_2_preproc 用时: 457092 μs
+tgt_DB_83_2_preproc 用时: 1310 μs
+ctrl_DB_70_0_preproc 用时: 401076 μs
+tgt_DB_70_0_preproc 用时: 1281 μs
+tgt_DB_69_0_preproc 用时: 221671 μs
+ctrl_DB_83_1_preproc 用时: 468924 μs
+ctrl_DB_70_2_preproc 用时: 403996 μs
+tgt_DB_83_1_preproc 用时: 1289 μs
+tgt_DB_70_2_preproc 用时: 1383 μs
+ctrl_DB_70_1_preproc 用时: 372134 μs
+tgt_DB_83_3_preproc 用时: 152108 μs
+ctrl_DB_78_3_preproc 用时: 380139 μs
+tgt_DB_81_2_preproc 用时: 24006 μs
+tgt_DB_11_4_preproc 用时: 705053 μs
+tgt_DB_74_2_preproc 用时: 242786 μs
+ctrl_DB_79_4_preproc 用时: 420653 μs
+tgt_DB_79_4_preproc 用时: 1196 μs
+ctrl_DB_80_4_preproc 用时: 402441 μs
+ctrl_DB_45_4_preproc 用时: 631014 μs
+tgt_DB_80_4_preproc 用时: 1834 μs
+ctrl_DB_39_3_preproc 用时: 592713 μs
+tgt_DB_39_3_preproc 用时: 1242 μs
+ctrl_DB_40_0_preproc 用时: 645907 μs
+tgt_DB_40_0_preproc 用时: 1268 μs
+tgt_DB_18_3_preproc 用时: 483505 μs
+tgt_DB_68_2_preproc 用时: 236906 μs
+tgt_DB_67_3_preproc 用时: 127086 μs
+tgt_DB_62_0_preproc 用时: 191685 μs
+tgt_DB_83_0_preproc 用时: 82095 μs
+ctrl_DB_8_2_preproc 用时: 873580 μs
+ctrl_DB_77_1_preproc 用时: 403262 μs
+ctrl_DB_48_4_preproc 用时: 619702 μs
+ctrl_DB_73_0_preproc 用时: 432890 μs
+tgt_DB_70_1_preproc 用时: 35060 μs
+ctrl_DB_75_4_preproc 用时: 478953 μs
+ctrl_DB_40_3_preproc 用时: 679705 μs
+tgt_DB_75_4_preproc 用时: 1191 μs
+tgt_DB_78_3_preproc 用时: 35062 μs
+tgt_DB_46_1_preproc 用时: 98030 μs
+ctrl_DB_38_2_preproc 用时: 649394 μs
+tgt_DB_38_2_preproc 用时: 1293 μs
+ctrl_DB_18_2_preproc 用时: 775321 μs
+tgt_DB_18_2_preproc 用时: 1323 μs
+ctrl_DB_21_0_preproc 用时: 786847 μs
+ctrl_DB_25_0_preproc 用时: 793557 μs
+ctrl_DB_95_2_preproc 用时: 266537 μs
+ctrl_DB_70_4_preproc 用时: 499208 μs
+ctrl_DB_37_3_preproc 用时: 696704 μs
+tgt_DB_37_3_preproc 用时: 1260 μs
+ctrl_DB_27_4_preproc 用时: 660837 μs
+tgt_DB_27_4_preproc 用时: 1323 μs
+ctrl_DB_75_1_preproc 用时: 535186 μs
+ctrl_DB_34_1_preproc 用时: 679022 μs
+tgt_DB_75_1_preproc 用时: 1323 μs
+tgt_DB_34_1_preproc 用时: 1140 μs
+tgt_DB_43_0_preproc 用时: 417471 μs
+ctrl_DB_34_3_preproc 用时: 707719 μs
+ctrl_DB_66_1_preproc 用时: 459099 μs
+ctrl_DB_28_1_preproc 用时: 676776 μs
+ctrl_DB_70_3_preproc 用时: 430838 μs
+tgt_DB_28_1_preproc 用时: 1436 μs
+tgt_DB_70_3_preproc 用时: 1439 μs
+ctrl_DB_21_3_preproc 用时: 798647 μs
+ctrl_DB_89_2_preproc 用时: 323330 μs
+tgt_DB_89_2_preproc 用时: 1241 μs
+ctrl_DB_76_3_preproc 用时: 516112 μs
+ctrl_DB_32_1_preproc 用时: 684377 μs
+tgt_DB_76_3_preproc 用时: 1512 μs
+tgt_DB_76_2_preproc 用时: 101006 μs
+tgt_DB_94_2_preproc 用时: 263566 μs
+ctrl_DB_77_2_preproc 用时: 471296 μs
+ctrl_DB_97_4_preproc 用时: 441383 μs
+tgt_DB_77_2_preproc 用时: 1077 μs
+tgt_DB_97_4_preproc 用时: 1271 μs
+ctrl_DB_69_1_preproc 用时: 525994 μs
+ctrl_DB_87_4_preproc 用时: 506493 μs
+tgt_DB_69_1_preproc 用时: 1277 μs
+tgt_DB_87_4_preproc 用时: 1132 μs
+ctrl_DB_89_4_preproc 用时: 491408 μs
+ctrl_DB_78_4_preproc 用时: 524238 μs
+ctrl_DB_57_1_preproc 用时: 586337 μs
+tgt_DB_57_1_preproc 用时: 1317 μs
+ctrl_DB_48_2_preproc 用时: 605256 μs
+tgt_DB_8_2_preproc 用时: 59821 μs
+ctrl_DB_46_0_preproc 用时: 411752 μs
+ctrl_DB_57_3_preproc 用时: 503436 μs
+tgt_DB_57_3_preproc 用时: 1283 μs
+tgt_DB_47_3_preproc 用时: 391689 μs
+ctrl_DB_6_1_preproc 用时: 938756 μs
+ctrl_DB_50_0_preproc 用时: 553710 μs
+ctrl_DB_30_0_preproc 用时: 742323 μs
+tgt_DB_50_0_preproc 用时: 1193 μs
+ctrl_DB_47_2_preproc 用时: 715909 μs
+tgt_DB_47_2_preproc 用时: 1142 μs
+ctrl_DB_90_3_preproc 用时: 497108 μs
+tgt_DB_50_3_preproc 用时: 242474 μs
+tgt_DB_90_3_preproc 用时: 1343 μs
+ctrl_DB_4_2_preproc 用时: 895734 μs
+ctrl_DB_95_0_preproc 用时: 363630 μs
+tgt_DB_4_2_preproc 用时: 1156 μs
+tgt_DB_6_1_preproc 用时: 11206 μs
+ctrl_DB_47_0_preproc 用时: 684057 μs
+tgt_DB_47_0_preproc 用时: 1134 μs
+ctrl_DB_61_1_preproc 用时: 566072 μs
+ctrl_DB_57_0_preproc 用时: 614425 μs
+tgt_DB_79_1_preproc 用时: 487862 μs
+ctrl_DB_46_3_preproc 用时: 410797 μs
+ctrl_DB_57_2_preproc 用时: 679126 μs
+tgt_DB_73_0_preproc 用时: 80440 μs
+ctrl_DB_79_0_preproc 用时: 511665 μs
+ctrl_DB_36_4_preproc 用时: 728055 μs
+tgt_DB_79_0_preproc 用时: 1102 μs
+tgt_DB_36_4_preproc 用时: 1350 μs
+ctrl_DB_41_1_preproc 用时: 725375 μs
+tgt_DB_66_1_preproc 用时: 53949 μs
+tgt_DB_41_1_preproc 用时: 1375 μs
+ctrl_DB_72_4_preproc 用时: 514908 μs
+tgt_DB_40_2_preproc 用时: 243421 μs
+tgt_DB_72_4_preproc 用时: 1150 μs
+tgt_DB_42_1_preproc 用时: 205965 μs
+tgt_DB_78_4_preproc 用时: 41089 μs
+tgt_DB_21_0_preproc 用时: 74412 μs
+tgt_DB_70_4_preproc 用时: 71512 μs
+ctrl_DB_22_0_preproc 用时: 887635 μs
+ctrl_DB_74_1_preproc 用时: 568889 μs
+ctrl_DB_35_3_preproc 用时: 737333 μs
+tgt_DB_74_1_preproc 用时: 1281 μs
+tgt_DB_35_3_preproc 用时: 1168 μs
+ctrl_DB_77_3_preproc 用时: 574735 μs
+ctrl_DB_19_2_preproc 用时: 705843 μs
+tgt_DB_77_3_preproc 用时: 1094 μs
+tgt_DB_19_2_preproc 用时: 1151 μs
+tgt_DB_68_0_preproc 用时: 450467 μs
+ctrl_DB_28_3_preproc 用时: 757421 μs
+ctrl_DB_76_4_preproc 用时: 572631 μs
+tgt_DB_28_3_preproc 用时: 1116 μs
+tgt_DB_76_4_preproc 用时: 1118 μs
+ctrl_DB_77_0_preproc 用时: 526209 μs
+ctrl_DB_19_0_preproc 用时: 709832 μs
+tgt_DB_21_3_preproc 用时: 63464 μs
+ctrl_DB_73_3_preproc 用时: 505736 μs
+tgt_DB_72_2_preproc 用时: 251539 μs
+tgt_DB_19_0_preproc 用时: 3586 μs
+ctrl_DB_68_1_preproc 用时: 620507 μs
+tgt_DB_28_2_preproc 用时: 464582 μs
+tgt_DB_68_1_preproc 用时: 1158 μs
+tgt_DB_26_1_preproc 用时: 367524 μs
+ctrl_DB_78_2_preproc 用时: 582771 μs
+tgt_DB_22_0_preproc 用时: 15996 μs
+ctrl_DB_23_2_preproc 用时: 880987 μs
+ctrl_DB_20_2_preproc 用时: 911599 μs
+ctrl_DB_42_2_preproc 用时: 755304 μs
+tgt_DB_61_1_preproc 用时: 38172 μs
+tgt_DB_42_2_preproc 用时: 1200 μs
+ctrl_DB_37_1_preproc 用时: 732433 μs
+ctrl_DB_25_1_preproc 用时: 883954 μs
+tgt_DB_77_0_preproc 用时: 25761 μs
+ctrl_DB_72_1_preproc 用时: 601037 μs
+ctrl_DB_24_3_preproc 用时: 769065 μs
+ctrl_DB_22_2_preproc 用时: 769826 μs
+tgt_DB_72_1_preproc 用时: 1132 μs
+tgt_DB_77_1_preproc 用时: 128297 μs
+tgt_DB_40_3_preproc 用时: 122561 μs
+ctrl_DB_67_2_preproc 用时: 554715 μs
+tgt_DB_22_2_preproc 用时: 1313 μs
+tgt_DB_67_2_preproc 用时: 1200 μs
+ctrl_DB_29_3_preproc 用时: 804235 μs
+tgt_DB_73_3_preproc 用时: 27996 μs
+tgt_DB_29_3_preproc 用时: 1094 μs
+ctrl_DB_35_0_preproc 用时: 746171 μs
+tgt_DB_71_1_preproc 用时: 411159 μs
+tgt_DB_78_2_preproc 用时: 30553 μs
+ctrl_DB_74_0_preproc 用时: 653321 μs
+tgt_DB_58_1_preproc 用时: 291158 μs
+tgt_DB_48_2_preproc 用时: 83330 μs
+ctrl_DB_71_3_preproc 用时: 560469 μs
+tgt_DB_57_2_preproc 用时: 58769 μs
+tgt_DB_74_0_preproc 用时: 2548 μs
+tgt_DB_71_3_preproc 用时: 1302 μs
+tgt_DB_61_4_preproc 用时: 242001 μs
+ctrl_DB_71_2_preproc 用时: 416723 μs
+tgt_DB_57_0_preproc 用时: 64203 μs
+ctrl_DB_59_1_preproc 用时: 648371 μs
+ctrl_DB_66_4_preproc 用时: 624583 μs
+tgt_DB_59_1_preproc 用时: 1460 μs
+tgt_DB_66_4_preproc 用时: 1327 μs
+ctrl_DB_71_4_preproc 用时: 633831 μs
+ctrl_DB_47_1_preproc 用时: 826365 μs
+tgt_DB_71_4_preproc 用时: 1137 μs
+ctrl_DB_75_0_preproc 用时: 563466 μs
+tgt_DB_47_1_preproc 用时: 1175 μs
+tgt_DB_75_0_preproc 用时: 1286 μs
+tgt_DB_5_3_preproc 用时: 885879 μs
+tgt_DB_71_2_preproc 用时: 6622 μs
+tgt_DB_46_3_preproc 用时: 69606 μs
+ctrl_DB_83_4_preproc 用时: 577182 μs
+ctrl_DB_51_4_preproc 用时: 775317 μs
+tgt_DB_83_4_preproc 用时: 1271 μs
+tgt_DB_51_4_preproc 用时: 1308 μs
+tgt_DB_36_3_preproc 用时: 425701 μs
+ctrl_DB_41_3_preproc 用时: 768145 μs
+ctrl_DB_1_3_preproc 用时: 1093822 μs
+tgt_DB_1_3_preproc 用时: 1144 μs
+tgt_DB_41_3_preproc 用时: 1225 μs
+tgt_DB_48_4_preproc 用时: 155436 μs
+tgt_DB_25_4_preproc 用时: 268267 μs
+ctrl_DB_20_3_preproc 用时: 932720 μs
+ctrl_DB_37_0_preproc 用时: 896328 μs
+ctrl_DB_43_4_preproc 用时: 771290 μs
+ctrl_DB_40_1_preproc 用时: 722800 μs
+tgt_DB_24_3_preproc 用时: 35529 μs
+ctrl_DB_15_0_preproc 用时: 1051177 μs
+ctrl_DB_37_4_preproc 用时: 823033 μs
+tgt_DB_15_0_preproc 用时: 1252 μs
+tgt_DB_37_4_preproc 用时: 1211 μs
+tgt_DB_69_4_preproc 用时: 376210 μs
+tgt_DB_30_0_preproc 用时: 102221 μs
+tgt_DB_35_0_preproc 用时: 35402 μs
+tgt_DB_46_0_preproc 用时: 110377 μs
+tgt_DB_48_1_preproc 用时: 223295 μs
+ctrl_DB_49_2_preproc 用时: 676158 μs
+tgt_DB_49_2_preproc 用时: 1585 μs
+ctrl_DB_55_2_preproc 用时: 872277 μs
+ctrl_DB_90_2_preproc 用时: 505972 μs
+tgt_DB_55_2_preproc 用时: 1165 μs
+ctrl_DB_10_2_preproc 用时: 1015598 μs
+tgt_DB_90_2_preproc 用时: 1276 μs
+tgt_DB_95_2_preproc 用时: 160645 μs
+tgt_DB_60_0_preproc 用时: 420879 μs
+tgt_DB_89_1_preproc 用时: 487991 μs
+tgt_DB_10_2_preproc 用时: 3069 μs
+ctrl_DB_51_0_preproc 用时: 803318 μs
+ctrl_DB_49_4_preproc 用时: 880667 μs
+tgt_DB_58_0_preproc 用时: 394302 μs
+ctrl_DB_46_2_preproc 用时: 828730 μs
+ctrl_DB_93_0_preproc 用时: 629528 μs
+tgt_DB_46_2_preproc 用时: 1201 μs
+ctrl_DB_96_0_preproc 用时: 436365 μs
+tgt_DB_45_4_preproc 用时: 209817 μs
+tgt_DB_51_0_preproc 用时: 10162 μs
+ctrl_DB_93_4_preproc 用时: 634890 μs
+ctrl_DB_92_2_preproc 用时: 636850 μs
+ctrl_DB_96_3_preproc 用时: 644413 μs
+ctrl_DB_98_2_preproc 用时: 465728 μs
+ctrl_DB_95_1_preproc 用时: 488598 μs
+tgt_DB_49_4_preproc 用时: 14959 μs
+tgt_DB_43_4_preproc 用时: 41363 μs
+ctrl_DB_26_0_preproc 用时: 900251 μs
+tgt_DB_26_0_preproc 用时: 1333 μs
+ctrl_DB_96_4_preproc 用时: 609104 μs
+tgt_DB_37_1_preproc 用时: 86213 μs
+tgt_DB_25_1_preproc 用时: 84256 μs
+tgt_DB_96_4_preproc 用时: 1331 μs
+tgt_DB_20_3_preproc 用时: 48892 μs
+ctrl_DB_96_2_preproc 用时: 650051 μs
+tgt_DB_20_0_preproc 用时: 606491 μs
+tgt_DB_96_2_preproc 用时: 1208 μs
+tgt_DB_39_0_preproc 用时: 305129 μs
+ctrl_DB_97_2_preproc 用时: 459231 μs
+tgt_DB_20_2_preproc 用时: 95952 μs
+tgt_DB_37_0_preproc 用时: 53018 μs
+ctrl_DB_30_1_preproc 用时: 857364 μs
+ctrl_DB_85_3_preproc 用时: 611596 μs
+tgt_DB_30_1_preproc 用时: 1170 μs
+tgt_DB_85_3_preproc 用时: 1193 μs
+ctrl_DB_41_4_preproc 用时: 826938 μs
+ctrl_DB_85_2_preproc 用时: 613865 μs
+tgt_DB_44_0_preproc 用时: 770672 μs
+tgt_DB_26_3_preproc 用时: 366897 μs
+ctrl_DB_36_2_preproc 用时: 895443 μs
+tgt_DB_93_0_preproc 用时: 34411 μs
+ctrl_DB_90_4_preproc 用时: 665362 μs
+tgt_DB_36_2_preproc 用时: 4262 μs
+tgt_DB_32_1_preproc 用时: 183377 μs
+tgt_DB_34_3_preproc 用时: 194267 μs
+ctrl_DB_84_4_preproc 用时: 498750 μs
+ctrl_DB_41_0_preproc 用时: 838447 μs
+tgt_DB_41_0_preproc 用时: 1225 μs
+tgt_DB_85_2_preproc 用时: 12568 μs
+ctrl_DB_27_0_preproc 用时: 884439 μs
+tgt_DB_90_4_preproc 用时: 6741 μs
+tgt_DB_84_4_preproc 用时: 3690 μs
+tgt_DB_27_0_preproc 用时: 1281 μs
+tgt_DB_25_0_preproc 用时: 213936 μs
+tgt_DB_92_2_preproc 用时: 37278 μs
+ctrl_DB_21_2_preproc 用时: 892081 μs
+tgt_DB_91_0_preproc 用时: 341570 μs
+tgt_DB_21_2_preproc 用时: 1162 μs
+ctrl_DB_94_0_preproc 用时: 420997 μs
+ctrl_DB_21_1_preproc 用时: 1026821 μs
+tgt_DB_94_0_preproc 用时: 1095 μs
+tgt_DB_21_1_preproc 用时: 1642 μs
+ctrl_DB_42_4_preproc 用时: 847784 μs
+tgt_DB_41_4_preproc 用时: 23172 μs
+ctrl_DB_85_0_preproc 用时: 581197 μs
+tgt_DB_31_3_preproc 用时: 450750 μs
+ctrl_DB_38_1_preproc 用时: 883426 μs
+tgt_DB_40_1_preproc 用时: 80539 μs
+ctrl_DB_97_0_preproc 用时: 557481 μs
+tgt_DB_38_1_preproc 用时: 2897 μs
+tgt_DB_42_4_preproc 用时: 7059 μs
+tgt_DB_97_0_preproc 用时: 1349 μs
+tgt_DB_23_2_preproc 用时: 132099 μs
+ctrl_DB_85_1_preproc 用时: 677946 μs
+ctrl_DB_89_3_preproc 用时: 557529 μs
+tgt_DB_89_3_preproc 用时: 1194 μs
+ctrl_DB_90_0_preproc 用时: 613801 μs
+ctrl_DB_98_1_preproc 用时: 696036 μs
+tgt_DB_98_1_preproc 用时: 1257 μs
+ctrl_DB_98_3_preproc 用时: 558079 μs
+ctrl_DB_94_3_preproc 用时: 601368 μs
+ctrl_DB_92_4_preproc 用时: 700971 μs
+ctrl_DB_98_0_preproc 用时: 698379 μs
+ctrl_DB_94_1_preproc 用时: 702583 μs
+ctrl_DB_91_4_preproc 用时: 702882 μs
+tgt_DB_95_1_preproc 用时: 64452 μs
+tgt_DB_95_0_preproc 用时: 190942 μs
+tgt_DB_96_0_preproc 用时: 77365 μs
+tgt_DB_94_1_preproc 用时: 5730 μs
+ctrl_DB_92_1_preproc 用时: 573397 μs
+tgt_DB_92_1_preproc 用时: 1116 μs
+tgt_DB_89_0_preproc 用时: 480955 μs
+ctrl_DB_88_4_preproc 用时: 539523 μs
+tgt_DB_88_4_preproc 用时: 1201 μs
+tgt_DB_89_4_preproc 用时: 223085 μs
+ctrl_DB_84_3_preproc 用时: 651097 μs
+tgt_DB_84_3_preproc 用时: 1137 μs
+tgt_DB_93_4_preproc 用时: 83864 μs
+ctrl_DB_97_1_preproc 用时: 674362 μs
+tgt_DB_94_4_preproc 用时: 358597 μs
+ctrl_DB_91_1_preproc 用时: 584138 μs
+tgt_DB_91_1_preproc 用时: 1159 μs
+ctrl_DB_98_4_preproc 用时: 499501 μs
+tgt_DB_97_2_preproc 用时: 77051 μs
+tgt_DB_90_0_preproc 用时: 35493 μs
+tgt_DB_98_4_preproc 用时: 4815 μs
+tgt_DB_97_1_preproc 用时: 12269 μs
+tgt_DB_92_4_preproc 用时: 31141 μs
+ctrl_DB_95_3_preproc 用时: 412463 μs
+tgt_DB_95_3_preproc 用时: 1146 μs
+tgt_DB_85_0_preproc 用时: 52856 μs
+tgt_DB_96_3_preproc 用时: 97426 μs
+tgt_DB_98_2_preproc 用时: 98373 μs
+tgt_DB_98_0_preproc 用时: 37389 μs
+tgt_DB_94_3_preproc 用时: 43032 μs
+tgt_DB_98_3_preproc 用时: 43898 μs
+tgt_DB_85_1_preproc 用时: 54365 μs
+tgt_DB_91_4_preproc 用时: 41680 μs
+setup_phase 用时: 1436883 μs
+query_phase 用时: 312429 μs
+dispatch_query 用时: 319108 μs
+randomness_gen 用时: 31841 μs
+ctrl_DB_0_0_reply 用时: 71 μs
+tgt_DB_0_0_reply 用时: 59 μs
+ctrl_DB_0_2_reply 用时: 59 μs
+tgt_DB_0_2_reply 用时: 73 μs
+ctrl_DB_0_1_reply 用时: 75 μs
+tgt_DB_0_1_reply 用时: 60 μs
+ctrl_DB_2_2_reply 用时: 61 μs
+tgt_DB_2_2_reply 用时: 73 μs
+ctrl_DB_1_4_reply 用时: 73 μs
+tgt_DB_1_4_reply 用时: 61 μs
+ctrl_DB_2_0_reply 用时: 57 μs
+tgt_DB_2_0_reply 用时: 70 μs
+ctrl_DB_3_0_reply 用时: 75 μs
+tgt_DB_3_0_reply 用时: 59 μs
+ctrl_DB_3_1_reply 用时: 57 μs
+tgt_DB_3_1_reply 用时: 56 μs
+ctrl_DB_3_2_reply 用时: 80 μs
+tgt_DB_3_2_reply 用时: 60 μs
+ctrl_DB_3_3_reply 用时: 75 μs
+tgt_DB_3_3_reply 用时: 69 μs
+ctrl_DB_7_3_reply 用时: 94 μs
+ctrl_DB_4_0_reply 用时: 87 μs
+tgt_DB_4_0_reply 用时: 84 μs
+tgt_DB_7_3_reply 用时: 107 μs
+ctrl_DB_7_4_reply 用时: 82 μs
+ctrl_DB_4_1_reply 用时: 109 μs
+tgt_DB_4_1_reply 用时: 112 μs
+tgt_DB_7_4_reply 用时: 156 μs
+ctrl_DB_4_2_reply 用时: 109 μs
+ctrl_DB_8_2_reply 用时: 94 μs
+tgt_DB_8_2_reply 用时: 79 μs
+ctrl_DB_0_3_reply 用时: 323 μs
+tgt_DB_0_3_reply 用时: 73 μs
+ctrl_DB_6_0_reply 用时: 2429 μs
+ctrl_DB_11_2_reply 用时: 80 μs
+tgt_DB_11_2_reply 用时: 99 μs
+tgt_DB_4_2_reply 用时: 89 μs
+ctrl_DB_8_3_reply 用时: 86 μs
+tgt_DB_8_3_reply 用时: 128 μs
+tgt_DB_6_0_reply 用时: 544 μs
+ctrl_DB_4_3_reply 用时: 160 μs
+ctrl_DB_4_4_reply 用时: 76 μs
+tgt_DB_4_4_reply 用时: 84 μs
+tgt_DB_4_3_reply 用时: 261 μs
+ctrl_DB_8_4_reply 用时: 71 μs
+ctrl_DB_5_0_reply 用时: 69 μs
+tgt_DB_5_0_reply 用时: 103 μs
+tgt_DB_8_4_reply 用时: 133 μs
+ctrl_DB_9_0_reply 用时: 71 μs
+ctrl_DB_5_1_reply 用时: 68 μs
+tgt_DB_5_1_reply 用时: 93 μs
+tgt_DB_9_0_reply 用时: 121 μs
+ctrl_DB_9_1_reply 用时: 90 μs
+ctrl_DB_5_3_reply 用时: 70 μs
+tgt_DB_9_1_reply 用时: 103 μs
+ctrl_DB_9_2_reply 用时: 69 μs
+tgt_DB_5_3_reply 用时: 136 μs
+ctrl_DB_5_4_reply 用时: 67 μs
+tgt_DB_9_2_reply 用时: 121 μs
+ctrl_DB_7_2_reply 用时: 64 μs
+tgt_DB_5_4_reply 用时: 101 μs
+ctrl_DB_26_2_reply 用时: 670 μs
+tgt_DB_7_2_reply 用时: 96 μs
+ctrl_DB_7_1_reply 用时: 77 μs
+ctrl_DB_1_3_reply 用时: 109 μs
+tgt_DB_7_1_reply 用时: 95 μs
+ctrl_DB_7_0_reply 用时: 75 μs
+tgt_DB_1_3_reply 用时: 111 μs
+ctrl_DB_6_1_reply 用时: 122 μs
+tgt_DB_7_0_reply 用时: 101 μs
+ctrl_DB_6_2_reply 用时: 87 μs
+tgt_DB_6_1_reply 用时: 118 μs
+ctrl_DB_9_3_reply 用时: 81 μs
+tgt_DB_6_2_reply 用时: 130 μs
+ctrl_DB_6_3_reply 用时: 68 μs
+tgt_DB_9_3_reply 用时: 112 μs
+ctrl_DB_9_4_reply 用时: 79 μs
+tgt_DB_6_3_reply 用时: 110 μs
+ctrl_DB_6_4_reply 用时: 76 μs
+tgt_DB_9_4_reply 用时: 95 μs
+tgt_DB_26_2_reply 用时: 618 μs
+tgt_DB_6_4_reply 用时: 92 μs
+ctrl_DB_1_1_reply 用时: 97 μs
+ctrl_DB_10_0_reply 用时: 118 μs
+ctrl_DB_10_1_reply 用时: 68 μs
+tgt_DB_1_1_reply 用时: 138 μs
+ctrl_DB_1_2_reply 用时: 73 μs
+tgt_DB_10_1_reply 用时: 75 μs
+tgt_DB_1_2_reply 用时: 81 μs
+tgt_DB_10_0_reply 用时: 219 μs
+ctrl_DB_11_1_reply 用时: 65 μs
+tgt_DB_11_1_reply 用时: 83 μs
+ctrl_DB_10_3_reply 用时: 66 μs
+ctrl_DB_10_2_reply 用时: 154 μs
+tgt_DB_10_3_reply 用时: 69 μs
+tgt_DB_10_2_reply 用时: 82 μs
+ctrl_DB_1_0_reply 用时: 69 μs
+tgt_DB_1_0_reply 用时: 118 μs
+ctrl_DB_10_4_reply 用时: 83 μs
+ctrl_DB_0_4_reply 用时: 75 μs
+tgt_DB_0_4_reply 用时: 72 μs
+ctrl_DB_36_2_reply 用时: 64 μs
+ctrl_DB_11_0_reply 用时: 76 μs
+ctrl_DB_37_2_reply 用时: 74 μs
+tgt_DB_37_2_reply 用时: 75 μs
+ctrl_DB_30_1_reply 用时: 116 μs
+tgt_DB_11_0_reply 用时: 412 μs
+tgt_DB_30_1_reply 用时: 69 μs
+tgt_DB_10_4_reply 用时: 864 μs
+ctrl_DB_37_1_reply 用时: 112 μs
+tgt_DB_37_1_reply 用时: 104 μs
+ctrl_DB_3_4_reply 用时: 63 μs
+tgt_DB_3_4_reply 用时: 84 μs
+ctrl_DB_2_4_reply 用时: 65 μs
+ctrl_DB_31_3_reply 用时: 93 μs
+tgt_DB_2_4_reply 用时: 132 μs
+ctrl_DB_5_2_reply 用时: 82 μs
+tgt_DB_31_3_reply 用时: 143 μs
+tgt_DB_5_2_reply 用时: 82 μs
+ctrl_DB_2_3_reply 用时: 63 μs
+ctrl_DB_28_2_reply 用时: 69 μs
+tgt_DB_2_3_reply 用时: 174 μs
+ctrl_DB_8_0_reply 用时: 84 μs
+tgt_DB_28_2_reply 用时: 203 μs
+tgt_DB_8_0_reply 用时: 179 μs
+ctrl_DB_29_0_reply 用时: 142 μs
+ctrl_DB_2_1_reply 用时: 68 μs
+tgt_DB_29_0_reply 用时: 65 μs
+tgt_DB_2_1_reply 用时: 92 μs
+ctrl_DB_8_1_reply 用时: 78 μs
+ctrl_DB_36_3_reply 用时: 88 μs
+tgt_DB_8_1_reply 用时: 87 μs
+tgt_DB_36_3_reply 用时: 115 μs
+ctrl_DB_29_3_reply 用时: 150 μs
+tgt_DB_29_3_reply 用时: 100 μs
+ctrl_DB_28_3_reply 用时: 119 μs
+ctrl_DB_30_0_reply 用时: 141 μs
+ctrl_DB_36_1_reply 用时: 162 μs
+tgt_DB_30_0_reply 用时: 207 μs
+tgt_DB_36_1_reply 用时: 87 μs
+ctrl_DB_36_4_reply 用时: 78 μs
+ctrl_DB_30_3_reply 用时: 120 μs
+tgt_DB_36_4_reply 用时: 176 μs
+ctrl_DB_28_0_reply 用时: 97 μs
+ctrl_DB_31_0_reply 用时: 110 μs
+tgt_DB_31_0_reply 用时: 127 μs
+tgt_DB_28_0_reply 用时: 162 μs
+ctrl_DB_37_0_reply 用时: 132 μs
+ctrl_DB_27_0_reply 用时: 153 μs
+tgt_DB_37_0_reply 用时: 112 μs
+tgt_DB_27_0_reply 用时: 120 μs
+ctrl_DB_24_2_reply 用时: 82 μs
+tgt_DB_24_2_reply 用时: 60 μs
+ctrl_DB_26_4_reply 用时: 81 μs
+ctrl_DB_31_1_reply 用时: 1663 μs
+tgt_DB_26_4_reply 用时: 82 μs
+tgt_DB_31_1_reply 用时: 71 μs
+ctrl_DB_29_2_reply 用时: 68 μs
+tgt_DB_36_2_reply 用时: 4184 μs
+tgt_DB_29_2_reply 用时: 112 μs
+ctrl_DB_26_1_reply 用时: 4909 μs
+ctrl_DB_27_2_reply 用时: 163 μs
+tgt_DB_26_1_reply 用时: 198 μs
+tgt_DB_27_2_reply 用时: 127 μs
+tgt_DB_28_3_reply 用时: 2490 μs
+tgt_DB_30_3_reply 用时: 1545 μs
+ctrl_DB_27_1_reply 用时: 307 μs
+ctrl_DB_27_3_reply 用时: 256 μs
+tgt_DB_27_1_reply 用时: 67 μs
+tgt_DB_27_3_reply 用时: 64 μs
+ctrl_DB_26_3_reply 用时: 105 μs
+ctrl_DB_28_1_reply 用时: 62 μs
+tgt_DB_28_1_reply 用时: 61 μs
+tgt_DB_26_3_reply 用时: 82 μs
+ctrl_DB_28_4_reply 用时: 61 μs
+ctrl_DB_26_0_reply 用时: 83 μs
+tgt_DB_28_4_reply 用时: 83 μs
+tgt_DB_26_0_reply 用时: 66 μs
+ctrl_DB_29_1_reply 用时: 76 μs
+ctrl_DB_25_4_reply 用时: 90 μs
+tgt_DB_29_1_reply 用时: 67 μs
+tgt_DB_25_4_reply 用时: 64 μs
+ctrl_DB_29_4_reply 用时: 59 μs
+ctrl_DB_25_3_reply 用时: 61 μs
+tgt_DB_29_4_reply 用时: 78 μs
+tgt_DB_25_3_reply 用时: 61 μs
+ctrl_DB_30_2_reply 用时: 62 μs
+ctrl_DB_25_2_reply 用时: 77 μs
+tgt_DB_30_2_reply 用时: 59 μs
+tgt_DB_25_2_reply 用时: 66 μs
+ctrl_DB_30_4_reply 用时: 62 μs
+tgt_DB_30_4_reply 用时: 84 μs
+ctrl_DB_25_0_reply 用时: 72 μs
+ctrl_DB_31_2_reply 用时: 65 μs
+tgt_DB_25_0_reply 用时: 112 μs
+ctrl_DB_31_4_reply 用时: 73 μs
+ctrl_DB_24_4_reply 用时: 64 μs
+tgt_DB_31_4_reply 用时: 79 μs
+tgt_DB_24_4_reply 用时: 64 μs
+ctrl_DB_32_0_reply 用时: 65 μs
+ctrl_DB_24_3_reply 用时: 65 μs
+tgt_DB_32_0_reply 用时: 62 μs
+tgt_DB_24_3_reply 用时: 78 μs
+ctrl_DB_32_1_reply 用时: 88 μs
+ctrl_DB_24_1_reply 用时: 66 μs
+tgt_DB_24_1_reply 用时: 61 μs
+tgt_DB_32_1_reply 用时: 124 μs
+ctrl_DB_24_0_reply 用时: 59 μs
+ctrl_DB_32_2_reply 用时: 68 μs
+tgt_DB_24_0_reply 用时: 84 μs
+tgt_DB_32_2_reply 用时: 62 μs
+ctrl_DB_23_4_reply 用时: 62 μs
+ctrl_DB_32_3_reply 用时: 159 μs
+ctrl_DB_23_3_reply 用时: 79 μs
+tgt_DB_32_3_reply 用时: 106 μs
+tgt_DB_23_3_reply 用时: 80 μs
+ctrl_DB_32_4_reply 用时: 61 μs
+ctrl_DB_23_2_reply 用时: 80 μs
+tgt_DB_32_4_reply 用时: 62 μs
+ctrl_DB_33_0_reply 用时: 77 μs
+ctrl_DB_23_1_reply 用时: 65 μs
+tgt_DB_33_0_reply 用时: 66 μs
+tgt_DB_23_1_reply 用时: 75 μs
+ctrl_DB_33_1_reply 用时: 61 μs
+ctrl_DB_23_0_reply 用时: 80 μs
+tgt_DB_33_1_reply 用时: 74 μs
+ctrl_DB_33_2_reply 用时: 80 μs
+ctrl_DB_22_4_reply 用时: 69 μs
+tgt_DB_33_2_reply 用时: 68 μs
+tgt_DB_22_4_reply 用时: 75 μs
+ctrl_DB_33_3_reply 用时: 59 μs
+ctrl_DB_22_3_reply 用时: 62 μs
+tgt_DB_33_3_reply 用时: 62 μs
+tgt_DB_22_3_reply 用时: 60 μs
+ctrl_DB_33_4_reply 用时: 83 μs
+ctrl_DB_22_2_reply 用时: 60 μs
+tgt_DB_33_4_reply 用时: 72 μs
+tgt_DB_22_2_reply 用时: 72 μs
+ctrl_DB_34_0_reply 用时: 77 μs
+ctrl_DB_22_1_reply 用时: 63 μs
+tgt_DB_34_0_reply 用时: 61 μs
+tgt_DB_22_1_reply 用时: 59 μs
+ctrl_DB_34_1_reply 用时: 84 μs
+ctrl_DB_22_0_reply 用时: 111 μs
+tgt_DB_34_1_reply 用时: 64 μs
+tgt_DB_22_0_reply 用时: 79 μs
+ctrl_DB_34_2_reply 用时: 60 μs
+ctrl_DB_21_4_reply 用时: 66 μs
+tgt_DB_34_2_reply 用时: 59 μs
+tgt_DB_21_4_reply 用时: 61 μs
+ctrl_DB_34_3_reply 用时: 103 μs
+ctrl_DB_21_3_reply 用时: 75 μs
+tgt_DB_34_3_reply 用时: 80 μs
+tgt_DB_21_3_reply 用时: 79 μs
+ctrl_DB_34_4_reply 用时: 57 μs
+tgt_DB_23_4_reply 用时: 1843 μs
+tgt_DB_34_4_reply 用时: 55 μs
+ctrl_DB_35_0_reply 用时: 92 μs
+ctrl_DB_13_0_reply 用时: 66 μs
+tgt_DB_35_0_reply 用时: 67 μs
+tgt_DB_13_0_reply 用时: 62 μs
+ctrl_DB_11_3_reply 用时: 58 μs
+ctrl_DB_12_4_reply 用时: 101 μs
+tgt_DB_12_4_reply 用时: 64 μs
+ctrl_DB_13_1_reply 用时: 81 μs
+tgt_DB_13_1_reply 用时: 64 μs
+ctrl_DB_12_2_reply 用时: 67 μs
+ctrl_DB_13_2_reply 用时: 64 μs
+tgt_DB_12_2_reply 用时: 70 μs
+tgt_DB_13_2_reply 用时: 63 μs
+ctrl_DB_13_3_reply 用时: 80 μs
+ctrl_DB_12_0_reply 用时: 65 μs
+tgt_DB_13_3_reply 用时: 80 μs
+ctrl_DB_11_4_reply 用时: 68 μs
+ctrl_DB_13_4_reply 用时: 67 μs
+tgt_DB_13_4_reply 用时: 62 μs
+tgt_DB_11_4_reply 用时: 76 μs
+ctrl_DB_14_0_reply 用时: 74 μs
+ctrl_DB_20_3_reply 用时: 83 μs
+tgt_DB_20_3_reply 用时: 63 μs
+ctrl_DB_14_1_reply 用时: 66 μs
+ctrl_DB_20_4_reply 用时: 62 μs
+tgt_DB_14_1_reply 用时: 60 μs
+tgt_DB_20_4_reply 用时: 99 μs
+ctrl_DB_14_2_reply 用时: 85 μs
+ctrl_DB_21_0_reply 用时: 69 μs
+tgt_DB_14_2_reply 用时: 71 μs
+tgt_DB_21_0_reply 用时: 73 μs
+ctrl_DB_14_3_reply 用时: 60 μs
+tgt_DB_14_3_reply 用时: 58 μs
+ctrl_DB_21_1_reply 用时: 115 μs
+tgt_DB_21_1_reply 用时: 66 μs
+ctrl_DB_15_0_reply 用时: 104 μs
+ctrl_DB_21_2_reply 用时: 62 μs
+tgt_DB_21_2_reply 用时: 73 μs
+tgt_DB_15_0_reply 用时: 79 μs
+ctrl_DB_15_1_reply 用时: 65 μs
+ctrl_DB_37_3_reply 用时: 77 μs
+tgt_DB_37_3_reply 用时: 64 μs
+tgt_DB_15_1_reply 用时: 77 μs
+ctrl_DB_36_0_reply 用时: 64 μs
+ctrl_DB_15_2_reply 用时: 67 μs
+tgt_DB_15_2_reply 用时: 63 μs
+ctrl_DB_15_3_reply 用时: 61 μs
+ctrl_DB_35_4_reply 用时: 80 μs
+tgt_DB_35_4_reply 用时: 61 μs
+tgt_DB_15_3_reply 用时: 123 μs
+ctrl_DB_35_3_reply 用时: 96 μs
+ctrl_DB_15_4_reply 用时: 64 μs
+tgt_DB_35_3_reply 用时: 65 μs
+tgt_DB_15_4_reply 用时: 62 μs
+ctrl_DB_35_2_reply 用时: 73 μs
+ctrl_DB_16_0_reply 用时: 63 μs
+tgt_DB_35_2_reply 用时: 60 μs
+tgt_DB_16_0_reply 用时: 75 μs
+ctrl_DB_16_1_reply 用时: 61 μs
+tgt_DB_16_1_reply 用时: 60 μs
+ctrl_DB_19_2_reply 用时: 78 μs
+tgt_DB_19_2_reply 用时: 73 μs
+ctrl_DB_19_0_reply 用时: 101 μs
+ctrl_DB_19_4_reply 用时: 66 μs
+tgt_DB_19_0_reply 用时: 113 μs
+tgt_DB_19_4_reply 用时: 64 μs
+ctrl_DB_16_3_reply 用时: 149 μs
+ctrl_DB_18_0_reply 用时: 84 μs
+tgt_DB_16_3_reply 用时: 64 μs
+tgt_DB_23_2_reply 用时: 5473 μs
+tgt_DB_23_0_reply 用时: 5225 μs
+ctrl_DB_12_3_reply 用时: 3731 μs
+tgt_DB_12_3_reply 用时: 131 μs
+ctrl_DB_12_1_reply 用时: 3725 μs
+tgt_DB_12_1_reply 用时: 137 μs
+tgt_DB_12_0_reply 用时: 3810 μs
+tgt_DB_36_0_reply 用时: 2696 μs
+ctrl_DB_35_1_reply 用时: 2265 μs
+tgt_DB_35_1_reply 用时: 97 μs
+ctrl_DB_19_1_reply 用时: 2187 μs
+tgt_DB_14_0_reply 用时: 4569 μs
+ctrl_DB_25_1_reply 用时: 8477 μs
+ctrl_DB_14_4_reply 用时: 4904 μs
+ctrl_DB_37_4_reply 用时: 2725 μs
+ctrl_DB_38_2_reply 用时: 204 μs
+tgt_DB_37_4_reply 用时: 243 μs
+tgt_DB_11_3_reply 用时: 6829 μs
+tgt_DB_31_2_reply 用时: 9720 μs
+tgt_DB_38_2_reply 用时: 780 μs
+ctrl_DB_27_4_reply 用时: 13945 μs
+ctrl_DB_39_0_reply 用时: 247 μs
+ctrl_DB_20_0_reply 用时: 5861 μs
+tgt_DB_20_0_reply 用时: 122 μs
+tgt_DB_18_0_reply 用时: 5861 μs
+ctrl_DB_17_0_reply 用时: 5994 μs
+tgt_DB_17_0_reply 用时: 80 μs
+tgt_DB_19_1_reply 用时: 4269 μs
+ctrl_DB_16_4_reply 用时: 4371 μs
+ctrl_DB_17_1_reply 用时: 2967 μs
+ctrl_DB_40_1_reply 用时: 1566 μs
+ctrl_DB_43_0_reply 用时: 299 μs
+ctrl_DB_40_0_reply 用时: 1623 μs
+tgt_DB_40_0_reply 用时: 85 μs
+ctrl_DB_39_4_reply 用时: 1710 μs
+tgt_DB_39_4_reply 用时: 82 μs
+ctrl_DB_39_3_reply 用时: 2999 μs
+ctrl_DB_18_2_reply 用时: 6033 μs
+tgt_DB_18_2_reply 用时: 106 μs
+ctrl_DB_18_1_reply 用时: 93 μs
+tgt_DB_18_1_reply 用时: 79 μs
+ctrl_DB_20_2_reply 用时: 4477 μs
+ctrl_DB_17_2_reply 用时: 5455 μs
+tgt_DB_16_4_reply 用时: 2615 μs
+ctrl_DB_38_0_reply 用时: 372 μs
+ctrl_DB_44_2_reply 用时: 1859 μs
+tgt_DB_44_2_reply 用时: 89 μs
+ctrl_DB_40_2_reply 用时: 4363 μs
+ctrl_DB_41_4_reply 用时: 2051 μs
+tgt_DB_40_2_reply 用时: 168 μs
+ctrl_DB_43_3_reply 用时: 2112 μs
+tgt_DB_43_3_reply 用时: 103 μs
+ctrl_DB_44_0_reply 用时: 2246 μs
+tgt_DB_44_0_reply 用时: 164 μs
+ctrl_DB_43_2_reply 用时: 2451 μs
+tgt_DB_43_2_reply 用时: 136 μs
+ctrl_DB_42_2_reply 用时: 2588 μs
+tgt_DB_42_2_reply 用时: 125 μs
+ctrl_DB_42_1_reply 用时: 2715 μs
+tgt_DB_42_1_reply 用时: 124 μs
+ctrl_DB_42_3_reply 用时: 2851 μs
+tgt_DB_42_3_reply 用时: 120 μs
+ctrl_DB_38_1_reply 用时: 8260 μs
+tgt_DB_43_0_reply 用时: 4335 μs
+ctrl_DB_19_3_reply 用时: 7489 μs
+ctrl_DB_42_4_reply 用时: 5951 μs
+tgt_DB_41_4_reply 用时: 2193 μs
+tgt_DB_25_1_reply 用时: 9093 μs
+ctrl_DB_17_3_reply 用时: 11877 μs
+tgt_DB_17_3_reply 用时: 111 μs
+tgt_DB_38_1_reply 用时: 1187 μs
+ctrl_DB_40_3_reply 用时: 5859 μs
+ctrl_DB_38_3_reply 用时: 7951 μs
+tgt_DB_40_1_reply 用时: 5604 μs
+tgt_DB_14_4_reply 用时: 8880 μs
+tgt_DB_17_1_reply 用时: 5914 μs
+tgt_DB_17_2_reply 用时: 3559 μs
+tgt_DB_19_3_reply 用时: 1304 μs
+tgt_DB_38_3_reply 用时: 417 μs
+ctrl_DB_40_4_reply 用时: 7146 μs
+ctrl_DB_39_1_reply 用时: 8233 μs
+tgt_DB_39_1_reply 用时: 93 μs
+ctrl_DB_20_1_reply 用时: 9365 μs
+tgt_DB_39_3_reply 用时: 5464 μs
+ctrl_DB_44_1_reply 用时: 6546 μs
+tgt_DB_40_3_reply 用时: 1997 μs
+ctrl_DB_45_2_reply 用时: 701 μs
+tgt_DB_45_2_reply 用时: 75 μs
+ctrl_DB_45_1_reply 用时: 736 μs
+tgt_DB_45_1_reply 用时: 94 μs
+ctrl_DB_43_4_reply 用时: 6654 μs
+ctrl_DB_17_4_reply 用时: 5829 μs
+tgt_DB_42_4_reply 用时: 3238 μs
+tgt_DB_38_0_reply 用时: 5752 μs
+ctrl_DB_18_4_reply 用时: 8363 μs
+tgt_DB_20_2_reply 用时: 6191 μs
+tgt_DB_27_4_reply 用时: 10797 μs
+tgt_DB_39_0_reply 用时: 10413 μs
+ctrl_DB_42_0_reply 用时: 8108 μs
+ctrl_DB_39_2_reply 用时: 9908 μs
+ctrl_DB_44_3_reply 用时: 864 μs
+ctrl_DB_41_1_reply 用时: 2422 μs
+tgt_DB_42_0_reply 用时: 196 μs
+tgt_DB_44_3_reply 用时: 208 μs
+ctrl_DB_41_3_reply 用时: 2568 μs
+tgt_DB_41_3_reply 用时: 70 μs
+tgt_DB_41_1_reply 用时: 360 μs
+ctrl_DB_45_0_reply 用时: 2342 μs
+tgt_DB_45_0_reply 用时: 111 μs
+ctrl_DB_45_4_reply 用时: 1353 μs
+ctrl_DB_43_1_reply 用时: 8875 μs
+ctrl_DB_45_3_reply 用时: 2551 μs
+ctrl_DB_38_4_reply 用时: 12240 μs
+ctrl_DB_44_4_reply 用时: 3313 μs
+tgt_DB_20_1_reply 用时: 3348 μs
+ctrl_DB_18_3_reply 用时: 10655 μs
+tgt_DB_17_4_reply 用时: 2414 μs
+tgt_DB_39_2_reply 用时: 1701 μs
+ctrl_DB_41_2_reply 用时: 5646 μs
+tgt_DB_45_4_reply 用时: 1340 μs
+tgt_DB_43_1_reply 用时: 1304 μs
+tgt_DB_43_4_reply 用时: 3102 μs
+ctrl_DB_16_2_reply 用时: 17730 μs
+tgt_DB_45_3_reply 用时: 1284 μs
+tgt_DB_44_1_reply 用时: 3943 μs
+tgt_DB_40_4_reply 用时: 4949 μs
+tgt_DB_38_4_reply 用时: 1190 μs
+tgt_DB_18_4_reply 用时: 3134 μs
+tgt_DB_16_2_reply 用时: 338 μs
+ctrl_DB_41_0_reply 用时: 5737 μs
+tgt_DB_44_4_reply 用时: 1421 μs
+tgt_DB_41_0_reply 用时: 190 μs
+tgt_DB_41_2_reply 用时: 831 μs
+tgt_DB_18_3_reply 用时: 1411 μs
+ctrl_DB_46_0_reply 用时: 1047 μs
+ctrl_DB_46_1_reply 用时: 1076 μs
+tgt_DB_46_0_reply 用时: 300 μs
+ctrl_DB_46_2_reply 用时: 816 μs
+ctrl_DB_46_4_reply 用时: 226 μs
+tgt_DB_46_2_reply 用时: 93 μs
+tgt_DB_46_1_reply 用时: 452 μs
+tgt_DB_46_4_reply 用时: 228 μs
+ctrl_DB_46_3_reply 用时: 1134 μs
+ctrl_DB_47_2_reply 用时: 107 μs
+tgt_DB_46_3_reply 用时: 113 μs
+ctrl_DB_49_3_reply 用时: 91 μs
+tgt_DB_49_3_reply 用时: 95 μs
+ctrl_DB_49_2_reply 用时: 1049 μs
+tgt_DB_49_2_reply 用时: 87 μs
+ctrl_DB_48_0_reply 用时: 2048 μs
+ctrl_DB_48_2_reply 用时: 1257 μs
+tgt_DB_48_2_reply 用时: 102 μs
+ctrl_DB_50_4_reply 用时: 232 μs
+ctrl_DB_49_4_reply 用时: 144 μs
+tgt_DB_49_4_reply 用时: 97 μs
+ctrl_DB_50_1_reply 用时: 1177 μs
+tgt_DB_50_1_reply 用时: 94 μs
+ctrl_DB_50_2_reply 用时: 1259 μs
+tgt_DB_50_2_reply 用时: 80 μs
+ctrl_DB_50_3_reply 用时: 1329 μs
+tgt_DB_50_3_reply 用时: 87 μs
+ctrl_DB_49_1_reply 用时: 1427 μs
+tgt_DB_49_1_reply 用时: 180 μs
+ctrl_DB_49_0_reply 用时: 1607 μs
+tgt_DB_49_0_reply 用时: 88 μs
+ctrl_DB_48_1_reply 用时: 1690 μs
+tgt_DB_48_1_reply 用时: 151 μs
+tgt_DB_47_2_reply 用时: 3000 μs
+ctrl_DB_48_4_reply 用时: 3443 μs
+ctrl_DB_50_0_reply 用时: 2829 μs
+ctrl_DB_47_1_reply 用时: 3365 μs
+ctrl_DB_51_0_reply 用时: 729 μs
+tgt_DB_47_1_reply 用时: 262 μs
+ctrl_DB_47_3_reply 用时: 3284 μs
+ctrl_DB_47_0_reply 用时: 4252 μs
+ctrl_DB_48_3_reply 用时: 3287 μs
+tgt_DB_50_4_reply 用时: 2806 μs
+tgt_DB_48_0_reply 用时: 3223 μs
+ctrl_DB_47_4_reply 用时: 3935 μs
+ctrl_DB_51_4_reply 用时: 162 μs
+tgt_DB_51_4_reply 用时: 85 μs
+ctrl_DB_53_2_reply 用时: 1113 μs
+ctrl_DB_53_1_reply 用时: 1167 μs
+ctrl_DB_52_0_reply 用时: 1235 μs
+ctrl_DB_56_4_reply 用时: 90 μs
+tgt_DB_52_0_reply 用时: 101 μs
+ctrl_DB_51_2_reply 用时: 3057 μs
+ctrl_DB_52_3_reply 用时: 1604 μs
+ctrl_DB_52_2_reply 用时: 1572 μs
+ctrl_DB_54_2_reply 用时: 86 μs
+tgt_DB_52_2_reply 用时: 82 μs
+tgt_DB_48_4_reply 用时: 4346 μs
+ctrl_DB_55_1_reply 用时: 118 μs
+ctrl_DB_58_4_reply 用时: 110 μs
+tgt_DB_55_1_reply 用时: 106 μs
+ctrl_DB_57_3_reply 用时: 1192 μs
+tgt_DB_57_3_reply 用时: 88 μs
+ctrl_DB_56_3_reply 用时: 1269 μs
+tgt_DB_56_3_reply 用时: 119 μs
+ctrl_DB_57_1_reply 用时: 1380 μs
+tgt_DB_57_1_reply 用时: 90 μs
+ctrl_DB_56_2_reply 用时: 1474 μs
+tgt_DB_56_2_reply 用时: 81 μs
+ctrl_DB_56_0_reply 用时: 1555 μs
+tgt_DB_56_0_reply 用时: 94 μs
+ctrl_DB_51_3_reply 用时: 4889 μs
+tgt_DB_50_0_reply 用时: 5310 μs
+ctrl_DB_55_0_reply 用时: 2638 μs
+tgt_DB_54_2_reply 用时: 1738 μs
+tgt_DB_51_3_reply 用时: 624 μs
+ctrl_DB_53_0_reply 用时: 4158 μs
+tgt_DB_53_0_reply 用时: 114 μs
+ctrl_DB_58_2_reply 用时: 669 μs
+tgt_DB_58_2_reply 用时: 90 μs
+ctrl_DB_58_1_reply 用时: 778 μs
+tgt_DB_58_4_reply 用时: 1975 μs
+tgt_DB_58_1_reply 用时: 90 μs
+tgt_DB_55_0_reply 用时: 1280 μs
+tgt_DB_47_0_reply 用时: 6193 μs
+tgt_DB_47_3_reply 用时: 6325 μs
+tgt_DB_53_2_reply 用时: 4248 μs
+ctrl_DB_51_1_reply 用时: 7200 μs
+ctrl_DB_55_4_reply 用时: 3872 μs
+tgt_DB_56_4_reply 用时: 4130 μs
+tgt_DB_52_3_reply 用时: 3487 μs
+ctrl_DB_55_2_reply 用时: 4873 μs
+ctrl_DB_60_0_reply 用时: 443 μs
+ctrl_DB_60_1_reply 用时: 174 μs
+tgt_DB_60_0_reply 用时: 98 μs
+tgt_DB_51_1_reply 用时: 1226 μs
+ctrl_DB_52_4_reply 用时: 6606 μs
+ctrl_DB_54_0_reply 用时: 6344 μs
+ctrl_DB_53_3_reply 用时: 6541 μs
+tgt_DB_53_1_reply 用时: 5812 μs
+ctrl_DB_55_3_reply 用时: 5080 μs
+tgt_DB_55_3_reply 用时: 96 μs
+ctrl_DB_58_3_reply 用时: 6078 μs
+tgt_DB_52_4_reply 用时: 656 μs
+ctrl_DB_52_1_reply 用时: 6993 μs
+tgt_DB_51_0_reply 用时: 8945 μs
+ctrl_DB_60_2_reply 用时: 1235 μs
+tgt_DB_54_0_reply 用时: 881 μs
+tgt_DB_60_2_reply 用时: 101 μs
+ctrl_DB_60_3_reply 用时: 617 μs
+ctrl_DB_56_1_reply 用时: 6998 μs
+ctrl_DB_54_1_reply 用时: 6458 μs
+ctrl_DB_59_1_reply 用时: 2523 μs
+tgt_DB_59_1_reply 用时: 96 μs
+ctrl_DB_54_3_reply 用时: 7883 μs
+tgt_DB_47_4_reply 用时: 8895 μs
+ctrl_DB_54_4_reply 用时: 5619 μs
+ctrl_DB_57_4_reply 用时: 4375 μs
+tgt_DB_60_3_reply 用时: 678 μs
+tgt_DB_53_3_reply 用时: 1651 μs
+tgt_DB_54_3_reply 用时: 456 μs
+tgt_DB_48_3_reply 用时: 9427 μs
+ctrl_DB_57_2_reply 用时: 7219 μs
+tgt_DB_51_2_reply 用时: 7677 μs
+ctrl_DB_57_0_reply 用时: 7798 μs
+tgt_DB_57_0_reply 用时: 722 μs
+ctrl_DB_63_3_reply 用时: 924 μs
+tgt_DB_63_3_reply 用时: 99 μs
+ctrl_DB_64_2_reply 用时: 904 μs
+ctrl_DB_61_3_reply 用时: 92 μs
+tgt_DB_64_2_reply 用时: 88 μs
+tgt_DB_61_3_reply 用时: 92 μs
+ctrl_DB_64_4_reply 用时: 1089 μs
+ctrl_DB_61_2_reply 用时: 95 μs
+tgt_DB_61_2_reply 用时: 87 μs
+ctrl_DB_63_1_reply 用时: 1269 μs
+ctrl_DB_63_0_reply 用时: 1333 μs
+tgt_DB_63_0_reply 用时: 90 μs
+ctrl_DB_59_0_reply 用时: 6166 μs
+ctrl_DB_53_4_reply 用时: 10500 μs
+ctrl_DB_61_4_reply 用时: 85 μs
+tgt_DB_61_4_reply 用时: 105 μs
+ctrl_DB_64_1_reply 用时: 1732 μs
+tgt_DB_64_1_reply 用时: 86 μs
+ctrl_DB_65_0_reply 用时: 1830 μs
+tgt_DB_65_0_reply 用时: 147 μs
+ctrl_DB_58_0_reply 用时: 8051 μs
+tgt_DB_59_0_reply 用时: 1063 μs
+ctrl_DB_62_2_reply 用时: 2706 μs
+tgt_DB_62_2_reply 用时: 103 μs
+ctrl_DB_63_2_reply 用时: 2893 μs
+tgt_DB_63_2_reply 用时: 97 μs
+tgt_DB_56_1_reply 用时: 4806 μs
+tgt_DB_60_1_reply 用时: 6671 μs
+ctrl_DB_59_4_reply 用时: 7153 μs
+tgt_DB_54_4_reply 用时: 4296 μs
+tgt_DB_55_2_reply 用时: 7195 μs
+ctrl_DB_60_4_reply 用时: 4187 μs
+tgt_DB_55_4_reply 用时: 7743 μs
+ctrl_DB_62_4_reply 用时: 4143 μs
+tgt_DB_58_0_reply 用时: 1507 μs
+ctrl_DB_59_2_reply 用时: 8244 μs
+ctrl_DB_63_4_reply 用时: 4422 μs
+tgt_DB_57_4_reply 用时: 5599 μs
+tgt_DB_58_3_reply 用时: 6737 μs
+ctrl_DB_66_1_reply 用时: 1128 μs
+tgt_DB_59_2_reply 用时: 436 μs
+ctrl_DB_59_3_reply 用时: 8503 μs
+tgt_DB_57_2_reply 用时: 5623 μs
+tgt_DB_53_4_reply 用时: 3254 μs
+tgt_DB_59_4_reply 用时: 192 μs
+tgt_DB_52_1_reply 用时: 7076 μs
+tgt_DB_64_4_reply 用时: 3957 μs
+tgt_DB_63_1_reply 用时: 3892 μs
+ctrl_DB_66_2_reply 用时: 1420 μs
+ctrl_DB_61_1_reply 用时: 2472 μs
+tgt_DB_62_4_reply 用时: 2195 μs
+ctrl_DB_64_3_reply 用时: 5598 μs
+ctrl_DB_64_0_reply 用时: 484 μs
+ctrl_DB_65_1_reply 用时: 3895 μs
+ctrl_DB_70_4_reply 用时: 100 μs
+tgt_DB_65_1_reply 用时: 110 μs
+ctrl_DB_62_3_reply 用时: 6455 μs
+tgt_DB_62_3_reply 用时: 78 μs
+ctrl_DB_62_0_reply 用时: 1898 μs
+tgt_DB_62_0_reply 用时: 97 μs
+ctrl_DB_67_0_reply 用时: 2563 μs
+tgt_DB_64_3_reply 用时: 1625 μs
+ctrl_DB_67_1_reply 用时: 1587 μs
+ctrl_DB_70_0_reply 用时: 1831 μs
+ctrl_DB_61_0_reply 用时: 8716 μs
+ctrl_DB_70_2_reply 用时: 1884 μs
+ctrl_DB_69_1_reply 用时: 1354 μs
+tgt_DB_69_1_reply 用时: 121 μs
+ctrl_DB_68_3_reply 用时: 1468 μs
+tgt_DB_68_3_reply 用时: 114 μs
+ctrl_DB_65_4_reply 用时: 5478 μs
+tgt_DB_65_4_reply 用时: 93 μs
+ctrl_DB_68_1_reply 用时: 1747 μs
+tgt_DB_68_1_reply 用时: 84 μs
+ctrl_DB_68_0_reply 用时: 1847 μs
+tgt_DB_68_0_reply 用时: 94 μs
+tgt_DB_54_1_reply 用时: 11028 μs
+ctrl_DB_65_2_reply 用时: 9135 μs
+ctrl_DB_68_4_reply 用时: 3989 μs
+tgt_DB_67_0_reply 用时: 1485 μs
+ctrl_DB_71_4_reply 用时: 1870 μs
+tgt_DB_71_4_reply 用时: 79 μs
+ctrl_DB_71_3_reply 用时: 2143 μs
+tgt_DB_70_0_reply 用时: 2271 μs
+tgt_DB_68_4_reply 用时: 806 μs
+tgt_DB_71_3_reply 用时: 1189 μs
+ctrl_DB_66_3_reply 用时: 6963 μs
+tgt_DB_59_3_reply 用时: 6856 μs
+ctrl_DB_72_2_reply 用时: 2042 μs
+tgt_DB_72_2_reply 用时: 101 μs
+ctrl_DB_74_0_reply 用时: 932 μs
+ctrl_DB_67_2_reply 用时: 6314 μs
+tgt_DB_74_0_reply 用时: 95 μs
+tgt_DB_66_1_reply 用时: 7323 μs
+ctrl_DB_73_3_reply 用时: 1109 μs
+tgt_DB_73_3_reply 用时: 97 μs
+ctrl_DB_73_4_reply 用时: 1214 μs
+tgt_DB_73_4_reply 用时: 92 μs
+ctrl_DB_65_3_reply 用时: 7228 μs
+tgt_DB_65_3_reply 用时: 84 μs
+tgt_DB_64_0_reply 用时: 6060 μs
+ctrl_DB_73_2_reply 用时: 1452 μs
+tgt_DB_73_2_reply 用时: 95 μs
+ctrl_DB_66_0_reply 用时: 12440 μs
+tgt_DB_63_4_reply 用时: 8614 μs
+ctrl_DB_69_3_reply 用时: 6159 μs
+ctrl_DB_69_0_reply 用时: 7514 μs
+tgt_DB_66_2_reply 用时: 7867 μs
+ctrl_DB_72_1_reply 用时: 5304 μs
+ctrl_DB_70_3_reply 用时: 6368 μs
+tgt_DB_69_0_reply 用时: 407 μs
+tgt_DB_70_3_reply 用时: 95 μs
+tgt_DB_61_1_reply 用时: 7817 μs
+ctrl_DB_70_1_reply 用时: 6581 μs
+tgt_DB_70_1_reply 用时: 90 μs
+ctrl_DB_62_1_reply 用时: 9736 μs
+ctrl_DB_71_0_reply 用时: 5974 μs
+ctrl_DB_72_4_reply 用时: 3939 μs
+tgt_DB_67_1_reply 用时: 6280 μs
+tgt_DB_60_4_reply 用时: 10558 μs
+ctrl_DB_71_1_reply 用时: 6440 μs
+ctrl_DB_71_2_reply 用时: 5111 μs
+ctrl_DB_74_4_reply 用时: 127 μs
+tgt_DB_71_2_reply 用时: 108 μs
+ctrl_DB_68_2_reply 用时: 8575 μs
+ctrl_DB_74_3_reply 用时: 861 μs
+tgt_DB_61_0_reply 用时: 7138 μs
+ctrl_DB_72_3_reply 用时: 4875 μs
+ctrl_DB_76_1_reply 用时: 696 μs
+tgt_DB_76_1_reply 用时: 81 μs
+ctrl_DB_76_0_reply 用时: 741 μs
+tgt_DB_76_0_reply 用时: 82 μs
+ctrl_DB_75_4_reply 用时: 831 μs
+tgt_DB_75_4_reply 用时: 127 μs
+ctrl_DB_75_3_reply 用时: 974 μs
+tgt_DB_75_3_reply 用时: 101 μs
+ctrl_DB_75_2_reply 用时: 1077 μs
+tgt_DB_75_2_reply 用时: 104 μs
+ctrl_DB_74_1_reply 用时: 5085 μs
+ctrl_DB_66_4_reply 用时: 11972 μs
+tgt_DB_62_1_reply 用时: 2761 μs
+ctrl_DB_69_2_reply 用时: 10778 μs
+ctrl_DB_73_0_reply 用时: 6167 μs
+ctrl_DB_67_4_reply 用时: 9578 μs
+tgt_DB_73_0_reply 用时: 508 μs
+tgt_DB_66_4_reply 用时: 878 μs
+ctrl_DB_69_4_reply 用时: 10245 μs
+tgt_DB_72_1_reply 用时: 4207 μs
+tgt_DB_70_4_reply 用时: 11193 μs
+ctrl_DB_76_2_reply 用时: 1144 μs
+tgt_DB_76_2_reply 用时: 137 μs
+tgt_DB_72_3_reply 用时: 2580 μs
+tgt_DB_74_4_reply 用时: 3369 μs
+tgt_DB_71_0_reply 用时: 4226 μs
+tgt_DB_74_3_reply 用时: 2892 μs
+tgt_DB_72_4_reply 用时: 4184 μs
+tgt_DB_66_0_reply 用时: 5296 μs
+tgt_DB_67_2_reply 用时: 6353 μs
+tgt_DB_65_2_reply 用时: 8709 μs
+ctrl_DB_72_0_reply 用时: 9920 μs
+tgt_DB_69_3_reply 用时: 5609 μs
+ctrl_DB_75_0_reply 用时: 3422 μs
+ctrl_DB_76_3_reply 用时: 1379 μs
+ctrl_DB_74_2_reply 用时: 5724 μs
+ctrl_DB_78_4_reply 用时: 91 μs
+tgt_DB_74_2_reply 用时: 111 μs
+ctrl_DB_78_3_reply 用时: 914 μs
+ctrl_DB_79_2_reply 用时: 98 μs
+tgt_DB_78_3_reply 用时: 112 μs
+ctrl_DB_77_4_reply 用时: 930 μs
+tgt_DB_77_4_reply 用时: 83 μs
+tgt_DB_66_3_reply 用时: 8351 μs
+ctrl_DB_73_1_reply 用时: 8766 μs
+tgt_DB_74_1_reply 用时: 3936 μs
+ctrl_DB_67_3_reply 用时: 10667 μs
+tgt_DB_70_2_reply 用时: 12300 μs
+tgt_DB_67_3_reply 用时: 385 μs
+ctrl_DB_78_0_reply 用时: 2234 μs
+tgt_DB_78_0_reply 用时: 87 μs
+ctrl_DB_76_4_reply 用时: 3739 μs
+ctrl_DB_78_1_reply 用时: 2798 μs
+ctrl_DB_75_1_reply 用时: 6575 μs
+tgt_DB_76_4_reply 用时: 984 μs
+ctrl_DB_80_0_reply 用时: 1868 μs
+ctrl_DB_80_1_reply 用时: 326 μs
+tgt_DB_80_0_reply 用时: 116 μs
+ctrl_DB_81_0_reply 用时: 1110 μs
+ctrl_DB_82_3_reply 用时: 97 μs
+tgt_DB_81_0_reply 用时: 85 μs
+tgt_DB_82_3_reply 用时: 113 μs
+tgt_DB_78_4_reply 用时: 3771 μs
+tgt_DB_71_1_reply 用时: 8410 μs
+tgt_DB_75_0_reply 用时: 4332 μs
+tgt_DB_75_1_reply 用时: 1389 μs
+ctrl_DB_79_1_reply 用时: 3817 μs
+tgt_DB_79_1_reply 用时: 97 μs
+tgt_DB_67_4_reply 用时: 6331 μs
+tgt_DB_76_3_reply 用时: 4579 μs
+ctrl_DB_83_1_reply 用时: 911 μs
+ctrl_DB_83_2_reply 用时: 727 μs
+tgt_DB_68_2_reply 用时: 9026 μs
+ctrl_DB_77_0_reply 用时: 6297 μs
+ctrl_DB_81_3_reply 用时: 2712 μs
+ctrl_DB_78_2_reply 用时: 5863 μs
+ctrl_DB_77_1_reply 用时: 6257 μs
+tgt_DB_72_0_reply 用时: 6137 μs
+ctrl_DB_83_4_reply 用时: 117 μs
+tgt_DB_83_4_reply 用时: 88 μs
+tgt_DB_69_2_reply 用时: 8193 μs
+ctrl_DB_79_0_reply 用时: 4929 μs
+ctrl_DB_83_3_reply 用时: 1302 μs
+ctrl_DB_77_2_reply 用时: 6140 μs
+ctrl_DB_77_3_reply 用时: 6423 μs
+tgt_DB_80_1_reply 用时: 3006 μs
+tgt_DB_73_1_reply 用时: 5267 μs
+tgt_DB_83_3_reply 用时: 408 μs
+tgt_DB_69_4_reply 用时: 7980 μs
+tgt_DB_77_3_reply 用时: 466 μs
+tgt_DB_78_1_reply 用时: 4355 μs
+ctrl_DB_82_2_reply 用时: 3147 μs
+ctrl_DB_82_0_reply 用时: 2964 μs
+ctrl_DB_79_3_reply 用时: 6124 μs
+ctrl_DB_81_2_reply 用时: 4571 μs
+tgt_DB_81_2_reply 用时: 139 μs
+ctrl_DB_79_4_reply 用时: 5830 μs
+ctrl_DB_81_1_reply 用时: 5168 μs
+ctrl_DB_84_4_reply 用时: 1055 μs
+ctrl_DB_83_0_reply 用时: 3098 μs
+ctrl_DB_85_1_reply 用时: 445 μs
+tgt_DB_83_0_reply 用时: 157 μs
+ctrl_DB_81_4_reply 用时: 5723 μs
+ctrl_DB_84_1_reply 用时: 2172 μs
+tgt_DB_84_1_reply 用时: 82 μs
+tgt_DB_83_2_reply 用时: 3325 μs
+tgt_DB_79_2_reply 用时: 7706 μs
+tgt_DB_79_3_reply 用时: 1524 μs
+ctrl_DB_80_3_reply 用时: 5810 μs
+tgt_DB_77_2_reply 用时: 2537 μs
+tgt_DB_78_2_reply 用时: 3441 μs
+ctrl_DB_80_4_reply 用时: 6116 μs
+ctrl_DB_82_4_reply 用时: 4872 μs
+tgt_DB_81_3_reply 用时: 3972 μs
+tgt_DB_83_1_reply 用时: 4425 μs
+ctrl_DB_80_2_reply 用时: 6373 μs
+tgt_DB_80_4_reply 用时: 591 μs
+tgt_DB_80_2_reply 用时: 306 μs
+ctrl_DB_82_1_reply 用时: 6465 μs
+ctrl_DB_85_2_reply 用时: 2462 μs
+tgt_DB_85_2_reply 用时: 95 μs
+tgt_DB_77_0_reply 用时: 5862 μs
+tgt_DB_80_3_reply 用时: 2574 μs
+ctrl_DB_90_3_reply 用时: 161 μs
+ctrl_DB_89_1_reply 用时: 84 μs
+tgt_DB_90_3_reply 用时: 86 μs
+tgt_DB_89_1_reply 用时: 124 μs
+ctrl_DB_87_2_reply 用时: 970 μs
+tgt_DB_87_2_reply 用时: 88 μs
+ctrl_DB_90_0_reply 用时: 1107 μs
+tgt_DB_90_0_reply 用时: 98 μs
+ctrl_DB_89_3_reply 用时: 1173 μs
+tgt_DB_89_3_reply 用时: 78 μs
+ctrl_DB_90_1_reply 用时: 1263 μs
+tgt_DB_90_1_reply 用时: 93 μs
+ctrl_DB_84_2_reply 用时: 5599 μs
+ctrl_DB_86_4_reply 用时: 3348 μs
+tgt_DB_79_0_reply 用时: 6428 μs
+tgt_DB_77_1_reply 用时: 6826 μs
+ctrl_DB_88_1_reply 用时: 2174 μs
+ctrl_DB_91_1_reply 用时: 153 μs
+tgt_DB_86_4_reply 用时: 654 μs
+tgt_DB_82_0_reply 用时: 6026 μs
+ctrl_DB_87_4_reply 用时: 3900 μs
+tgt_DB_82_2_reply 用时: 6485 μs
+tgt_DB_82_1_reply 用时: 3273 μs
+ctrl_DB_85_0_reply 用时: 6387 μs
+tgt_DB_85_0_reply 用时: 121 μs
+ctrl_DB_84_3_reply 用时: 7868 μs
+ctrl_DB_84_0_reply 用时: 7848 μs
+tgt_DB_81_4_reply 用时: 5985 μs
+ctrl_DB_91_3_reply 用时: 930 μs
+tgt_DB_91_3_reply 用时: 99 μs
+ctrl_DB_88_3_reply 用时: 3743 μs
+ctrl_DB_90_4_reply 用时: 1829 μs
+ctrl_DB_86_2_reply 用时: 6608 μs
+tgt_DB_82_4_reply 用时: 6318 μs
+tgt_DB_84_0_reply 用时: 1313 μs
+ctrl_DB_89_4_reply 用时: 5483 μs
+ctrl_DB_92_0_reply 用时: 1470 μs
+tgt_DB_89_4_reply 用时: 113 μs
+ctrl_DB_85_4_reply 用时: 5718 μs
+tgt_DB_92_0_reply 用时: 285 μs
+ctrl_DB_95_0_reply 用时: 84 μs
+tgt_DB_95_0_reply 用时: 108 μs
+ctrl_DB_94_0_reply 用时: 1198 μs
+tgt_DB_94_0_reply 用时: 86 μs
+ctrl_DB_94_3_reply 用时: 1279 μs
+tgt_DB_94_3_reply 用时: 111 μs
+ctrl_DB_94_4_reply 用时: 1364 μs
+tgt_DB_94_4_reply 用时: 98 μs
+ctrl_DB_93_4_reply 用时: 1458 μs
+tgt_DB_93_4_reply 用时: 85 μs
+ctrl_DB_86_0_reply 用时: 8089 μs
+tgt_DB_86_0_reply 用时: 101 μs
+ctrl_DB_94_2_reply 用时: 1732 μs
+tgt_DB_94_2_reply 用时: 87 μs
+ctrl_DB_86_1_reply 用时: 8240 μs
+ctrl_DB_87_3_reply 用时: 7703 μs
+ctrl_DB_89_2_reply 用时: 6152 μs
+ctrl_DB_90_2_reply 用时: 6730 μs
+tgt_DB_84_4_reply 用时: 9214 μs
+tgt_DB_84_3_reply 用时: 3134 μs
+tgt_DB_81_1_reply 用时: 9586 μs
+ctrl_DB_85_3_reply 用时: 8450 μs
+tgt_DB_89_2_reply 用时: 742 μs
+ctrl_DB_88_4_reply 用时: 7301 μs
+tgt_DB_88_1_reply 用时: 5040 μs
+tgt_DB_79_4_reply 用时: 10537 μs
+ctrl_DB_88_0_reply 用时: 7398 μs
+ctrl_DB_86_3_reply 用时: 9242 μs
+tgt_DB_90_2_reply 用时: 1180 μs
+ctrl_DB_87_0_reply 用时: 8935 μs
+tgt_DB_88_0_reply 用时: 417 μs
+tgt_DB_85_1_reply 用时: 10703 μs
+ctrl_DB_93_2_reply 用时: 4807 μs
+tgt_DB_90_4_reply 用时: 4104 μs
+tgt_DB_91_1_reply 用时: 5909 μs
+ctrl_DB_87_1_reply 用时: 8904 μs
+ctrl_DB_88_2_reply 用时: 8430 μs
+tgt_DB_84_2_reply 用时: 6680 μs
+ctrl_DB_92_3_reply 用时: 3880 μs
+tgt_DB_87_1_reply 用时: 321 μs
+ctrl_DB_91_0_reply 用时: 6477 μs
+tgt_DB_88_2_reply 用时: 366 μs
+tgt_DB_87_3_reply 用时: 2489 μs
+tgt_DB_86_2_reply 用时: 4362 μs
+ctrl_DB_92_2_reply 用时: 5408 μs
+ctrl_DB_89_0_reply 用时: 8578 μs
+ctrl_DB_91_4_reply 用时: 6712 μs
+tgt_DB_89_0_reply 用时: 341 μs
+ctrl_DB_96_2_reply 用时: 544 μs
+tgt_DB_96_2_reply 用时: 98 μs
+ctrl_DB_96_1_reply 用时: 643 μs
+tgt_DB_96_1_reply 用时: 78 μs
+ctrl_DB_95_1_reply 用时: 3156 μs
+tgt_DB_95_1_reply 用时: 91 μs
+ctrl_DB_92_1_reply 用时: 7228 μs
+ctrl_DB_96_3_reply 用时: 521 μs
+tgt_DB_85_4_reply 用时: 5695 μs
+ctrl_DB_95_3_reply 用时: 937 μs
+tgt_DB_95_3_reply 用时: 83 μs
+tgt_DB_88_3_reply 用时: 6941 μs
+tgt_DB_87_4_reply 用时: 8290 μs
+tgt_DB_86_3_reply 用时: 3394 μs
+ctrl_DB_97_0_reply 用时: 652 μs
+ctrl_DB_97_1_reply 用时: 278 μs
+tgt_DB_97_0_reply 用时: 84 μs
+ctrl_DB_93_1_reply 用时: 4876 μs
+ctrl_DB_95_2_reply 用时: 3738 μs
+tgt_DB_86_1_reply 用时: 5287 μs
+tgt_DB_85_3_reply 用时: 5043 μs
+tgt_DB_87_0_reply 用时: 3962 μs
+ctrl_DB_91_2_reply 用时: 8883 μs
+tgt_DB_95_2_reply 用时: 343 μs
+tgt_DB_92_1_reply 用时: 1576 μs
+ctrl_DB_93_3_reply 用时: 8707 μs
+tgt_DB_88_4_reply 用时: 4905 μs
+tgt_DB_91_2_reply 用时: 426 μs
+tgt_DB_97_1_reply 用时: 1045 μs
+ctrl_DB_94_1_reply 用时: 7868 μs
+tgt_DB_92_2_reply 用时: 3495 μs
+ctrl_DB_93_0_reply 用时: 5285 μs
+ctrl_DB_95_4_reply 用时: 2981 μs
+ctrl_DB_96_0_reply 用时: 3241 μs
+tgt_DB_96_0_reply 用时: 88 μs
+tgt_DB_91_0_reply 用时: 4427 μs
+tgt_DB_96_3_reply 用时: 2610 μs
+ctrl_DB_92_4_reply 用时: 6381 μs
+tgt_DB_93_2_reply 用时: 5104 μs
+ctrl_DB_96_4_reply 用时: 3354 μs
+tgt_DB_96_4_reply 用时: 86 μs
+ctrl_DB_98_3_reply 用时: 337 μs
+tgt_DB_92_4_reply 用时: 333 μs
+tgt_DB_95_4_reply 用时: 982 μs
+tgt_DB_92_3_reply 用时: 5123 μs
+tgt_DB_93_3_reply 用时: 1633 μs
+tgt_DB_91_4_reply 用时: 4546 μs
+ctrl_DB_97_4_reply 用时: 3173 μs
+tgt_DB_93_0_reply 用时: 1158 μs
+tgt_DB_93_1_reply 用时: 2451 μs
+tgt_DB_94_1_reply 用时: 1425 μs
+ctrl_DB_98_1_reply 用时: 2007 μs
+ctrl_DB_97_3_reply 用时: 3340 μs
+tgt_DB_98_3_reply 用时: 639 μs
+ctrl_DB_97_2_reply 用时: 3593 μs
+tgt_DB_97_4_reply 用时: 543 μs
+ctrl_DB_98_2_reply 用时: 1944 μs
+ctrl_DB_98_0_reply 用时: 3333 μs
+tgt_DB_98_1_reply 用时: 671 μs
+tgt_DB_97_3_reply 用时: 648 μs
+tgt_DB_98_2_reply 用时: 298 μs
+tgt_DB_98_0_reply 用时: 488 μs
+ctrl_DB_98_4_reply 用时: 990 μs
+tgt_DB_98_4_reply 用时: 234 μs
+tgt_DB_97_2_reply 用时: 1933 μs
+compute_intersection 用时: 229 μs
+交集大小: 8
+总耗时: 2525496 微秒
+
