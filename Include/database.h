@@ -30,8 +30,9 @@ public:
     // 创建并发送回复
     void create_and_send_reply(int L, int b, int N);
     void preprocessing(int L, int b, int eta);
-    void database::recv_query_though_net(tcp::socket& database_socket,
-                                     std::vector<std::vector<int>>& database_recv_from_leader);
+    void recv_query_though_net(boost::asio::ip::tcp::socket& database_socket);
+    void recv_randomness_though_net(boost::asio::ip::tcp::socket& database_socket, int b);
+    void send_answer_to_leader(boost::asio::ip::tcp::socket& database_socket);
 };
 
 #endif // DATABASE_H

@@ -17,6 +17,7 @@
 
 using namespace std;
 extern sgx_enclave_id_t global_eid; 
+extern long long com_bit;
 
 // 构造函数实现
 leader::leader(string filename, int leader_id, int M, int N, int b)
@@ -146,34 +147,109 @@ vector<int> leader::calculate_intersection(int M, int N, int b, int L) {
     return intersection;
 }
 
-void leader::send_query_though_net(const std::vector<std::vector<std::vector<std::vector<int>>>>& leader_send_to_cb,
-                                   const std::vector<std::vector<std::vector<std::vector<int>>>>& leader_send_to_tb,
-                                   const std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_cb,
-                                   const std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_tb,
+void leader::send_query_though_net(std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+                                   std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
                                    int m, int n) {
     std::vector<std::thread> threads;
+    
+    // Send to cb
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
             threads.emplace_back([&, i, j]() {
+                // Flatten the 4D vector to 1D
+                auto data_to_send = leader_send_to_cb[i][j];
                 std::vector<int> flat_data;
-                for (const auto& vec : leader_send_to_cb[i][j]) {
-                    flat_data.insert(flat_data.end(), vec.begin(), vec.end());
+                for (const auto& vec2d : data_to_send) {
+                    flat_data.insert(flat_data.end(), vec2d.begin(), vec2d.end());
                 }
+                
+                // First send the size of data
+                vector<size_t> data_size = {data_to_send.size(),data_to_send[0].size()};
+                // size_t data_size = flat_data.size();
+                asio::write(leader_sockets_to_cb[i][j], asio::buffer(data_size));
+                
+                // Then send the actual data
                 asio::write(leader_sockets_to_cb[i][j], asio::buffer(flat_data));
+                com_bit += flat_data.size();
             });
         }
     }
+    
+    // Send to tb
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
             threads.emplace_back([&, i, j]() {
+                // Flatten the 4D vector to 1D
+                auto data_to_send = leader_send_to_tb[i][j];
                 std::vector<int> flat_data;
-                for (const auto& vec : leader_send_to_tb[i][j]) {
-                    flat_data.insert(flat_data.end(), vec.begin(), vec.end());
+                for (const auto& vec2d : data_to_send) {
+                    flat_data.insert(flat_data.end(), vec2d.begin(), vec2d.end());
+                    
                 }
+                
+                // First send the size of data
+                vector<size_t> data_size = {data_to_send.size(),data_to_send[0].size()};
+                // size_t data_size = flat_data.size();
+                asio::write(leader_sockets_to_tb[i][j], asio::buffer(data_size));
+                
+                // Then send the actual data
                 asio::write(leader_sockets_to_tb[i][j], asio::buffer(flat_data));
+                com_bit += flat_data.size();
             });
         }
     }
+    
+    for (auto& t : threads) {
+        t.join();
+    }
+}
+
+void leader::recv_answer_from_databases(
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+    int m, int n) {
+    
+    std::vector<std::thread> threads;
+    
+    // 从CB接收数据的线程
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            threads.emplace_back([&, i, j]() {
+                // 先读取数据大小
+                size_t data_size;
+                asio::read(cb_sockets_for_leader[i][j], 
+                          asio::buffer(&data_size, sizeof(data_size)));
+                
+                // 调整接收向量大小
+                leader_recv_from_cb[i][j].resize(data_size);
+                
+                // 读取实际数据
+                asio::read(cb_sockets_for_leader[i][j], 
+                          asio::buffer(leader_recv_from_cb[i][j]));
+            });
+        }
+    }
+    
+    // 从TB接收数据的线程
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            threads.emplace_back([&, i, j]() {
+                // 先读取数据大小
+                size_t data_size;
+                asio::read(tb_sockets_for_leader[i][j], 
+                          asio::buffer(&data_size, sizeof(data_size)));
+                
+                // 调整接收向量大小
+                leader_recv_from_tb[i][j].resize(data_size);
+                
+                // 读取实际数据
+                asio::read(tb_sockets_for_leader[i][j], 
+                          asio::buffer(leader_recv_from_tb[i][j]));
+            });
+        }
+    }
+    
+    // 等待所有线程完成
     for (auto& t : threads) {
         t.join();
     }

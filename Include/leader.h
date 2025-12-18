@@ -25,11 +25,13 @@ public:
     void send_query();
     std::vector<int> calculate_intersection(int M, int N, int b, int L);
     void preprocessing(int N, int M, int b, int eta, int L);
-    void leader::send_query_though_net(const std::vector<std::vector<std::vector<std::vector<int>>>>& leader_send_to_cb,
-                                   const std::vector<std::vector<std::vector<std::vector<int>>>>& leader_send_to_tb,
-                                   const std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_cb,
-                                   const std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_tb,
+    void send_query_though_net(std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+                                   std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
                                    int m, int n);
+    void recv_answer_from_databases(
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+    int m, int n);
 };
 
 #endif // LEADER_H

@@ -1,0 +1,8 @@
+/usr/local/bin/ld: App/leader.o: in function `leader::preprocessing(int, int, int, int, int) [clone ._omp_fn.0]':
+/home/homura/SampleEnclave_Change/App/leader.cpp:82: undefined reference to `omp_get_num_threads'
+/usr/local/bin/ld: /home/homura/SampleEnclave_Change/App/leader.cpp:82: undefined reference to `omp_get_thread_num'
+/usr/local/bin/ld: App/leader.o: in function `leader::preprocessing(int, int, int, int, int)':
+/home/homura/SampleEnclave_Change/App/leader.cpp:82: undefined reference to `GOMP_parallel'
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:235: app] Error 1
+make: *** [Makefile:180: all] Error 2

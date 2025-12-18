@@ -263,8 +263,8 @@ void threaded_preprocessing() {
 }
 
 // 随机数生成阶段
-void create_randomness(std::vector<std::vector<tcp::acceptor>> tee_sockets_to_cb,
-    std::vector<std::vector<tcp::acceptor>> tee_sockets_to_tb) {
+void create_randomness(std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb) {
     //ecall_test(global_eid);
     int cols = N[0];
     size_t loc_len = size_t(M - 1) * cols * b;
@@ -295,26 +295,31 @@ void create_randomness(std::vector<std::vector<tcp::acceptor>> tee_sockets_to_cb
     //   base = ((i*cols + j) * b)
     // relatived_randomness for party i, column j:
     //   base = ((i*cols + j) * b)
-    send_randomness_though_net(tee_sockets_to_cb,tee_sockets_to_tb,loc_buf,rel_buf,glo_buf,M,N[0]);
+    send_randomness_though_net(tee_sockets_to_cb,tee_sockets_to_tb,loc_buf,rel_buf,glo_buf,M - 1,N[0],b);
 }
 
 // 多线程回复阶段
-void threaded_reply() {
+void threaded_reply(std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader, std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_tee, std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader, std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_tee) {
     vector<thread> ths;
     for (int i = 0; i < M-1; i++) {
         for (int j = 0; j < N[0]; j++) {
-            ths.emplace_back([i,j](){
+            ths.emplace_back([&,i,j](){
                 // control db reply
+                
                 string nm1 = "ctrl_DB_" + to_string(i) + "_" + to_string(j) + "_reply";
                 time_and_run(nm1, [&](){
+                    control_databases[i][j].recv_randomness_though_net(cb_sockets_for_tee[i][j],b);
+                    control_databases[i][j].recv_query_though_net(cb_sockets_for_leader[i][j]);
                     control_databases[i][j].create_and_send_reply(L, b, N[0]);
-                    chan->database_to_leader(control_databases[i][j], ld);
+                    control_databases[i][j].send_answer_to_leader(cb_sockets_for_leader[i][j]);
                 });
                 // targeted db reply
                 string nm2 = "tgt_DB_" + to_string(i) + "_" + to_string(j) + "_reply";
                 time_and_run(nm2, [&](){
+                    targeted_databases[i][j].recv_randomness_though_net(tb_sockets_for_tee[i][j],b);
+                    targeted_databases[i][j].recv_query_though_net(tb_sockets_for_leader[i][j]);
                     targeted_databases[i][j].create_and_send_reply(L, b, N[0]);
-                    chan->database_to_leader(targeted_databases[i][j], ld);
+                    targeted_databases[i][j].send_answer_to_leader(tb_sockets_for_leader[i][j]);
                 });
             });
         }
@@ -363,8 +368,6 @@ int SGX_CDECL main(int argc, char *argv[])
     outFile << "-------------------------\n";
     outFile << "运行时间：" << put_time(lt, "%Y-%m-%d %H:%M:%S") << "\n";
 
-    auto t_start = chrono::high_resolution_clock::now();
-
     // 参数解析
     parse_args(argc, argv, M, fileNames, N, K);
     L         = select_L(M);
@@ -391,39 +394,51 @@ int SGX_CDECL main(int argc, char *argv[])
             targeted_databases[i][j] = database(fileNames[i], i, j, "not base");
         }
     }
-    std::vector<std::vector<tcp::acceptor>> leader_sockets_to_cb;
-    std::vector<std::vector<tcp::acceptor>> leader_sockets_to_tb;
-    std::vector<std::vector<tcp::acceptor>> tee_sockets_to_cb;
-    std::vector<std::vector<tcp::acceptor>> tee_sockets_to_tb;
-    std::vector<std::vector<tcp::socket>> cb_sockets_for_leader, cb_sockets_for_tee, tb_sockets_for_leader, tb_sockets_for_tee;
+    
+    //threaded_preprocessing();
+    boost::asio::io_context ioc;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> leader_sockets_to_cb;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> leader_sockets_to_tb;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> tee_sockets_to_cb;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> tee_sockets_to_tb;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> cb_sockets_for_leader;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> cb_sockets_for_tee;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> tb_sockets_for_leader;
+    std::vector<std::vector<boost::asio::ip::tcp::socket>> tb_sockets_for_tee;
 
-    create_sockets(M,N[0],leader_sockets_to_cb, leader_sockets_to_tb, tee_sockets_to_cb, tee_sockets_to_tb,cb_sockets_for_leader, cb_sockets_for_tee, tb_sockets_for_leader, tb_sockets_for_tee);
+    create_sockets(ioc, M - 1, N[0],leader_sockets_to_cb, leader_sockets_to_tb, tee_sockets_to_cb, tee_sockets_to_tb,cb_sockets_for_leader, cb_sockets_for_tee, tb_sockets_for_leader, tb_sockets_for_tee);
+    cout << "sockets created!" << endl;
 
+    auto t_start = chrono::high_resolution_clock::now();
+    
     // 预处理阶段
     time_and_run("setup_phase", [](){threaded_preprocessing(); });
-    //threaded_preprocessing();
+    cout << "preprocessing done!" << endl;
 
     // 查询阶段（仅leader）
     time_and_run("query_phase", [&](){
         ld.send_query();
     });
 
+    
+    cout << "query creation done!" << endl;
     // 传查询
     time_and_run("dispatch_query", [&](){
-        send_query_though_net(ld.leader_send_to_cb,ld.leader_send_to_tb,leader_sockets_to_cb,leader_sockets_to_tb,M,N[0]);
+        ld.send_query_though_net(leader_sockets_to_cb,leader_sockets_to_tb,M - 1,N[0]);
     });
-
+    cout << "query dispatch done!" << endl;
     // 随机数生成（单线程）
     time_and_run("randomness_gen", [&](){
         create_randomness(tee_sockets_to_cb,tee_sockets_to_tb);
     });
-
+    cout << "randomness generation done!" << endl;
     // 回复阶段（并行数据库）
-    threaded_reply();
-
+    threaded_reply(cb_sockets_for_leader, cb_sockets_for_tee,  tb_sockets_for_leader,  tb_sockets_for_tee);
+    cout << "reply done!" << endl;
     // 计算阶段（leader）
     vector<int> intersection;
     time_and_run("compute_intersection", [&](){
+        ld.recv_answer_from_databases(leader_sockets_to_cb,leader_sockets_to_tb,M - 1,N[0]);
         intersection = ld.calculate_intersection(M, N[0], b, L);
     });
 
@@ -437,23 +452,32 @@ int SGX_CDECL main(int argc, char *argv[])
     }
 
     // cout << "交集大小：" << intersection.size() << endl;
-    cout << "intersection is:";
-    for (auto &e : intersection) {
-        cout << " " << e;
-    }
-    cout << endl;
+    // cout << "intersection is:";
+    // for (auto &e : intersection) {
+    //     cout << " " << e;
+    // }
+    // cout << endl;
     auto t_end = chrono::high_resolution_clock::now();
     long long total_us = chrono::duration_cast<chrono::microseconds>(t_end - t_start).count();
     cout << "total time: " << total_us << " us" << endl;
-    outFile << "总耗时: " << total_us << " 微秒\n" << endl;
-
+    outFile << "总耗时: " << total_us << " 微秒" << endl;
+    outFile << "总通信开销: " << com_bit/(1024.0*1024.0) << "MB" << endl;
+    cleanup_all_sockets(
+    leader_sockets_to_cb,
+    leader_sockets_to_tb,
+    tee_sockets_to_cb,
+    tee_sockets_to_tb,
+    cb_sockets_for_leader,
+    cb_sockets_for_tee,
+    tb_sockets_for_leader,
+    tb_sockets_for_tee);
     /* Destroy the enclave */
     sgx_destroy_enclave(global_eid);
     
     printf("Info: SampleEnclave successfully returned.\n");
     
-    printf("Enter a character before exit ...\n");
-    getchar();
+    // printf("Enter a character before exit ...\n");
+    // getchar();
     return 0;
 }
 

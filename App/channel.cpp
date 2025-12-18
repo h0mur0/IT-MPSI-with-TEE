@@ -10,20 +10,7 @@ extern sgx_enclave_id_t global_eid;
 
 extern long long com_bit;
 // 基本模板：当 T 不是 vector 时，视作一个元素，返回 1
-template<typename T>
-size_t countElements(const T&) {
-    return 1;
-}
 
-// 偏特化：当传入的是 vector 时，递归累加其所有子元素的大小
-template<typename T>
-size_t countElements(const std::vector<T>& v) {
-    size_t sum = 0;
-    for (const auto& elem : v) {
-        sum += countElements(elem);
-    }
-    return sum;
-}
 
 // 构造函数实现
 channel::channel() {}

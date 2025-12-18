@@ -74,6 +74,7 @@ sgx_status_t fill_random(int* out, int K, int L) {
     for (int i = 0; i < K; i++) {
         int v;
         sgx_status_t ret = get_random_mod(v, L);
+        v = abs(v);
         if (ret != SGX_SUCCESS) return ret;
         out[i] = static_cast<int>(v);
     }

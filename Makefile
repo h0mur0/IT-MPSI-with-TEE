@@ -62,9 +62,9 @@ endif
 endif
 
 ifeq ($(SGX_DEBUG), 1)
-        SGX_COMMON_FLAGS += -O3 -g
+        SGX_COMMON_FLAGS += -O3 -g -fopenmp
 else
-        SGX_COMMON_FLAGS += -O3
+        SGX_COMMON_FLAGS += -O3 -fopenmp
 endif
 
 SGX_COMMON_FLAGS += -Wall -Wextra -Winit-self -Wpointer-arith -Wreturn-type \
@@ -83,8 +83,8 @@ else
 endif
 
 App_Cpp_Files := $(wildcard App/*.cpp) $(wildcard App/Edger8rSyntax/*.cpp) $(wildcard App/TrustedLibrary/*.cpp)
-App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)/include
-
+# App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)/include
+App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)/include -I/usr/include/boost
 App_C_Flags := -fPIC -Wno-attributes $(App_Include_Paths)
 
 # Three configuration modes - Debug, prerelease, release
@@ -100,8 +100,8 @@ else
 endif
 
 App_Cpp_Flags := $(App_C_Flags)
-App_Link_Flags := -L$(SGX_LIBRARY_PATH) -l$(Urts_Library_Name) -lpthread 
-
+# App_Link_Flags := -L$(SGX_LIBRARY_PATH) -l$(Urts_Library_Name) -lpthread 
+App_Link_Flags := -L$(SGX_LIBRARY_PATH) -l$(Urts_Library_Name) -lpthread -lboost_system -lboost_coroutine -lboost_context -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -fopenmp
 App_Cpp_Objects := $(App_Cpp_Files:.cpp=.o)
 
 App_Name := app

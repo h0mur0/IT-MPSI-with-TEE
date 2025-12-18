@@ -7,11 +7,27 @@
 #include <iostream>
 #include <cstdint>
 #include <list>
+#include <random> // 添加随机数生成头文件
 #include <boost/beast.hpp>
 #include <boost/asio.hpp>
 
 using namespace std;
 namespace asio = boost::asio;
+
+template<typename T>
+size_t countElements(const T&) {
+    return 1;
+}
+
+// 偏特化：当传入的是 vector 时，递归累加其所有子元素的大小
+template<typename T>
+size_t countElements(const std::vector<T>& v) {
+    size_t sum = 0;
+    for (const auto& elem : v) {
+        sum += countElements(elem);
+    }
+    return sum;
+}
 
 // 计算 a^b mod m
 int mod_exp(int a, int b, int m);
@@ -72,24 +88,32 @@ public:
     void insert(int key);
     void display();
 };
-void create_sockets(int m, int n,
-                    std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_cb,
-                    std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_tb,
-                    std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_cb,
-                    std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_tb,
-                    std::vector<std::vector<tcp::socket>>& cb_sockets_for_leader,
-                    std::vector<std::vector<tcp::socket>>& cb_sockets_for_tee,
-                    std::vector<std::vector<tcp::socket>>& tb_sockets_for_leader,
-                    std::vector<std::vector<tcp::socket>>& tb_sockets_for_tee);
+void create_sockets(boost::asio::io_context& io_context, int m, int n,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_tee,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_tee);
 
-send_randomness_though_net(const std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_cb,
-                                const std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_tb,
-                                const std::vector<int>& loc_buf,
-                                const std::vector<int>& rel_buf,
-                                const std::vector<int>& glo_buf,
-                                int m, int n);
-
-void recv_randomness_though_net(tcp::socket& database_socket, database& database_);
+void send_randomness_though_net(std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+                                std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+                                std::vector<int>& loc_buf,
+                                std::vector<int>& rel_buf,
+                                std::vector<int>& glo_buf,
+                                int m, int n, int b);
+void cleanup_all_sockets(
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_tee,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_tee);
+// void recv_randomness_though_net(boost::asio::ip::tcp::socket& database_socket, database& database_);
 
 #endif // PUBLIC_FUNCTION_H
 

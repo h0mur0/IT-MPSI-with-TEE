@@ -14,6 +14,7 @@
 
 using namespace std;
 extern sgx_enclave_id_t global_eid; 
+extern long long com_bit;
 
 void testt() {
 	sgx_status_t st = ecall_test(global_eid);
@@ -508,123 +509,260 @@ void add_plain(const int* A, const int* B, int* C,
     }
 }
 
-void create_sockets(int m, int n,
-                    std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_cb,
-                    std::vector<std::vector<tcp::acceptor>>& leader_sockets_to_tb,
-                    std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_cb,
-                    std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_tb,
-                    std::vector<std::vector<tcp::socket>>& cb_sockets_for_leader,
-                    std::vector<std::vector<tcp::socket>>& cb_sockets_for_tee,
-                    std::vector<std::vector<tcp::socket>>& tb_sockets_for_leader,
-                    std::vector<std::vector<tcp::socket>>& tb_sockets_for_tee) {
-    asio::io_context io_context;
+
+void create_sockets(boost::asio::io_context& ioc, int m, int n,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_tee,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+                    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_tee) {
+    
+    // 辅助函数：尝试绑定端口，失败时重试
+    auto bind_with_retry = [&ioc](boost::asio::ip::tcp::acceptor& acceptor, int base_port, const std::string& name) -> int {
+        int retry_count = 0;
+        int current_port = base_port;
+        
+        // 设置随机数生成器
+        std::random_device rd;
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<> dis(6000, 65535); // 6000以上的随机端口
+        
+        while (retry_count < 4) {
+            try {
+                acceptor.open(boost::asio::ip::tcp::v4());
+                acceptor.set_option(boost::asio::ip::tcp::acceptor::reuse_address(true)); // 设置地址重用
+                acceptor.bind(boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), current_port));
+                acceptor.listen();
+                
+                // std::cout << name << " successfully bound to port " << current_port << std::endl;
+                return current_port; // 成功绑定，返回端口号
+                
+            } catch (const boost::system::system_error& e) {
+                if (e.code() == boost::asio::error::address_in_use) {
+                    retry_count++;
+                    if (retry_count < 4) {
+                        current_port = dis(gen); // 生成随机端口
+                        // std::cout << name << " port " << current_port - (dis(gen) - current_port) << " is busy, retrying with port " << current_port << " (attempt " << retry_count << ")" << std::endl;
+                        
+                        // 关闭之前的acceptor（如果打开失败可能会处于无效状态，需要重新创建）
+                        if (acceptor.is_open()) {
+                            acceptor.close();
+                        }
+                    } else {
+                        std::cerr << name << " failed to bind after " << retry_count << " attempts. Last tried port: " << current_port << std::endl;
+                        throw; // 重试4次后仍然失败，抛出异常
+                    }
+                } else {
+                    // 其他类型的错误直接抛出
+                    throw;
+                }
+            }
+        }
+        return current_port; // 理论上不会执行到这里
+    };
 
     // Resize the acceptor and socket vectors to m x n
-    leader_sockets_to_cb.resize(m, std::vector<tcp::acceptor>(n, tcp::acceptor(io_context)));
-    leader_sockets_to_tb.resize(m, std::vector<tcp::acceptor>(n, tcp::acceptor(io_context)));
-    tee_sockets_to_cb.resize(m, std::vector<tcp::acceptor>(n, tcp::acceptor(io_context)));
-    tee_sockets_to_tb.resize(m, std::vector<tcp::acceptor>(n, tcp::acceptor(io_context)));
+    std::vector<std::vector<boost::asio::ip::tcp::acceptor>> leader_acceptor_to_cb,leader_acceptor_to_tb, tee_acceptor_to_cb,tee_acceptor_to_tb;
+    
+    // 存储实际使用的端口号
+    std::vector<std::vector<int>> actual_leader_cb_ports(m, std::vector<int>(n));
+    std::vector<std::vector<int>> actual_leader_tb_ports(m, std::vector<int>(n));
+    std::vector<std::vector<int>> actual_tee_cb_ports(m, std::vector<int>(n));
+    std::vector<std::vector<int>> actual_tee_tb_ports(m, std::vector<int>(n));
 
-    cb_sockets_for_leader.resize(m, std::vector<tcp::socket>(n, tcp::socket(io_context)));
-    cb_sockets_for_tee.resize(m, std::vector<tcp::socket>(n, tcp::socket(io_context)));
-    tb_sockets_for_leader.resize(m, std::vector<tcp::socket>(n, tcp::socket(io_context)));
-    tb_sockets_for_tee.resize(m, std::vector<tcp::socket>(n, tcp::socket(io_context)));
+    leader_sockets_to_cb.clear(); leader_sockets_to_cb.resize(m);
+    leader_sockets_to_tb.clear(); leader_sockets_to_tb.resize(m);
+    tee_sockets_to_cb.clear();   tee_sockets_to_cb.resize(m);
+    tee_sockets_to_tb.clear();   tee_sockets_to_tb.resize(m);
 
-    // Create acceptors and bind to ports
+    leader_acceptor_to_cb.clear(); leader_acceptor_to_cb.resize(m);
+    leader_acceptor_to_tb.clear(); leader_acceptor_to_tb.resize(m);
+    tee_acceptor_to_cb.clear();   tee_acceptor_to_cb.resize(m);
+    tee_acceptor_to_tb.clear();   tee_acceptor_to_tb.resize(m);
+
+    cb_sockets_for_leader.clear(); cb_sockets_for_leader.resize(m);
+    cb_sockets_for_tee.clear();    cb_sockets_for_tee.resize(m);
+    tb_sockets_for_leader.clear(); tb_sockets_for_leader.resize(m);
+    tb_sockets_for_tee.clear();    tb_sockets_for_tee.resize(m);
+
+    // 就地构造每个 acceptor / socket（避免拷贝）
     for (int i = 0; i < m; ++i) {
+        leader_acceptor_to_cb[i].reserve(n);
+        leader_acceptor_to_tb[i].reserve(n);
+        tee_acceptor_to_cb[i].reserve(n);
+        tee_acceptor_to_tb[i].reserve(n);
+
+        cb_sockets_for_leader[i].reserve(n);
+        cb_sockets_for_tee[i].reserve(n);
+        tb_sockets_for_leader[i].reserve(n);
+        tb_sockets_for_tee[i].reserve(n);
+
+        leader_sockets_to_cb[i].reserve(n);
+        leader_sockets_to_tb[i].reserve(n);
+        tee_sockets_to_cb[i].reserve(n);
+        tee_sockets_to_tb[i].reserve(n);
+
         for (int j = 0; j < n; ++j) {
-            int port_leader_cb = 2000 + i * 10 + j;
-            int port_leader_tb = 4000 + i * 10 + j;
-            int port_tee_cb = 3000 + i * 10 + j;
-            int port_tee_tb = 5000 + i * 10 + j;
+            // 就地构造 acceptor / socket，传入 io_context
+            leader_acceptor_to_cb[i].emplace_back(ioc);
+            leader_acceptor_to_tb[i].emplace_back(ioc);
+            tee_acceptor_to_cb[i].emplace_back(ioc);
+            tee_acceptor_to_tb[i].emplace_back(ioc);
 
-            leader_sockets_to_cb[i][j].open(tcp::v4());
-            leader_sockets_to_cb[i][j].bind(tcp::endpoint(tcp::v4(), port_leader_cb));
-            leader_sockets_to_cb[i][j].listen();
+            cb_sockets_for_leader[i].emplace_back(ioc);
+            cb_sockets_for_tee[i].emplace_back(ioc);
+            tb_sockets_for_leader[i].emplace_back(ioc);
+            tb_sockets_for_tee[i].emplace_back(ioc);
 
-            leader_sockets_to_tb[i][j].open(tcp::v4());
-            leader_sockets_to_tb[i][j].bind(tcp::endpoint(tcp::v4(), port_leader_tb));
-            leader_sockets_to_tb[i][j].listen();
-
-            tee_sockets_to_cb[i][j].open(tcp::v4());
-            tee_sockets_to_cb[i][j].bind(tcp::endpoint(tcp::v4(), port_tee_cb));
-            tee_sockets_to_cb[i][j].listen();
-
-            tee_sockets_to_tb[i][j].open(tcp::v4());
-            tee_sockets_to_tb[i][j].bind(tcp::endpoint(tcp::v4(), port_tee_tb));
-            tee_sockets_to_tb[i][j].listen();
+            leader_sockets_to_cb[i].emplace_back(ioc);
+            leader_sockets_to_tb[i].emplace_back(ioc);
+            tee_sockets_to_cb[i].emplace_back(ioc);
+            tee_sockets_to_tb[i].emplace_back(ioc);
         }
     }
 
-    // Connect sockets
+    // Create acceptors and bind to ports with retry logic
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-            int port_leader_cb = 2000 + i * 10 + j;
-            int port_leader_tb = 4000 + i * 10 + j;
-            int port_tee_cb = 3000 + i * 10 + j;
-            int port_tee_tb = 5000 + i * 10 + j;
+            int base_port_leader_cb = 2000 + i * 10 + j;
+            int base_port_leader_tb = 4000 + i * 10 + j;
+            int base_port_tee_cb = 3000 + i * 10 + j;
+            int base_port_tee_tb = 5000 + i * 10 + j;
 
-            cb_sockets_for_leader[i][j].connect(tcp::endpoint(asio::ip::address::from_string("127.0.0.1"), port_leader_cb));
-            leader_sockets_to_cb[i][j].accept(cb_sockets_for_leader[i][j]);
+            // 使用重试逻辑绑定端口
+            actual_leader_cb_ports[i][j] = bind_with_retry(leader_acceptor_to_cb[i][j], base_port_leader_cb, 
+                "leader_acceptor_to_cb[" + std::to_string(i) + "][" + std::to_string(j) + "]");
+            
+            actual_leader_tb_ports[i][j] = bind_with_retry(leader_acceptor_to_tb[i][j], base_port_leader_tb, 
+                "leader_acceptor_to_tb[" + std::to_string(i) + "][" + std::to_string(j) + "]");
+            
+            actual_tee_cb_ports[i][j] = bind_with_retry(tee_acceptor_to_cb[i][j], base_port_tee_cb, 
+                "tee_acceptor_to_cb[" + std::to_string(i) + "][" + std::to_string(j) + "]");
+            
+            actual_tee_tb_ports[i][j] = bind_with_retry(tee_acceptor_to_tb[i][j], base_port_tee_tb, 
+                "tee_acceptor_to_tb[" + std::to_string(i) + "][" + std::to_string(j) + "]");
+        }
+    }
 
-            tb_sockets_for_leader[i][j].connect(tcp::endpoint(asio::ip::address::from_string("127.0.0.1"), port_leader_tb));
-            leader_sockets_to_tb[i][j].accept(tb_sockets_for_leader[i][j]);
+    // Connect sockets using actual ports
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            // 使用实际绑定的端口进行连接
+            cb_sockets_for_leader[i][j].connect(boost::asio::ip::tcp::endpoint(
+                boost::asio::ip::address::from_string("127.0.0.1"), actual_leader_cb_ports[i][j]));
+            leader_acceptor_to_cb[i][j].accept(leader_sockets_to_cb[i][j]);
 
-            cb_sockets_for_tee[i][j].connect(tcp::endpoint(asio::ip::address::from_string("127.0.0.1"), port_tee_cb));
-            tee_sockets_to_cb[i][j].accept(cb_sockets_for_tee[i][j]);
+            tb_sockets_for_leader[i][j].connect(boost::asio::ip::tcp::endpoint(
+                boost::asio::ip::address::from_string("127.0.0.1"), actual_leader_tb_ports[i][j]));
+            leader_acceptor_to_tb[i][j].accept(leader_sockets_to_tb[i][j]);
 
-            tb_sockets_for_tee[i][j].connect(tcp::endpoint(asio::ip::address::from_string("127.0.0.1"), port_tee_tb));
-            tee_sockets_to_tb[i][j].accept(tb_sockets_for_tee[i][j]);
+            cb_sockets_for_tee[i][j].connect(boost::asio::ip::tcp::endpoint(
+                boost::asio::ip::address::from_string("127.0.0.1"), actual_tee_cb_ports[i][j]));
+            tee_acceptor_to_cb[i][j].accept(tee_sockets_to_cb[i][j]);
+
+            tb_sockets_for_tee[i][j].connect(boost::asio::ip::tcp::endpoint(
+                boost::asio::ip::address::from_string("127.0.0.1"), actual_tee_tb_ports[i][j]));
+            tee_acceptor_to_tb[i][j].accept(tee_sockets_to_tb[i][j]);
+
+            // std::cout << "All connections established for (" << i << ", " << j << ") on ports: "
+            //           << actual_leader_cb_ports[i][j] << ", " << actual_leader_tb_ports[i][j] << ", "
+            //           << actual_tee_cb_ports[i][j] << ", " << actual_tee_tb_ports[i][j] << std::endl;
         }
     }
 }
 
-void send_randomness_though_net(const std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_cb,
-                                const std::vector<std::vector<tcp::acceptor>>& tee_sockets_to_tb,
-                                const std::vector<int>& loc_buf,
-                                const std::vector<int>& rel_buf,
-                                const std::vector<int>& glo_buf,
-                                int m, int n) {
-    int b = loc_buf.size() / (m * n);
-    std::vector<std::vector<int>> location_randomness(m, std::vector<int>(n));
-    std::vector<std::vector<int>> targeted_randomness(m, std::vector<int>(n));
+void send_randomness_though_net(std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+                                std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+                                std::vector<int>& loc_buf,
+                                std::vector<int>& rel_buf,
+                                std::vector<int>& glo_buf,
+                                int m, int n, int b) {
+    // Create 2D vectors for randomness values
+    std::vector<std::vector<std::vector<int>>> location_randomness(m, std::vector<std::vector<int>>(n));
+    std::vector<std::vector<std::vector<int>>> targeted_randomness(m, std::vector<std::vector<int>>(n));
     std::vector<std::vector<int>> global_randomness(m, std::vector<int>(n));
 
-    for (int i = 0; i < m; ++i) {
-        for (int j = 0; j < n; ++j) {
-            location_randomness[i][j] = loc_buf[i * n + j];
-            targeted_randomness[i][j] = rel_buf[i * n + j];
+    // Split the buffers into 2D vectors as per the provided code
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            int* loc_ptr = const_cast<int*>(loc_buf.data()) + (i * n + j) * b;
+            location_randomness[i][j].assign(loc_ptr, loc_ptr + b);
+            
+            int* rel_ptr = const_cast<int*>(rel_buf.data()) + (i * n + j) * b;
+            targeted_randomness[i][j].assign(rel_ptr, rel_ptr + b);
+            
             global_randomness[i][j] = glo_buf[i * n + j];
         }
     }
 
     std::vector<std::thread> threads;
-    for (int i = 0; i < m; ++i) {
-        for (int j = 0; j < n; ++j) {
+    // First m*n threads for sending to cb
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
             threads.emplace_back([&, i, j]() {
-                std::vector<int> data = {location_randomness[i][j], global_randomness[i][j]};
+                // Prepare data: location_randomness + global_randomness
+                std::vector<int> data;
+                data.insert(data.end(), location_randomness[i][j].begin(), location_randomness[i][j].end());
+                data.push_back(global_randomness[i][j]);
+                size_t data_size = data.size();
+                asio::write(tee_sockets_to_cb[i][j], asio::buffer(&data_size, sizeof(size_t)));
+                // Send data through socket
+                // cout << "send chan: " ;
+                // for (auto element : data) {
+                //     cout << element << " ";
+                // }
+                // cout << "\t send chan size: " << data.size() << endl;
                 asio::write(tee_sockets_to_cb[i][j], asio::buffer(data));
+                com_bit += data_size;
             });
         }
     }
-    for (int i = 0; i < m; ++i) {
-        for (int j = 0; j < n; ++j) {
+    
+    // Next m*n threads for sending to tb
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
             threads.emplace_back([&, i, j]() {
-                std::vector<int> data = {location_randomness[i][j], targeted_randomness[i][j], global_randomness[i][j]};
+                // Prepare data: location_randomness + targeted_randomness + global_randomness
+                std::vector<int> data;
+                data.insert(data.end(), location_randomness[i][j].begin(), location_randomness[i][j].end());
+                data.insert(data.end(), targeted_randomness[i][j].begin(), targeted_randomness[i][j].end());
+                data.push_back(global_randomness[i][j]);
+                size_t data_size = data.size();
+                asio::write(tee_sockets_to_tb[i][j], asio::buffer(&data_size, sizeof(size_t)));
+                // Send data through socket
                 asio::write(tee_sockets_to_tb[i][j], asio::buffer(data));
+                com_bit += data_size;
             });
         }
     }
+    
+    // Wait for all threads to complete
     for (auto& t : threads) {
         t.join();
     }
 }
 
-// Function to receive randomness through network
-void recv_randomness_though_net(tcp::socket& database_socket, database& database_) {
-    std::vector<int> flat_data(3);
-    asio::read(database_socket, asio::buffer(flat_data));
-    database_.location_randomness = flat_data[0];
-    database_.targeted_randomness = flat_data[1];
-    database_.global_randomness = flat_data[2];
+void cleanup_all_sockets(
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_cb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& leader_sockets_to_tb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_cb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tee_sockets_to_tb,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& cb_sockets_for_tee,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_leader,
+    std::vector<std::vector<boost::asio::ip::tcp::socket>>& tb_sockets_for_tee) {
+    
+    // 当这些 vector 离开作用域时，所有 socket 会自动关闭
+    // 或者显式清空 vector
+    leader_sockets_to_cb.clear();
+    leader_sockets_to_tb.clear();
+    tee_sockets_to_cb.clear();
+    tee_sockets_to_tb.clear();
+    cb_sockets_for_leader.clear();
+    cb_sockets_for_tee.clear();
+    tb_sockets_for_leader.clear();
+    tb_sockets_for_tee.clear();
 }

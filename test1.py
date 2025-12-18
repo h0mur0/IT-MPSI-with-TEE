@@ -25,7 +25,7 @@ def write_random_strings_to_files(n, t, m, members):
         f.write('\n'.join(unselected_strings))
 '''
 
-def write_random_strings_to_files(n, t, m, members):
+def write_random_strings_to_files(K, t, m, members):
     # all_strings = generate_random_strings(n)
     # random.shuffle(all_strings)
     # selected_strings = set()
@@ -63,9 +63,94 @@ def test_one_time(K, m, n):  # 修正函数名
 #         test_one_time(K, m, n)  # 修正函数名
 #         # time.sleep(1)
 
+# m: set of each party 
+# n: number of parties
+# K: size of universe
 
-m = 2 ** 3
-for n in [100]:
-    for K in [2 ** 15]:
-        test_one_time(K, m, n)  # 修正函数名
-        # time.sleep(1)
+password = "1"
+
+cmd = "tc qdisc del dev lo root"
+        
+        # 使用echo传递密码
+# full_cmd = f"echo '{password}' | sudo -S {cmd}"
+full_cmd = f"sudo {cmd}"
+try:
+    result = subprocess.run(
+        full_cmd,
+        shell=True,
+        capture_output=True,
+        text=True,
+        check=True
+    )
+except:
+    pass
+
+cmd = "tc qdisc add dev lo root netem rate 20Gbit delay 0.01ms"
+        
+        # 使用echo传递密码
+# full_cmd = f"echo '{password}' | sudo -S {cmd}"
+full_cmd = f"sudo {cmd}"
+
+result = subprocess.run(
+    full_cmd,
+    shell=True,
+    capture_output=True,
+    text=True,
+    check=True
+)
+test_one_time(2**15,2**10,10)
+
+for n in[10,25,40]:
+    for m in [2**18,2**19,2**20]:
+        for K in [2 ** 20,2**21,2**22]:
+            #test_one_time(K, m, n)  # 修正函数名
+            time.sleep(0)
+
+cmd = "tc qdisc del dev lo root"
+        
+        # 使用echo传递密码
+# full_cmd = f"echo '{password}' | sudo -S {cmd}"
+full_cmd = f"sudo {cmd}"
+
+result = subprocess.run(
+    full_cmd,
+    shell=True,
+    capture_output=True,
+    text=True,
+    check=True
+)
+
+cmd = "tc qdisc add dev lo root netem rate 200Mbit delay 48ms"
+        
+        # 使用echo传递密码
+# full_cmd = f"echo '{password}' | sudo -S {cmd}"
+full_cmd = f"sudo {cmd}"
+
+result = subprocess.run(
+    full_cmd,
+    shell=True,
+    capture_output=True,
+    text=True,
+    check=True
+)
+test_one_time(2**15,2**10,10)
+
+for n in[10,25,40]:
+    for m in [2**18,2**19,2**20]:
+        for K in [2 ** 20,2**21,2**22]:
+            #test_one_time(K, m, n)  # 修正函数名
+            time.sleep(0)
+
+
+# full_cmd = f"echo '{password}' | sudo -S {cmd}"
+full_cmd = f"sudo {cmd}"
+try:
+    result = subprocess.run(
+        full_cmd,
+        shell=True,
+        capture_output=True,
+        text=True,
+        check=True
+    )
+except:
+    pass

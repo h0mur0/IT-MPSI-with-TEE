@@ -63,6 +63,15 @@
         "text_encoding": "cpp",
         "thread": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "csignal": "cpp",
+        "cstring": "cpp",
+        "bitset": "cpp",
+        "codecvt": "cpp",
+        "complex": "cpp",
+        "set": "cpp",
+        "future": "cpp",
+        "cinttypes": "cpp",
+        "typeindex": "cpp"
     }
 }
