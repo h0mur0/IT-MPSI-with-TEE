@@ -86,18 +86,3 @@ Before running the application, ensure the SGX environment is loaded:
 source /opt/intel/sgxsdk/environment
 ```
 
-## Notes
-
-1. Currently only supports equal database sizes for all participants
-2. Ensure SGX is properly configured and enabled in BIOS
-3. Network stability is crucial during the SGX SDK installation process
-4. The application must be run with appropriate permissions to access SGX resources
-
-## Troubleshooting
-
-- **SGX not supported**: Check CPU compatibility and BIOS settings
-- **Driver installation fails**: Ensure kernel headers are installed and system is updated
-- **make preparation fails**: Usually network-related, retry with stable connection
-- **Permission denied**: Run with sudo or check user group permissions
-- **Missing dependencies**: Install required packages as shown in the instructions
-
